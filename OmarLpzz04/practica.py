@@ -1,1 +1,1 @@
-print("hola git soy omar")
+print("hello GitHub my name is Omar")
