@@ -1,10 +1,13 @@
+class Cadena:
+    def __init__(self,valor):
+        self.valor=valor
 
-frase = input("Introduce un texto: ")
-vocales = 0
+    def contar_vocales(self):
+       cont=0
+        for vocal in self.valor:
+           if vocal[0].upper() in "AEIOU":
+             cont=cont+1
+        return cont       
 
-for letra in frase:
-    if letra.upper() in "AEIOU":
-        vocales += 1
-
-print("Total de vocales:", vocales)
-
+cad=input("Ingresa una cadena:")
+print("total vocales:",Cadena(cad).contar_vocales())
