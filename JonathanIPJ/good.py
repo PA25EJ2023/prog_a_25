@@ -38,7 +38,7 @@ if opcion == 1:
     print("1. Area\n2.Perimetro\n3.Diagonal")
     calculo = int(input("Elige una opcion"))
 
-    lado = float(input("Ingresa el valor del lado."))
+    lado = float(input("Ingresa el valor del lado"))
 
     if calculo == 1:
         area = area_cuadrado(lado)

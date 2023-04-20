@@ -18,7 +18,7 @@ if opcion == 1:
         perimetro = lado * 4
         print(f"El area es {perimetro}")
     elif calculo == 3:
-        diagonal = lado * math.sqrt(lado)
+        diagonal = lado * math.sqrt(2)
         print(f"La diagonal es: {diagonal}")
 elif opcion == 2:
     print("Calculos disponibles:")
