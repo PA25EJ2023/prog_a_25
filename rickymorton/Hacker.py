@@ -38,7 +38,7 @@ class Circulo:
         area = math.pi * radio**2
         return area
 
-    def perimetro(self):
+    def perimetro(radio):
         perimetro = 2 * math.pi * radio
         return perimetro
 
