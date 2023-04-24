@@ -1,14 +1,36 @@
 import math
+class Cuadrado:
+    def __init__(self,lado):
+        self.lado =lado
 
-def area_cuadrado(lado):
-    area= lado * lado
-    return area
-def perimetro_cuadrado(lado):
-    perimetro= lado*4
-    return perimetro
-def diagonal_cuadrado(lado):
-    diagonal= lado* math.sqrt(2)
-    return diagonal
+    def area(self):
+        a= self.lado * self.lado
+        return a
+    
+    def perimetro(self):
+        p= self.lado*4
+        return p
+
+    def diagonal(self):
+        d= self.lado* math.sqrt(2)
+        return d
+
+class Triangulo:
+    def __init__(self,base,altura):
+        self.base = base
+        self.altura= altura
+
+    def area(self):
+        a=(base*altura)/2
+        return a
+    def perimetro_triangulo(self):
+        perimetro= math.sqrt(base **2 + altura**2)
+        return perimetro
+
+class Circulo:
+    pass
+    
+
 def area_triangulo(base,altura):
     area=(base*altura)/2
     return area
