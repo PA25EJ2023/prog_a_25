@@ -34,11 +34,11 @@ def perimetro_circulo(radio):
 print ("Bienvenido")
 print ("Opciones disponibles")
 print ("1-Cuadrado\n2-Triangulo\n3-Circulo")
-opcion = input("Elige una opción [1,2,3]:  ")
+opcion = int(input("Elige una opción [1,2,3]:  "))
 if opcion == 1:
     print ("Calculos disponibles: ")
     print ("1-Area\n2-Perimetro\n3-Diagonal")
-    calculo = input("Elige una opción: ")
+    calculo = int(input("Elige una opción: "))
     lado = float (input("Ingresa el lado del cuadrado:"))
     if calculo == 1:
         area = area_cuadrado (lado)
@@ -53,7 +53,7 @@ if opcion == 1:
 elif opcion == 2:
     print ("Calculos disponibles: ")
     print ("1-Area\n2-Perimetro")
-    calculo = input("Elige una opción: ")
+    calculo = int(input("Elige una opción: "))
     base = float (input("Ingresa la base del triangulo: "))
     altura = float (input("Ingresa la altura del triangulo: "))
     if calculo == 1:
@@ -66,7 +66,7 @@ elif opcion == 2:
 elif opcion == 3:
     print ("Calculos disponibles: ")
     print ("1-Area\n2-Perimetro")
-    calculo = input("Elige una opción: ")
+    calculo = int(input("Elige una opción: "))
     radio = float (input("Ingresa el radio del circulo: ")) 
     if calculo == 1:
         area = area_circulo(radio)
