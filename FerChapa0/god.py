@@ -46,14 +46,17 @@ if opcion == 1:
     calculo=int(input("Que calculo desea: "))
 
     lado=float(input("Ingrese el valor del lado: "))
+
+    #Crear un cuadrado con el lado especificado
+    cuadrado=Cuadrado(lado)
     if calculo==1:
-        area=Cuadrado(lado).area
+        area=cuadrado.area()
         print(f'El area es {area}')
     elif calculo==2:
-        perimetro= Cuadrado(lado).perimetro
+        perimetro= cuadrado.perimetro()
         print(f'El perimetro es {perimetro}')
     elif calculo==3:
-        diagonal=Cuadrado(lado).diagonal
+        diagonal=cuadrado.diagonal()
         print(f'El diagonal es {diagonal}')
 elif opcion == 2:
     print("Calculos disponibles")
@@ -62,11 +65,13 @@ elif opcion == 2:
 
     base=float(input("Ingresa la base: "))
     altura=float(input("Ingresa la altura: "))
+     #crear un triangulo con la base y altura especificado
+    triangulo=Triangulo(base,altura)
     if calculo==1:
-        area= Triangulo(base,altura).area
+        area= triangulo.area()
         print(f'El area es: {area}')
     elif calculo==2:
-        perimetro = Triangulo(base,altura).perimetro
+        perimetro = triangulo.perimetro()
         print(f'El perimetro es {perimetro}')
 elif opcion == 3:
     print("Calculos disponibles")
@@ -74,10 +79,13 @@ elif opcion == 3:
     calculo=int(input("Que calculo desea:"))
 
     radio=float(input("Ingrese el radio: "))
+    #crear un circulo con el radio dado
+    circulo=Circulo(radio)
     if calculo==1:
-        area= Circulo(radio).area
+        area= circulo.area()
         print(f'El area es: {area}')
     elif calculo==2:
-        perimetro = Circulo(radio).perimetro
+        perimetro = circulo.perimetro()
         print(f'El perimetro es {perimetro}')
+
 
