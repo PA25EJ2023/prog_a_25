@@ -4,7 +4,7 @@ class Cadena:
 
     def contar_vocales(self):
        cont=0
-        for vocal in self.valor:
+       for vocal in self.valor:
            if vocal[0].upper() in "AEIOU":
              cont=cont+1
         return cont       
