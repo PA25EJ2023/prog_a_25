@@ -1,62 +1,5 @@
 import math
-
-class Cuadrado:
-    def __init__(self, lado):
-        self.lado = lado
-
-    def area(self):
-        a = self.lado * self.lado
-        return a
-
-    def perimetro(self):
-        p = self.lado * 4
-        return p
-
-    def diagonal(self):
-        d = self.lado * math.sqrt(2)
-        return d
-
-class Triangulo:
-    def __init__(self,base,altura):
-        self.base = base
-        self.altura = altura
-
-    def area(self):
-        area = (self.base * self.altura) /2
-        return area
-
-    def perimetro(self):
-        perimetro = math.sqrt( self.base **2 + self.altura **2 )
-        return perimetro
-
-class Circulo:
-    def __init__(self,radio):
-        self.radio = radio
-
-    def area(self):
-        area = math.pi * self.radio **2
-        return area
-    def perimetro(self):
-        perimetro = math.pi * 2 * self.radio 
-        return perimetro
-
-
-
-def area_triangulo(base,altura):
-    area = (base * altura) /2
-    return area
-
-def perimetro_triangulo(base,altura):
-    perimetro = math.sqrt( base **2 + altura **2 )
-    return perimetro
-
-def area_circulo(radio):
-    area = math.pi * radio **2
-    return area
-
-def perimetro_circulo(radio):
-    perimetro = math.pi * 2 * radio 
-    return perimetro
+from figuras import Cuadrado,Triangulo,Circulo
 
 print("Bienvenido")
 print("Opciones disponibles:")
@@ -71,7 +14,6 @@ if opcion == 1:
     lado = float(input("Ingresa el valor del lado: "))
     
     #Crear un cuadrado con el lado especificado
-    
     cuadrado = Cuadrado(lado)
     if calculo == 1:
         area = cuadrado.area()       
