@@ -20,14 +20,14 @@ class Cuadrado:
 class Triangulo:
     def __init__(self,base,altura):
         self.base = base
-        self.alutra = altura
+        self.altura = altura
 
     def area(self):
-        area = (base * altura) / 2
+        area = (self.base * self.altura) / 2
         return area
     
     def perimetro(self):
-        perimetro = math.sqrt(base**2 * altura**2)
+        perimetro = math.sqrt(self.base**2 * self.altura**2)
         return perimetro
 
 class Circulo:
@@ -35,11 +35,11 @@ class Circulo:
         self.radio = radio
 
     def area(self):
-        area = math.pi * radio**2
+        area = math.pi * self.radio**2
         return area
 
     def perimetro(self):
-        perimetro = 2 * math.pi * radio
+        perimetro = 2 * math.pi * self.radio
         return perimetro
 
 
