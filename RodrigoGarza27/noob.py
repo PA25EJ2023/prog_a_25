@@ -2,7 +2,7 @@ import math
 
 print("bienvenido")
 print("Opciones disponibles")
-print("1.Cuadrado\n2.Triangulo\n3.rectangulo")
+print("1.Cuadrado\n2.Triangulo\n3.Circulo")
 opcion= int(input("Elige una opcion [1,2,3]"))
 
 if opcion ==1:
@@ -35,3 +35,18 @@ elif opcion ==2:
     elif calculo == 2:
         perimetro = math.sqrt(base**2 + altura**2)
         print(f"El perimetro es {perimetro}")
+        
+elif opcion ==3:
+    print("Calculos disponibles")
+    print("1.Area\n2.Perimetro")
+    calculo= int(input("Elige una opcion"))
+    
+    radio = float(input("Ingresa el radio"))
+    
+    if calculo == 1:
+        area = math.pi * radio ** 2
+        print(f"El area es {area}")
+    elif calculo == 2:
+        perimetro = 2 * math.pi * radio
+        print(f"El perimetro es {perimetro}")
+        

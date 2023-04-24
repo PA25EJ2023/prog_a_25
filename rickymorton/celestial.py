@@ -1,47 +1,6 @@
 import math
 
-class Cuadrado:
-    def __init__(self,lado):
-        self.lado = lado
-
-    def area(self):
-        a = self.lado * self.lado
-        return a
-
-    def perimetro(self):
-        p = self.lado * 4
-        return p
-
-    def diagonal(self):
-        d = self.lado * math.sqrt(2)
-        return d
-    
-
-class Triangulo:
-    def __init__(self,base,altura):
-        self.base = base
-        self.alutra = altura
-
-    def area(self):
-        area = (base * altura) / 2
-        return area
-    
-    def perimetro(self):
-        perimetro = math.sqrt(base**2 * altura**2)
-        return perimetro
-
-class Circulo:
-    def __init__(self,radio):
-        self.radio = radio
-
-    def area(self):
-        area = math.pi * radio**2
-        return area
-
-    def perimetro(self):
-        perimetro = 2 * math.pi * radio
-        return perimetro
-
+from figuras import Circulo,Cuadrado,Triangulo
 
 print("Bienvenido")
 print("Opciones disponibles")
@@ -95,3 +54,6 @@ elif opcion == 3:
     elif calculo == 2:
         perimetro = circulo.perimetro()
         print(f'El perimetro es {perimetro}')
+
+
+

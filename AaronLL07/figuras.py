@@ -1,7 +1,7 @@
 import math
-
+# Clase de cuadrado
 class Cuadrado:
-    def __init__(self,lado):
+    def __init__(self, lado):
         self.lado = lado
 
     def area(self):
@@ -15,23 +15,24 @@ class Cuadrado:
     def diagonal(self):
         d = self.lado * math.sqrt(2)
         return d
-    
 
+# Clase de triangulo
 class Triangulo:
-    def __init__(self,base,altura):
+    def __init__(self, base, altura):
         self.base = base
         self.altura = altura
-
+    
     def area(self):
-        area = (self.base * self.altura) / 2
-        return area
+        a = (self.base * self.altura)/2
+        return a
     
     def perimetro(self):
-        perimetro = math.sqrt(self.base**2 * self.altura**2)
+        perimetro = math.sqrt(self.base**2 + self.altura**2)
         return perimetro
 
+# Clase de circulo
 class Circulo:
-    def __init__(self,radio):
+    def __init__(self, radio):
         self.radio = radio
 
     def area(self):
@@ -40,4 +41,4 @@ class Circulo:
 
     def perimetro(self):
         perimetro = 2 * math.pi * self.radio
-        return perimetro
+        return perimetro 
