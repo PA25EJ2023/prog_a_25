@@ -1,19 +1,24 @@
 from cuentas import Cuenta
-cuenta = []
-print("Sistema bancario")
-op = 4
-while op == 4:
-    print("\nMENU")
-    print("1.Crear cuenta\n2.Mostrar informacion de cuenta\n3.Mostrar todas las cuentas\n4.Salir")
+cuentas = []
+print("¡Bienvenido al sistema bancario!")
+while True:
+    print("\nTe presentamos el siguiente menu de opciones")
+    print("1.Crear una cuenta\n2.Mostrar informacion de cuenta especifica\n3.Mostrar todas las cuentas\n4.Salir")
     opcion = int(input("Elige una opcion: "))
     if opcion == 1:
-        num = int(input("Ingresa el numero de cuenta: "))
-        nombre = input("Ingresa nombre del cliente: ")
-        saldo = float(input("Ingresa el saldo inicial: "))
-        cuentas_clientes = Cuenta(num,nombre,saldo)
-        cuenta.append(cuentas_clientes)
+        numero_cuenta = int(input("Ingresa el numero de cuenta: "))
+        nombre_cliente = input("Ingresa nombre del cliente: ")
+        saldo_inicial = float(input("Ingresa el saldo inicial: "))
+        cuentas_clientes = Cuenta(numero_cuenta, nombre_cliente, saldo_inicial)
+        cuentas.append(cuentas_clientes)
     elif opcion == 2: 
-        cuenta = str(input("Ingresa el nombre al que esta la cuenta de la que deseas revisar informacion: "))
-        cuenta.mostrar_informacion()
+        numero_cuenta = int(input("Ingresa el numero de cuenta del que deseas la informacion: "))
+        for cuentas_clientes in cuentas:
+            if cuentas_clientes.numero_cuenta == numero_cuenta:
+                cuentas_clientes.mostrar_informacion()
     elif opcion == 3:
-        print (f"El total de cuentas creadas es: {len(cuenta)}")
+        print("CUENTAS CREADAS")
+        for cuentas_clientes in cuentas:
+            cuentas_clientes.mostrar_cuentas()
+    elif opcion == 4:
+        break
