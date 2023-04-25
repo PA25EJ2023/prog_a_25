@@ -92,5 +92,3 @@ elif opcion == 3:
     elif calculo == 2:
         perimetro = circulo.perimetro()
         print(f"El perimetro es {perimetro}")
-
-
