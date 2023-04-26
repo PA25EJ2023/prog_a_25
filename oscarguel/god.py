@@ -1,59 +1,48 @@
-import math 
+import math
 
+###############################################################
 class Cuadrado:
-    def __init__(self , lado):
+    def __init__(self, lado):
         self.lado = lado
 
     def area(self):
-        a= self.lado * self.lado
+        a = self.lado * self.lado
         return a
 
     def perimetro(self):
-        p= self.lado* 4
+        p = self.lado * 4
         return p
 
     def diagonal(self):
-        d= self.lado * math.sqrt(2) 
+        d = self.lado * math.sqrt(2)
         return d
 
-class Trinagulo:
+##############################################################
+class Triangulo:
+    def __init__(self, base, altura):
+        self.base = base
+        self.altura = altura
+    
+    def area(self):
+        a = (self.base * self.altura)/2
+        return a
+    
+    def perimetro(self):
+        perimetro = math.sqrt(self.base**2 + self.altura**2)
+        return perimetro
 
-    pass
+# ##############################################################
+class Circulo:
+    def __init__(self, radio):
+        self.radio = radio
 
-class circulo:
-    pass
+    def area(self):
+        area = math.pi * self.radio ** 2
+        return area
 
-def area_cuadrado(lado):
-    area= lado*lado
-    return area
-
-def perimetro_cuadrado(lado):
-    perimetro= lado* 4
-    return perimetro
-
-def diagonal_cuadrado(lado):
-    diagonal= lado * math.sqrt(2) 
-    return diagonal
-
-def area_triangulo(base,altura):
-    area=(base * altura)/2
-    return area
-
-def perimetro_triangulo(base,altura):
-    perimetro= math.sqrt(base**2 + altura**2)
-    return perimetro
-
-def area_circulo(radio):
-    area=math.pi * radio
-    return area 
-
-def perimetro_circulo(radio):
-    perimetro= math.pi * 2 * radio 
-    return perimetro
-
-
-
-
+    def perimetro(self):
+        perimetro = math.pi * 2 * self.radio 
+        return perimetro 
 
 print("BIENVENIDO")
 print("Operaciones disponibles")
@@ -67,16 +56,18 @@ if opcion == 1 :
 
     lado = float(input("ingresa el valor de lado:"))
 
+    #crear un cuadrado con el lado especificado  
+    cuadrado= Cuadrado(lado)
     if calculo ==1:
-        area= area_cuadrado(lado) 
+        area= cuadrado.area() 
         print(F"El area es:{area}")
 
     elif calculo ==2 :
-        perimetro = perimetro_cuadrado(lado)
+        perimetro = cuadrado.perimetro()
         print(F"El perimetro es:{perimetro}") 
 
     elif calculo == 3:
-        diagonal= diagonal_cuadrado(lado)
+        diagonal= cuadrado.diagonal()
         print(F"La diadonal es:{diagonal}")
 
 if opcion == 2: 
@@ -86,12 +77,12 @@ if opcion == 2:
 
     base=float(input("ingresa la base:"))
     altura=float(input("ingresa la altura:"))
-    
+    triangulo= Triangulo(base,altura)
     if calculo== 1:
-        area=area_triangulo(base,altura)
+        area=triangulo.area()
         print(F"El area es:{area}")
     elif calculo == 2:
-        perimetro= perimetro_triangulo(base,altura)
+        perimetro= triangulo.perimetro()
         print(F"El perimetro es:{perimetro}")
 
 if opcion == 3: 
@@ -101,10 +92,10 @@ if opcion == 3:
 
     radio=float(input("ingresa el perimetro:"))
     
-    
+    circulo = Circulo(radio)
     if calculo== 1:
-        area=area_circulo(radio)
+        area= circulo.area()
         print(F"El area es:{area}")
     elif calculo == 2:
-        perimetro= perimetro_circulo(radio)
+        perimetro= circulo.perimetro()
         print(F"El perimetro es:{perimetro}")
