@@ -1,0 +1,2 @@
+calificacion = int(input("ingresa la calificacion"))
+if calificacion<=100 and calificacion >=90
