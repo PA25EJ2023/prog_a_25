@@ -13,7 +13,7 @@ class CuentaBancaria:
 def crear_cuenta():
     numero_cuenta = input("Ingrese el número de cuenta: ")
     nombre_cliente = input("Ingrese el nombre del cliente: ")
-    dato_bancario = input("Ingrese el saldo incial: ")
+    dato_bancario = int(input("Ingrese el saldo incial: "))
     cuenta = CuentaBancaria(numero_cuenta, nombre_cliente, dato_bancario)
     cuentas.append(cuenta)
     print("Cuenta creada exitosamente.")
