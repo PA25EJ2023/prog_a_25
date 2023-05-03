@@ -13,10 +13,10 @@ class CuentaBancaria:
 def crear_cuenta():
     numero_cuenta = input("Ingrese el número de cuenta: ")
     nombre_cliente = input("Ingrese el nombre del cliente: ")
-    dato_bancario = int(input("Ingrese el saldo incial: "))
+    dato_bancario = input("Ingrese el saldo incial: ")
     cuenta = CuentaBancaria(numero_cuenta, nombre_cliente, dato_bancario)
     cuentas.append(cuenta)
-    print("Cuenta creada exitosamente.")
+    print("Cuenta creada exitosamente")
 
 
 def mostrar_info_cuenta():
@@ -28,12 +28,12 @@ def mostrar_info_cuenta():
             cuenta_encontrada = True
             break
     if not cuenta_encontrada:
-        print("No existe una cuenta con el número de cuenta ingresado.")
+        print("Cuenta inexistente")
 
 
 def mostrar_todas_cuentas():
     if len(cuentas) == 0:
-        print("No hay cuentas creadas.")
+        print("No hay cuentas creadas")
     else:
         print("Información de todas las cuentas:")
         for cuenta in cuentas:
@@ -43,25 +43,25 @@ cuentas = []
 
 opcion = 0 
 while opcion !=4 :
-    print("¡Bienvenido al sistema bancario!")
+    print("**********Menu**********")
     print("Seleccione una opción del menú:")
-    print("1. Crear cuenta")
-    print("2. Mostrar información de cuenta")
-    print("3. Mostrar todas las cuentas")
-    print("4. Salir")
+    print("1.- Crear cuenta")
+    print("2.- Mostrar información de cuenta")
+    print("3.- Mostrar todas las cuentas")
+    print("4.- Salir")
 
-    opcion = input("Ingrese el número de la opción deseada: ")
+    opcion = input("Ingrese la opción deseada: ")
 
     if opcion == "1":
         crear_cuenta()
     elif opcion == "2":
         mostrar_info_cuenta()
-        input("Presiona enter para continuar...")
+        input("Presiona enter para continuar...\n")
     elif opcion == "3":
         mostrar_todas_cuentas()
-        input("Presiona enter para continuar...")
+        input("Presiona enter para continuar...\n")
     elif opcion == "4":
-        print("Gracias por utilizar el sistema bancario. ¡Hasta luego!")
+        print("Saliendo...")
         break
     else:
         print("Opción inválida. Por favor, ingrese una opción válida del menú.")
