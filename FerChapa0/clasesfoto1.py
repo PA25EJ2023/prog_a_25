@@ -98,8 +98,54 @@ class Pegamento:
         print(f' La forma del pegamento es: {self.forma}')
 
 class Retrato:
-    def __init__(self) :
-        pass 
-
-
+    def __init__(self, color, largo, ancho, detalle):
+        self.color=color
+        self.largo=largo
+        self.ancho=ancho
+        self.detalle=detalle
     
+    def mostrar_info(self):
+        print(f'El color del retrato es: {self.color}')
+        print(f'El detalle del retrato es: {self.detalle}')
+        print(f'El alto del retrato es{self.alto} cm')
+        print(f'El ancho del retrato es de: {self.ancho} cm')
+
+class Telefono:
+    def __init__(self,color,tipo) :
+        self.color=color
+        self.tipo=tipo
+
+    def mostrar_info(self):
+        print(f' El color del telefono es: {self.color}')
+        print(f' El tipo del telefono es: {self.tipo}')
+
+class Sticker:
+    def __init__(self,color,forma, cantidad) :
+        self.color=color
+        self.forma=forma
+        self.cantidad=cantidad
+
+    def mostrar_info(self):
+        print(f' El color de los Stickers es: {self.color}')
+        print(f' El forma del los Stickers es: {self.forma}')
+        print(f' La cantidad del Stickers es: {self.cantidad}')
+
+class Poster:
+    def __init__(self,color,forma,detalle) :
+        self.color=color
+        self.forma=forma
+        self.detalle=detalle
+
+    def mostrar_info(self):
+        print(f' El color del retrato es: {self.color}')
+        print(f' El forma del retrato es: {self.forma}')
+        print(f' Los detalles del retrato son: {self.detalle}')
+
+class Sticker:
+    def __init__(self,color,tipo) :
+        self.color=color
+        self.tipo=tipo
+
+    def mostrar_info(self):
+        print(f' El color de la cuca es: {self.color}')
+        print(f' El tipo de la cuca es: {self.tipo}')
