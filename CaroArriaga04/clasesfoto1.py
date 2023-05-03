@@ -1,14 +1,14 @@
 class Boligrafo:
-    def __init__(self,color_empaque,color_tinta,tamaño,precio):
+    def __init__(self,color_empaque,color_tinta,punta,precio):
         self.color_empaque = color_empaque
         self.color_tinta = color_tinta
-        self.tamaño = tamaño
+        self.punta = punta
         self.precio = precio
     def info(self):
-        print(f"El empaque tien un color: {self.color_empaque}")
+        print(f"El empaque tiene un color: {self.color_empaque}")
         print(f"La tinta es color: {self.color_tinta}")
-        print(f"El tamaño es: {self.tamaño}")
-        print(f"El precio es de: {self.precio}")
+        print(f"El numero de punta es: {self.punta}")
+        print(f"El precio es de: ${self.precio}")
 
 class Esmalte:
     def __init__(self,color,tamaño,forma):
@@ -31,7 +31,14 @@ class Espejo:
         print(f"La forma del espejo es: {self.forma}")
 
 class Marco:
-    pass
+    def __init__(self,color,tamaño,foto):
+        self.color = color
+        self.tamaño = tamaño
+        self.foto = foto
+    def info(self):
+        print(f"El color del marco es: {self.color}")
+        print(f"El tamaño es: {self.tamaño}")
+        print(f"Tiene una foto de: {self.foto}")
 
 class Brillo_labial:
     pass
