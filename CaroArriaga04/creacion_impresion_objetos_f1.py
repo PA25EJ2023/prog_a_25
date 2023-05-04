@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Esmalte,Espejo,Marco,Brillo_labial,Cuaderno
+from clasesfoto1 import Boligrafo,Esmalte,Espejo,Marco,Brillo_labial,Cuaderno,Cinta,Sticker,Cuenta,Tijera,Pinza,Telefono,Plumon,Regla,Pegamento
 
 boligrafo1 = Boligrafo("Azul","Negro","0.5 mm",12)
 boligrafo1.info()
@@ -53,3 +53,69 @@ cuaderno2.info()
 
 cuaderno3 = Cuaderno("Rayas","Rosa","Espiral")
 cuaderno3.info()
+
+cinta1 = Cinta("azul","pequeño")
+cinta1.info()
+
+cinta2 = Cinta("rosa","pequeño")
+cinta2.info()
+
+cinta1 = Cinta("verde","pequeño")
+cinta1.info()
+
+sticker1= Sticker("corazon","rosa","chico")
+sticker1.info()
+
+sticker2= Sticker("circulo","azul","chico")
+sticker2.info()
+
+sticker3= Sticker("estrella","azul","chico")
+sticker3.info()
+
+cuenta1 = Cuenta("pequeño","circulo","rosa")
+cuenta1.info()
+
+cuenta2 = Cuenta("pequeño","circulo","azul")
+cuenta2.info()
+
+cuenta3 = Cuenta("pequeño","circulo","amarillo")
+cuenta3.info()
+
+cuenta4 = Cuenta("pequeño","circulo","melon")
+cuenta4.info()
+
+tijera = Tijera("Azul","Grande")
+tijera.info()
+
+pinza1 = Pinza("azul","pequeño",5) 
+pinza1.info  
+
+pinza2 = Pinza("rosa","pequeño",5) 
+pinza2.info
+
+pinza3 = Pinza("morado","pequeño",5) 
+pinza3.info
+
+pinza4 = Pinza("melon","pequeño",5) 
+pinza4.info 
+
+pinza5 = Pinza("amarrillo","pequeño",5) 
+pinza5.info    
+  
+telefono = Telefono("Rosa","1500")
+telefono.info()
+
+plumon1 = Plumon("rosa",12,"PaperMate")
+plumon1.info()
+
+plumon2 = Plumon("melon",12,"PaperMate")
+plumon2.info()
+
+plumon3 = Plumon("morado",12,"PaperMate")
+plumon3.info()
+
+regla = Regla("Rosa",20)
+regla.info()
+
+pegamento = Pegamento("Rosa",20,"Pritt")
+pegamento.info()
