@@ -76,6 +76,41 @@ class Libretas:
               print("***Libretas***")
               print(f"Numero libreta: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nNumero de hojas: {self.num_hojas}")
 
-          
+class Portaretratos:
+     def __init__(self,numero,color,marca,tamaño):
+          self.numero = numero
+          self.color = color 
+          self.marca = marca
+          self.tamaño = tamaño 
+
+     def info (self):
+              print("***Portaretrato***")
+              print(f"Numero portaretrato: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño: {self.tamaño}")
+
+     
+class Gloss:
+     def __init__(self,numero,color,marca):
+          self.numero = numero
+          self.color = color
+          self.marca = marca
+
+     def info (self):
+              print("***Gloss***")
+              print(f"Numero de gloss: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+
+class Pegamentos:
+      def __init__(self,numero,color,marca,tamaño):
+            self.numero=numero
+            self.color = color
+            self.marca = marca
+            self.tamaño = tamaño 
+
+      def info (self):
+          print("***Pegamentos***")
+          print(f"Numero pegamento: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño: {self.tamaño}")
+ 
+
+    
+
 
 
