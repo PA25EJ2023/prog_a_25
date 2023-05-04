@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Esmalte
+from clasesfoto1 import Boligrafo,Esmalte,Espejo,Marco,Brillo_labial,Cuaderno
 
 boligrafo1 = Boligrafo("Azul","Negro","0.5 mm",12)
 boligrafo1.info()
@@ -26,3 +26,30 @@ esmalte4.info()
 
 esmalte5 = Esmalte("rosa claro","pequeño","cuadrado")
 esmalte5.info()
+
+espejo = Espejo("Rosa","Grande","Corazon")
+espejo.info()
+
+marco1 = Marco("Beige","Mediano","Muchacha escuchando musica")
+marco1.info()
+
+marco2 = Marco("Beige","Mediano","Cantante")
+marco2.info()
+
+labial1 = Brillo_labial("Rosa","Estandar",50)
+labial1.info()
+
+labial2 = Brillo_labial("Melon","Estandar",50)
+labial2.info()
+
+labial3 = Brillo_labial("Blanco","Estandar",50)
+labial3.info()
+
+cuaderno1 = Cuaderno("Rayas","Melon","Espiral")
+cuaderno1.info()
+
+cuaderno2 = Cuaderno("Blanca","Azul","Cocida")
+cuaderno2.info()
+
+cuaderno3 = Cuaderno("Rayas","Rosa","Espiral")
+cuaderno3.info()
