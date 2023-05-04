@@ -41,13 +41,33 @@ class Marco:
         print(f"Tiene una foto de: {self.foto}")
 
 class Brillo_labial:
-    pass
+    def __init__(self,color,tamaño,precio):
+        self.color = color
+        self.tamaño = tamaño
+        self.precio = precio
+    def info(self):
+        print(f"El color del brillo es: {self.color}")
+        print(f"El tamaño es: {self.tamaño}")
+        print(f"Su precio es de: ${self.precio}")    
 
 class Cuaderno:
-    pass
+    def __init__(self,tipo_hoja,color,tipo):
+        self.tipo_hoja = tipo_hoja
+        self.color = color
+        self.tipo = tipo
+    def info(self):
+        print(f"El tipo de hojas es: {self.tipo_hoja}")
+        print(f"El color es: {self.color}")
+        print(f"El tipo es de: {self.tipo}")   
+        
 
 class Cinta:
-    pass
+    def __init__(self,color,tamaño):
+        self.color = color
+        self.tamaño = tamaño
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El tamaño es: {self.tamaño}")    
 
 class Sticker:
     pass
