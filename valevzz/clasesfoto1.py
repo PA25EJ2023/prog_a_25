@@ -44,4 +44,38 @@ class Boligrafo:
             print("***Boligrafos***")
             print(f"Numero boligrafo: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño: {self.tamaño}")
 
+class Tijeras:
+    def __init__(self,numero,color,marca):
+         self.numero = numero
+         self.color = color
+         self.marca = marca
+
+    def info (self):
+             print("***Tijeras***")
+             print(f"Numero tijeras: {self.numero} \nColor: {self.color} \nMarca: {self.marca} ")
+
+class Cintas:
+     def __init__(self,numero,color,marca,forma):
+          self.numero = numero
+          self.color = color
+          self.marca = marca
+          self.forma = forma
+
+     def info (self):
+              print("***Cintas***")
+              print(f"Numero cinta: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nForma: {self.forma}")
+
+class Libretas:
+     def __init__(self,numero,color,marca,num_hojas):
+          self.numero = numero
+          self.color = color
+          self.marca = marca
+          self.num_hojas = num_hojas
+
+     def info (self):
+              print("***Libretas***")
+              print(f"Numero libreta: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nNumero de hojas: {self.num_hojas}")
+
+          
+
 
