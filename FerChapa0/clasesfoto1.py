@@ -1,7 +1,7 @@
 class Cuenta:
     def __init__(self,color,cantidad):
         self.color=color
-        self.cantidad=cantidad
+        self.cantidad=cantidad #diametro peso forma
     
     def imprimir_info(self):
         print("La cuenta es color ", self.color)
