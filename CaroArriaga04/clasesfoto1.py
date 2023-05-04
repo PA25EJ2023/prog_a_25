@@ -105,4 +105,40 @@ class Pinza:
         print(f"El color es: {self.color}")
         print(f"El tamaño es: {self.tamaño}")
         print(f"Su precio es de: ${self.precio}")   
+
+class Telefono:
+    def __init__(self,color,precio):
+        self.color = color
+        self.precio = precio
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"Su precio es de: ${self.precio}") 
+        
+class Plumon:
+    def __init__(self,color,precio,marca):
+        self.color = color
+        self.precio = precio
+        self.marca = marca
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"Su precio es de: ${self.precio}") 
+        print(f"La marca es: {self.marca}")
+
+class Regla:
+    def __init__(self,color,precio):
+        self.color = color
+        self.precio = precio
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"Su precio es de: ${self.precio}") 
+
+class Pegamento:
+    def __init__(self,color_empaque,precio,marca):
+        self.color_empaque = color_empaque
+        self.precio = precio
+        self.marca = marca
+    def info(self):
+        print(f"El color del empaque es: {self.color_empaque}")
+        print(f"Su precio es de: ${self.precio}")
+        print(f"La marca es: {self.marca}")
         
