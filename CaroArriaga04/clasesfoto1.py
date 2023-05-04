@@ -60,7 +60,6 @@ class Cuaderno:
         print(f"El color es: {self.color}")
         print(f"El tipo es de: {self.tipo}")   
         
-
 class Cinta:
     def __init__(self,color,tamaño):
         self.color = color
@@ -70,13 +69,40 @@ class Cinta:
         print(f"El tamaño es: {self.tamaño}")    
 
 class Sticker:
-    pass
+    def __init__ (self,forma,color,tamaño):
+        self.forma = forma
+        self.color = color
+        self.tamaño = tamaño
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El tamaño es: {self.tamaño}")
+        print(f"Su forma es: {self.forma}")    
 
-class Cuentas:
-    pass
+class Cuenta:
+    def __init__(self,tamaño,forma,color):
+        self.forma = forma
+        self.color = color
+        self.tamaño = tamaño
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El tamaño es: {self.tamaño}")
+        print(f"Su forma es: {self.forma}")    
 
-class Tijeras:
-    pass
+class Tijera:
+    def __init__(self,color,tamaño):
+        self.color = color
+        self.tamaño = tamaño
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El tamaño es: {self.tamaño}")
 
-class Pinzas:
-    pass
+class Pinza:
+    def __init__(self,color,tamaño,precio):
+        self.color = color
+        self.tamaño = tamaño
+        self.precio = precio
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El tamaño es: {self.tamaño}")
+        print(f"Su precio es de: ${self.precio}")   
+        
