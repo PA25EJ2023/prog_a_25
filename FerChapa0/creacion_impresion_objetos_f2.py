@@ -1,0 +1,18 @@
+from clasesfoto2 import Camisa,Chaqueta,Laptop,Cargador,Lapiz,Lente,Tapa_Lente,Pila,Plumon,Reloj,Revista,Zapato,Maletin,Cable,Celular,Estuche,Tripie
+
+print("CAMISAS")
+camisa1=Camisa("blanca","spergia",550,"L")
+camisa1.imprimir_info()
+print('*'*15)
+print("CHAQUETAS")
+chaqueta1=Chaqueta("negra","zara",1250,"L")
+chaqueta1.imprimir_info()
+print('*'*15)
+print("LAPOTP")
+laptop1=Laptop("blanco","Mac",45000,14)
+laptop1.imprimir_info()
+print('*'*15)
+print("CARGADOR")
+cargador1=Cargador("blanco","mac","Apple",2000)
+cargador1.imprimir_info()
+print('*'*15)
