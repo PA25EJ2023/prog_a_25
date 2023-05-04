@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva
+from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Sticker
 
 """Estos son los bolígrafos"""
 
@@ -32,6 +32,32 @@ cinta4 = Cinta_Adhesiva("Azul","1cm","2mts","Tuk")
 cinta1.info()
 cinta2.info()
 cinta3.info()
+
+"""Estos son los retratos"""
+
+retrato1 = Retrato("20cm")
+retrato2 = Retrato("18cm")
+
+retrato1.info()
+retrato2.info()
+
+"""Estos son los esmaltes"""
+
+esmalte1 = Esmalte("Celeste","Bissu","Cilindrico")
+esmalte2 = Esmalte("Rosa","Bissu","Cuadrado")
+esmalte3 = Esmalte("Blanco","Bissu","Cilindrico")
+esmalte4 = Esmalte("Con Brillos","Bissu","Rombo")
+esmalte5 = Esmalte("Fiusha","Bissu","Diamante")
+esmalte6 = Esmalte("Rojo","Bissu","Ovalado")
+esmalte7 = Esmalte("Plateado","Bissu","Circular")
+
+esmalte1.info()
+esmalte2.info()
+esmalte3.info()
+esmalte4.info()
+esmalte5.info()
+esmalte6.info()
+esmalte7.info()
 
 
 
