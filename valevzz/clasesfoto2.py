@@ -28,7 +28,7 @@ class Camisas:
     def info (self):
         print(f"Numero camisa: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTipo de tela:{self.tela}")
 
-class Cable:
+class Cables:
     def __init__(self,numero,color,dispo):
         self.numero = numero
         self.color = color
@@ -72,7 +72,7 @@ class Revista:
         self.numero = numero
         self.nombre = nombre
         self.titulo = titulo
-        self.fecha_antiguedad = fecha_publicacion
+        self.fecha_publicacion = fecha_publicacion
 
     def info (self):
         print(f"Numero Revista: {self.numero} \nNombre: {self.nombre} \nTitulo: {self.titulo} \nFecha de publicacion: {self.fecha_publicacion} ")
@@ -139,7 +139,7 @@ class Estuche:
         self.color = color
         self.marca = marca
 
-    def inifo (self):
+    def info (self):
         print(f"Numero estuche: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
 
 class Bateria_Camara:
@@ -147,5 +147,5 @@ class Bateria_Camara:
         self.numero = numero
         self.color = color
 
-    def inifo (self):
+    def info (self):
         print(f"Numero bateria de camara: {self.numero} \nColor: {self.color}")
