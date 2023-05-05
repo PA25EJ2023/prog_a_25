@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono,Tijeras,Paleta_sombras,Poster
+from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono,Tijeras,Paleta_sombras,Poster,Pulsera,Nota_adhesiva,Tarjeta
 
 print("*"*50)
 print("Estos son los bolígrafos")
@@ -183,7 +183,35 @@ poster2 = Poster("Azul","18cm","Palabras repetidas","Papel estucado")
 poster1.info()
 poster2.info()
 
+print("*"*50)
+print("Esta es la pulsera")
+print("*"*50)
 
+pulsera1 = Pulsera("Vino,rojo,amarillo y blanco","Letras y cuentas","16cm","bisutería")
+
+pulsera1.info()
+
+print("*"*50)
+print("Esta es la nota adhesiva")
+print("*"*50)
+
+nota1 = Nota_adhesiva("rosa claro","38x51mm","Post-It","Papel reciclado")
+
+nota1.info()
+
+print("*"*50)
+print("Estas son las tarjetas")
+print("*"*50)
+
+tarjeta1 = Tarjeta("celeste,rosa","flores","61.5x95mm","cartón")
+tarjeta2 = Tarjeta("celeste,blanco","rombos","61.5x95mm","cartón")
+tarjeta3 = Tarjeta("celeste","liso","61.5x95mm","cartón")
+tarjeta4 = Tarjeta("amarillo,rosa","donas","61.5x95mm","cartón")
+
+tarjeta1.info()
+tarjeta2.info()
+tarjeta3.info()
+tarjeta4.info()
 
 
 

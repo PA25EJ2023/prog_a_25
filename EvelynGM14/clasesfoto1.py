@@ -182,6 +182,46 @@ class Poster:
         print(f"1 POSTER\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
 
 
+    class Fotografía:
+        def __init__(self,color,tamaño,diseño,material):
+            self.color = color
+            self.tamaño = tamaño
+            self.diseño = diseño
+            self.material = material
+
+        def info(self):
+            print(f"1 FOTOGRAFÍA\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
+
+
+class Pulsera:
+    def __init__(self,color,diseño,medida,categoria):
+        self.color = color
+        self.diseño = diseño
+        self.medida = medida
+        self.categoria = categoria
+
+    def info(self):
+        print(f"1 PULSERA\nColor: {self.color}\nDiseño: {self.diseño}\nMedida: {self.medida}\nMaterial: {self.categoria}")
+
+class Nota_adhesiva:
+    def __init__(self,color,tamaño,marca,material):
+        self.color = color
+        self.tamaño = tamaño
+        self.marca = marca
+        self.material = material
+
+    def info(self):
+        print(f"1 NOTA ADHESIVA\nColor: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nPrecio: {self.material}")
+
+class Tarjeta:
+    def __init__(self,color,diseño,medida,material):
+        self.color = color
+        self.diseño = diseño
+        self.medida = medida
+        self.material = material
+
+    def info(self):
+        print(f"1 TARJETA\nColor: {self.color}\nDiseño: {self.diseño}\nMedida: {self.medida}\nMaterial: {self.material}")
 
 
 
