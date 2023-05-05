@@ -108,7 +108,60 @@ class Pegamentos:
       def info (self):
           print("***Pegamentos***")
           print(f"Numero pegamento: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño: {self.tamaño}")
- 
+
+class Cucas:
+      def __init__(self,numero,color,tamaño):
+            self.numero = numero
+            self.color = color
+            self.tamaño = tamaño
+
+      def info(self):
+             print("***Cucas***")
+             print(f"Numero de cuca: {self.numero} \nColor: {self.color}  \nTamaño: {self.tamaño}")
+
+class Perlas:
+      def __init__(self,numero,color):
+            self.numero = numero
+            self.color = color
+
+      def info (self):
+            print("***Perlas***")
+            print(f"Numero perla: {self.numero} \nColor: {self.color}")
+
+class Pegantinas:
+      def __init__(self,numero,color,forma):
+            self.numero = numero
+            self.color = color
+            self.forma = forma
+
+      def info (self):
+            print("***Pegantinas***")
+            print(f"Numero pegantina: {self.numero} \nColor: {self.color} \nForma: {self.forma}")
+
+            
+class Hojas:
+      def __init__(self,numero,color,tamaño):
+            self.numero = numero
+            self.color = color 
+            self.tamaño = tamaño
+
+      def info (self):
+            print("***Hojas***")
+            print(f"Numero hoja: {self.numero} \nColor: {self.color} \nTamaño: {self.tamaño}")
+
+class Plumones:
+      def __init__(self,numero,color,marca):
+            self.numero = numero 
+            self.color = color
+            self.marca = marca
+
+      def info (self):
+            print("***Plumones***")
+            print(f"Numero plumon: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+
+
+
+      
 
     
 

@@ -6,7 +6,7 @@ class Boligrafo:
         self.marca = marca
     
     def info(self):
-        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nPrecio: {self.precio}\nMarca: {self.marca}")
+        print(f"1 BOLIGRAFO\nColor: {self.color}\nTamaño: {self.tamaño}\nPrecio: {self.precio}\nMarca: {self.marca}")
 
 
 
@@ -18,7 +18,7 @@ class Marcador:
         self.marca = marca
 
     def info(self):
-        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nPrecio: {self.precio}\nMarca: {self.marca}")
+        print(f"1 MARCADOR\nColor: {self.color}\nTamaño: {self.tamaño}\nPrecio: {self.precio}\nMarca: {self.marca}")
 
 
 class Cinta_Adhesiva:
@@ -29,25 +29,29 @@ class Cinta_Adhesiva:
         self.marca = marca
 
     def info(self):
-        print(f"Color: {self.color}\nAncho: {self.ancho}\nLongitud: {self.longitud}\nMarca: {self.marca}")
+        print(f"1 CINTA ADHESIVA\nColor: {self.color}\nAncho: {self.ancho}\nLongitud: {self.longitud}\nMarca: {self.marca}")
 
 
-class Retrato:
-    def __init__(self,tamaño):
+class Portaretrato:
+    def __init__(self,tamaño,color_marco,material,precio):
         self.tamaño = tamaño
+        self.color_marco = color_marco
+        self.material = material
+        self.precio = precio
 
     def info(self):
-        print(f"Tamaño: {self.tamaño}")
+        print(f"1 PORTARETRATO\nTamaño: {self.tamaño}\nColor del marco: {self.color_marco}\nMaterial: {self.material}\nPrecio: {self.precio}")
 
 
 class Esmalte:
-    def __init__(self,color,marca,forma):
+    def __init__(self,color,marca,forma,gramaje):
         self.color = color
         self.marca = marca
         self.forma = forma
+        self.gramaje = gramaje
 
     def info(self):
-        print(f"Color: {self.color}\nMarca: {self.marca}\nForma: {self.forma}")
+        print(f"1 ESMALTE\nColor: {self.color}\nMarca: {self.marca}\nForma: {self.forma}\nGramaje: {self.gramaje}")
 
 
 class Espejo:
@@ -58,7 +62,7 @@ class Espejo:
         self.precio = precio
 
     def info(self):
-        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
+        print(f"1 ESPEJO\nColor: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
 
 
 class Pinza:
@@ -69,7 +73,7 @@ class Pinza:
         self.marca = marca
 
     def info(self):
-        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nMarca: {self.marca}")
+        print(f"1 PINZA\nColor: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nMarca: {self.marca}")
 
 
 class Brillo_labial:
@@ -80,7 +84,7 @@ class Brillo_labial:
         self.precio = precio
 
     def info(self):
-        print(f"Color: {self.color}\nMarca: {self.marca}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
+        print(f"1 BRILLO LABIAL\nColor: {self.color}\nMarca: {self.marca}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
 
 
 class Cuaderno:
@@ -91,7 +95,7 @@ class Cuaderno:
         self.marca = marca
 
     def info(self):
-        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nNúmero de hojas: {self.no_hojas}\nMarca: {self.marca}")
+        print(f"1 CUADERNO\nColor: {self.color}\nTamaño: {self.tamaño}\nNúmero de hojas: {self.no_hojas}\nMarca: {self.marca}")
 
 
 class Regla:
@@ -102,7 +106,7 @@ class Regla:
         self.material = material
 
     def info(self):
-        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nForma: {self.forma}\nMaterial: {self.material}")
+        print(f"1 REGLA\nColor: {self.color}\nTamaño: {self.tamaño}\nForma: {self.forma}\nMaterial: {self.material}")
 
 
 class Pegamento:
@@ -113,7 +117,7 @@ class Pegamento:
         self.precio = precio
 
     def info(self):
-        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nPrecio: {self.precio}")
+        print(f"1 PEGAMENTO\nColor: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nPrecio: {self.precio}")
 
 
 class Diario:
@@ -124,7 +128,7 @@ class Diario:
         self.precio = precio
 
     def info(self):
-        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nNúmero de hojas: {self.no_hojas}\nPrecio: {self.precio}")
+        print(f"1 DIARIO\nColor: {self.color}\nTamaño: {self.tamaño}\nNúmero de hojas: {self.no_hojas}\nPrecio: {self.precio}")
 
 
 class Lapicero:
@@ -135,7 +139,7 @@ class Lapicero:
         self.marca = marca
 
     def info(self):
-        print(f"Color: {self.color}\nMaterial: {self.material}\nPrecio: {self.precio}\nMarca: {self.marca}")
+        print(f"1 LAPICERO\nColor: {self.color}\nMaterial: {self.material}\nPrecio: {self.precio}\nMarca: {self.marca}")
 
 
 class Telefono:
@@ -146,9 +150,104 @@ class Telefono:
         self.modelo = modelo
 
     def info(self):
-        print(f"Color: {self.color}\nTipo: {self.tipo}\nMedida: {self.medida}\nModelo: {self.modelo}")
+        print(f"1 TELEFONO\nColor: {self.color}\nTipo: {self.tipo}\nMedida: {self.medida}\nModelo: {self.modelo}")
 
 
+class Tijeras:
+    def __init__(self,color,tamaño,marca,forma_punta):
+        self.color = color
+        self.tamaño = tamaño
+        self.marca = marca
+        self.forma_punta = forma_punta
+
+    def info(self):
+        print(f"1 TIJERAS\nColor: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nForma de la punta: {self.forma_punta}")
+
+
+class Paleta_sombras:
+    def __init__(self,color,cantidad_sombras,marca,precio):
+        self.color = color
+        self.cantidad_sombras = cantidad_sombras
+        self.marca = marca
+        self.precio = precio
+
+    def info(self):
+        print(f"1 PALETA DE SOMBRAS\nColor: {self.color}\nCantidad de sombras: {self.cantidad_sombras}\nMarca: {self.marca}\nPrecio: {self.precio}")
+
+
+class Poster:
+    def __init__(self,color,tamaño,diseño,material):
+        self.color = color
+        self.tamaño = tamaño
+        self.diseño = diseño
+        self.material = material
+
+    def info(self):
+        print(f"1 POSTER\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
+
+
+class Pulsera:
+    def __init__(self,color,diseño,medida,categoria):
+        self.color = color
+        self.diseño = diseño
+        self.medida = medida
+        self.categoria = categoria
+
+    def info(self):
+        print(f"1 PULSERA\nColor: {self.color}\nDiseño: {self.diseño}\nMedida: {self.medida}\nMaterial: {self.categoria}")
+
+class Nota_adhesiva:
+    def __init__(self,color,tamaño,marca,material):
+        self.color = color
+        self.tamaño = tamaño
+        self.marca = marca
+        self.material = material
+
+    def info(self):
+        print(f"1 NOTA ADHESIVA\nColor: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nPrecio: {self.material}")
+
+class Tarjeta:
+    def __init__(self,color,diseño,medida,material):
+        self.color = color
+        self.diseño = diseño
+        self.medida = medida
+        self.material = material
+
+    def info(self):
+        print(f"1 TARJETA\nColor: {self.color}\nDiseño: {self.diseño}\nMedida: {self.medida}\nMaterial: {self.material}")
+
+
+class Fotografía:
+    def __init__(self,color,tamaño,diseño,material):
+        self.color = color
+        self.tamaño = tamaño
+        self.diseño = diseño
+        self.material = material
+
+    def info(self):
+        print(f"1 FOTOGRAFÍA\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
+
+
+class Serie_cuentas:
+    def __init__(self,color,cantidad,material,tamaño):
+        self.color = color
+        self.cantidad = cantidad
+        self.material = material
+        self.tamaño = tamaño
+
+    def info(self):
+        print(f"1 SERIE DE CUENTAS\nColor: {self.color}\nCantidad: {self.cantidad}\nMaterial: {self.material}\nTamaño: {self.tamaño}")
+
+
+class Serie_stickers:
+    def __init__(self,estado,cantidad,forma,material):
+        self.estado = estado
+        self.cantidad = cantidad
+        self.forma = forma
+        self.material = material
+
+    def info(self):
+        print(f"1 SERIE DE STICKERS\nEstado: {self.estado}\nCantidad: {self.cantidad}\nForma: {self.forma}\nMaterial: {self.material}")
 
 
 
