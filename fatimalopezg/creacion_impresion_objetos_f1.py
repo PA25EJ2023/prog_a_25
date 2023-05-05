@@ -30,6 +30,20 @@ marcador2.info()
 marcador3=Marcador("fiusha",38,"agua","pelikan")
 marcador3.info()
 
+pluma1=Boligrafo("rosa",45,"gel","paper mate")
+pluma1.info()
+
+pluma2=Boligrafo("amarillo",45,"gel","paper mate")
+pluma2.info()
+
+pluma3=Boligrafo("azul",45,"gel","paper mate")
+pluma3.info()
+
+pluma4=Boligrafo("rojo",35,"normal","paper mate")
+pluma4.info()
+
+
+#ME QUEDE EN HACER CLASE LIBERTA
 
 #pluma1,pluma2,pluma3 y meter datos a cada una
 #camisa y especificar color
