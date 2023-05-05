@@ -82,7 +82,7 @@ class Libreta:
         self.precio = precio
     
     def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n diseño {self.diseño}\n marca: {self.precio}')
+        print(f'marca: {self.marca}\n color: {self.color}\n diseño {self.diseño}\n precio: {self.precio}')
 
 class Pegamento:
     def __init__(self,marca,color,precio):
