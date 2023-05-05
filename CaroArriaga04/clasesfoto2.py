@@ -139,3 +139,16 @@ class Estuche:
         print(f"El material es: {self.material}")
         print(f"El precio es de: ${self.precio}")
         print(f"Es de tipo: {self.tipo}")
+
+class Tapa:
+    def __init__(self,color,tamaño,forma,tipo):
+        self.color = color
+        self.tamaño = tamaño
+        self.forma = forma
+        self.tipo = tipo
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"Tamaño: {self.tamaño}")
+        print(f"La forma es: {self.forma}")
+        print(f"Es de tipo: {self.tipo}")
+    
