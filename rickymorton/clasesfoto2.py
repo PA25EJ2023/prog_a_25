@@ -84,3 +84,33 @@ class Reloj:
     
     def info(self):
         print(f'marca: {self.marca}\n color: {self.color}\n modelo: {self.modelo}\n precio: {self.precio}')
+
+class Pila_lap:
+    def __init__(self,marca,color,tipo,precio):
+        self.marca = marca
+        self.color = color
+        self.tipo = tipo
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n tipo: {self.tipo}\n precio: {self.precio}')
+
+class Camisa:
+    def __init__(self,marca,color,talla,tipo):
+        self.marca = marca
+        self.color = color
+        self.talla = talla
+        self.tipo = tipo
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n talla: {self.talla}\n tipo: {self.tipo}')
+
+class Lente_camara:
+    def __init__(self,marca,color,tamaño,precio):
+        self.marca = marca
+        self.color = color
+        self.tamaño = tamaño 
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}')
