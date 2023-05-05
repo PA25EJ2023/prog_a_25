@@ -102,23 +102,3 @@ brillantina.imprimir()
 
 libro = Libro("Azul", 200, "Days Diary", "$200")
 libro.imprimir()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -8,7 +8,7 @@ class Esmalte:
         self.cantidad=cantidad
     
     def info(self):
-        print("ESMALTE")
+        print(" *** ESMALTE ***")
         print(f"Color del esmalte: {self.color}")
         print(f"Forma del envase: {self.forma_envase}")
         print(f"Precio: {self.precio}")    
