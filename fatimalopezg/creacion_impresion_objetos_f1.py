@@ -4,7 +4,7 @@ esmalte1=Esmalte("rosa pastel","cuadrado",20,"chico","5ml")
 esmalte1.info()
 
 esmalte2=Esmalte("morado con glitter","pentagono",25,"mediano","7ml")
-esmalte2.info()
+esmalte2.info()    #####FALTAN 2 ESMALTES!!!!
 
 esmalte3=Esmalte("rosa","pentagono",25,"mediano","7ml")
 esmalte3.info()
@@ -43,7 +43,30 @@ pluma4=Boligrafo("rojo",35,"normal","paper mate")
 pluma4.info()
 
 
-#ME QUEDE EN HACER CLASE LIBERTA
+libreta1=Libreta("celeste","mediana",170,"cosida","scribe") #BIC
+libreta1.info()
+
+libreta2=Libreta("rosa","mediana",100,"resorte","BIC") #BIC
+libreta2.info()
+
+libreta3=Libreta("lila","mediana",10,"resorte","BIC") #BIC
+libreta3.info()
+
+
+pegamento1=Pegamento("mediano",25,"pritt","barra")
+pegamento1.info()
+
+cinta1=Cinta("adhesiva",10,"chica","rosa")
+cinta1.info()
+
+cinta2=Cinta("papel decorativo",18,"chica","verde")
+cinta2.info()
+
+cinta3=Cinta("papel decorativo",18,"chica","morado")
+cinta3.info()
+
+cinta4=Cinta("papel decorativo",18,"chica","azul")
+cinta4.info()
 
 #pluma1,pluma2,pluma3 y meter datos a cada una
 #camisa y especificar color
