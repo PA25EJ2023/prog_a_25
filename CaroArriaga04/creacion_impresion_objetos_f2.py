@@ -1,4 +1,4 @@
-from clasesfoto2 import Celular,Camisa,Maletin
+from clasesfoto2 import Celular,Camisa,Maletin,Cargador,Laptop,Revista,Reloj
 
 celular = Celular("Negro","Samsung",4500,"60 gb")
 celular.info()
@@ -11,4 +11,17 @@ camisa2.info()
 
 maletin = Maletin("Cafe","Hermes","Piel",1200)
 maletin.info()
+
+cargador = Cargador("Apple","Blanco","Para computador",800)
+cargador.info()
+
+laptop = Laptop("Apple","notebook","Plateado",16000)
+laptop.info()
+
+revista = Revista(60,"JUICE","Juice Magazine","Ingles")
+revista.info()
+
+reloj = Reloj("Casio","Digital",1200,"Negro")
+reloj.info()
+
 
