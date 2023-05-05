@@ -182,17 +182,6 @@ class Poster:
         print(f"1 POSTER\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
 
 
-    class Fotografía:
-        def __init__(self,color,tamaño,diseño,material):
-            self.color = color
-            self.tamaño = tamaño
-            self.diseño = diseño
-            self.material = material
-
-        def info(self):
-            print(f"1 FOTOGRAFÍA\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
-
-
 class Pulsera:
     def __init__(self,color,diseño,medida,categoria):
         self.color = color
@@ -222,6 +211,39 @@ class Tarjeta:
 
     def info(self):
         print(f"1 TARJETA\nColor: {self.color}\nDiseño: {self.diseño}\nMedida: {self.medida}\nMaterial: {self.material}")
+
+
+class Fotografía:
+    def __init__(self,color,tamaño,diseño,material):
+        self.color = color
+        self.tamaño = tamaño
+        self.diseño = diseño
+        self.material = material
+
+    def info(self):
+        print(f"1 FOTOGRAFÍA\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
+
+
+class Serie_cuentas:
+    def __init__(self,color,cantidad,material,tamaño):
+        self.color = color
+        self.cantidad = cantidad
+        self.material = material
+        self.tamaño = tamaño
+
+    def info(self):
+        print(f"1 SERIE DE CUENTAS\nColor: {self.color}\nCantidad: {self.cantidad}\nMaterial: {self.material}\nTamaño: {self.tamaño}")
+
+
+class Serie_stickers:
+    def __init__(self,estado,cantidad,forma,material):
+        self.estado = estado
+        self.cantidad = cantidad
+        self.forma = forma
+        self.material = material
+
+    def info(self):
+        print(f"1 SERIE DE STICKERS\nEstado: {self.estado}\nCantidad: {self.cantidad}\nForma: {self.forma}\nMaterial: {self.material}")
 
 
 

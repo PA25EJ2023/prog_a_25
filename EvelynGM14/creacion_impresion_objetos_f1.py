@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono,Tijeras,Paleta_sombras,Poster,Pulsera,Nota_adhesiva,Tarjeta
+from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono,Tijeras,Paleta_sombras,Poster,Pulsera,Nota_adhesiva,Tarjeta,Fotografía,Serie_cuentas,Serie_stickers
 
 print("*"*50)
 print("Estos son los bolígrafos")
@@ -177,8 +177,8 @@ print("*"*50)
 print("Estos son los posters")
 print("*"*50)
 
-poster1 = Poster("Celeste","25cm","Imagen de la playa","Papel estucado")
-poster2 = Poster("Azul","18cm","Palabras repetidas","Papel estucado")
+poster1 = Poster("Celeste","20x25cm","Imagen de la playa","Papel estucado")
+poster2 = Poster("Azul","15x15cm","Palabras repetidas","Papel estucado")
 
 poster1.info()
 poster2.info()
@@ -213,8 +213,51 @@ tarjeta2.info()
 tarjeta3.info()
 tarjeta4.info()
 
+print("*"*50)
+print("Estas son las fotografias")
+print("*"*50)
 
+fotografia1 = Fotografía("Aqua,rosa claro","61.5x98mm","imagen de un telefono","Papel fotografico mate")
+fotografia2 = Fotografía("Celeste","15x15cm","Persona posando","Glossy")
 
+fotografia1.info()
+fotografia2.info()
+
+print("*"*50)
+print("Estas son las series de cuentas")
+print("*"*50)
+
+serie_cuentas1 = Serie_cuentas("Rojo","2","plastico","5mm")
+serie_cuentas2 = Serie_cuentas("Rosa","5","plastico","5mm")
+serie_cuentas3 = Serie_cuentas("Blanco","2","plastico","5mm")
+serie_cuentas4 = Serie_cuentas("Naranja","4","plastico","5mm")
+serie_cuentas5 = Serie_cuentas("Aqua","2","plastico","5mm")
+serie_cuentas6 = Serie_cuentas("Lima","6","plastico","5mm")
+
+serie_cuentas1.info()
+serie_cuentas2.info()
+serie_cuentas3.info()
+serie_cuentas4.info()
+serie_cuentas5.info()
+serie_cuentas6.info()
+
+print("*"*50)
+print("Estas son las series de stickers")
+print("*"*50)
+
+serie_stickers1 = Serie_stickers("Nuevo",25,"Gota","Plastico")
+serie_stickers2 = Serie_stickers("Nuevo",26,"Estrella","Plastico")
+serie_stickers3 = Serie_stickers("Usado",15,"Estrella","Plastico")
+serie_stickers4 = Serie_stickers("Nuevo",8,"Corazón","Papel")
+serie_stickers5 = Serie_stickers("Usado",12,"Estrella","Papel")
+serie_stickers6 = Serie_stickers("Usado",15,"Flor","Papel")
+
+serie_stickers1.info()
+serie_stickers2.info()
+serie_stickers3.info()
+serie_stickers4.info()
+serie_stickers5.info()
+serie_stickers6.info()
 
 
 
