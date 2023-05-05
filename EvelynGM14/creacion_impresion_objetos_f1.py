@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Sticker
+from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial
 
 """Estos son los bolígrafos"""
 
@@ -40,8 +40,8 @@ retrato2 = Retrato("18cm")
 
 retrato1.info()
 retrato2.info()
-
-"""Estos son los esmaltes"""
+print("*"*35)
+print("Estos son los esmaltes")
 
 esmalte1 = Esmalte("Celeste","Bissu","Cilindrico")
 esmalte2 = Esmalte("Rosa","Bissu","Cuadrado")
@@ -59,7 +59,37 @@ esmalte5.info()
 esmalte6.info()
 esmalte7.info()
 
+"""Este es el espejo"""
 
+espejo1 = Espejo("rosa","corazón","15cm",65)
+
+espejo1.info()
+
+"""Estas son las pinzas"""
+
+pinza1 = Pinza("celeste","mariposa","2cm","Goody")
+pinza2 = Pinza("rosa","mariposa","2cm","Goody")
+pinza3 = Pinza("amarillo","mariposa","2cm","Goody")
+pinza4 = Pinza("rosa claro","mariposa","2cm","Goody")
+pinza5 = Pinza("fiusha","mariposa","2cm","Goody")
+pinza6 = Pinza("naranja","mariposa","2cm","Goody")
+
+pinza1.info()
+pinza2.info()
+pinza3.info()
+pinza4.info()
+pinza5.info()
+pinza6.info()
+
+"""Estos son los brillos labiales"""
+
+brillo_labial1 = Brillo_labial("rosa","Bissu","10cm",40)
+brillo_labial2 = Brillo_labial("rojo","Bissu","10cm",40)
+brillo_labial3 = Brillo_labial("plateado","Bissu","10cm",40)
+
+brillo_labial1.info()
+brillo_labial2.info()
+brillo_labial3.info()
 
 
 
