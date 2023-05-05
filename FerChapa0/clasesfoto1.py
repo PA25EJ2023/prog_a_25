@@ -25,15 +25,17 @@ class Boligrafo:
         print(f'La forma del boligrafo es {self.forma}')
 
 class Plumon:
-    def __init__(self,color,marca,precio) :
+    def __init__(self,color,marca,precio,grosor) :
         self.color=color
         self.marca=marca
         self.precio=precio
+        self.grosor=grosor
 
     def imprimir_info(self):
         print("El Plumon es color ", self.color)
         print(f'El precio del plumon es {self.precio}')
         print(f'La marca del plumon es {self.marca}')
+        print(f'El grosor del plumon es {self.grosor}')
 
 class Tijera:
     def __init__(self, color, tipo, tamaño):
@@ -60,15 +62,17 @@ class Libreta:
         print(f'El ancho de la libreta es de: {self.ancho} cm')
 
 class Cinta:
-    def __init__(self, color, ancho, longitud) :
+    def __init__(self, color, ancho, longitud,diametro) :
         self.color=color
         self.ancho=ancho
         self.longitud=longitud
+        self.diametro=diametro
     
     def mostrar_info(self):
         print(f' El color de la cinta es: {self.color}')
-        print(f' El ancho de la cinta es: {self.ancho} cm')
+        print(f' El ancho de la cinta es: {self.ancho}')
         print(f' La longitud de la cinta es: {self.longitud}')
+        print(f' diametro de la cinta es: {self.diametro} cm')
 
 class Espejo:
     def __init__(self, color, forma, precio,tamaño) :
@@ -136,26 +140,30 @@ class Telefono:
         print(f' El peso del telefono es: {self.peso}')
 
 class Hoja_sticker:
-    def __init__(self,color,forma, cantidad):
+    def __init__(self,color,forma, cantidad, medida):
         self.color=color
         self.forma=forma
         self.cantidad=cantidad
+        self.medida=medida
 
     def mostrar_info(self):
         print(f' El color de los Stickers es: {self.color}')
         print(f' El forma del los Stickers es: {self.forma}')
         print(f' La cantidad del Stickers es: {self.cantidad}')
+        print(f' La medida de la hoja de Stickers es: {self.medida}')
 
 class Poster:
-    def __init__(self,color,forma,detalle) :
+    def __init__(self,color,forma,detalle,medida) :
         self.color=color
         self.forma=forma
         self.detalle=detalle
+        self.medida=medida
 
     def mostrar_info(self):
         print(f' El color del retrato es: {self.color}')
         print(f' El forma del retrato es: {self.forma}')
         print(f' Los detalles del retrato son: {self.detalle}')
+        print(f' Las medidas del retrato son: {self.medida}')
 
 class Cuca:
     def __init__(self,color,tamaño,tipo, detalle) :
