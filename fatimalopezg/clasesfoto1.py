@@ -63,10 +63,10 @@ class Boligrafo:
         self.marca=marca
 
     def info(self):
-        print(f"El color del boligrafo o pluma es de: {self.color}")
+        print(f"El color de la tinta es: {self.color}")
         print(f"El precio es de: {self.precio}")    
-        print(f"El tipo es de: {self.tipo}")
-        print (f"La marca es de {self.marca}")
+        print(f"El tipo es (tinta normal/agua/gel) de: {self.tipo}")
+        print(f"La marca es de {self.marca}")
 
 class Libreta:
     def __init__(self,color,tamaño,precio,tipo,marca): #tipo es raya, cuadro y el tamaño es grande,chica o mediana
@@ -84,36 +84,112 @@ class Libreta:
         print (f"La marca es de {self.marca}")
 
 class Pegamento:
-    pass
+    def __init__(self,tamaño,precio,marca,aplicador): #aplicador es en barra o liquido
+        self.tamaño=tamaño
+        self.precio=precio
+        self.marca=marca
+        self.aplicador=aplicador
+
+    def info(self):
+        print(f"El tamaño del pegamento es: {self.tamaño}")    
+        print(f"El precio es de: {self.precio}")
+        print(f"La marca es de: {self.marca}")
+        print(f"El aplicador (barra/líquido) es de: {self.aplicador}")
 
 class Cinta:
-    pass
+    def __init__(self,tipo,precio,tamaño,color):
+        self.tipo=tipo
+        self.precio=precio
+        self.tamaño=tamaño
+        self.color=color
+
+    def info(self):
+        print(f"El tipo de cinta (adhesiva/de papel/doble cara/aislante) es de: {self.tipo}")
+        print(f"El precio es de: {self.precio}")    
+        print(f"El tamaño (ch/md/gr)es de: {self.tamaño}")
+        print(f"El color es: {self.color}")
 
 class Telefono:
-    pass
-
+    def __init__(self,precio,color,num_tel,marca):
+        self.precio=precio
+        self.color=color
+        self.num_tel=num_tel
+        self.marca=marca
+        
+    def info(self):
+        print(f"El precio es de: {self.precio}")    
+        print(f"El color es: {self.color}")
+        print(f"El numero de telefono es: {self.num_tel}")
+        print(f"La marca es: {self.marca}")
+        
+    
 class Sticker:
-    pass
+    def __init__(self,tamaño,figura,color,precio):
+        self.tamaño=tamaño
+        self.figura=figura
+        self.color=color
+        self.precio=precio
+
+    def info(self):
+        print(f"El tamaño (ch/md/gr)es: {self.tamaño}")    
+        print(f"La figra (estrella/corazon/luna) es: {self.figura}")
+        print(f"El color es: {self.color}")
+        print(f"El precio es de: {self.precio}")
+        
 
 class Broche:
-    pass
+    def __init__(self,color,precio,marca,material):
+        self.color=color
+        self.precio=precio
+        self.marca=marca
+        self.material=material
+
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El precio es de: {self.precio}")
+        print(f"La marca es: {self.marca}")
+        print(f"El material es de: {self.material}")
 
 class Labial:
-    pass
+    def __init__(self,marca,precio,tamaño,color,tipo):
+        self.marca=marca
+        self.precio=precio
+        self.tamaño=tamaño
+        self.color=color
+        self.tipo=tipo
 
+    def info(self):
+        print(f"La marca del labial es: {self.marca}")
+        print(f"El precio es de: {self.precio}")
+        print(f"El tamaño (md/gr) es: {self.tamaño}")
+        print(f"El color es: {self.color}")
+        print(f"El tipo (líquido/mate/gloss) es: {self.tipo}")
+    
 class Tijeras:
-    pass
+    def __init__ (self,color,precio,marca,tipo):
+        self.color=color
+        self.precio=precio
+        self.marca=marca
+        self.tipo=tipo
 
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El precio es de: {self.precio}")
+        print(f"La marca es: {self.marca}")
+        print(f"El tipo (diestro/zurdo) es: {self.tipo}")
+    
+class Piedritas:
+    def __init__(self,color,tamaño,precio,material):
+        self.color=color
+        self.tamaño=tamaño
+        self.precio=precio
+        self.material=material
 
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El tamaño es: {self.tamaño}")
+        print(f"El precio es de: {self.precio}")
+        print(f"El material es: {self.material}")
 
-
-
-
-
-
-
-
-
-        #pluma1,plima2,puma 3 y meter datos a cada una
-
+        #pluma1,pluma2,pluma3 y meter datos a cada una
         #camisa y especificar color
