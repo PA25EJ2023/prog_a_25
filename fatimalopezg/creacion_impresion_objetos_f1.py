@@ -1,4 +1,4 @@
-from clasesfoto1 import Esmalte,Espejo_corazon,Retrato,Marcador,Boligrafo,Libreta,Pegamento,Cinta,Telefono,Sticker,Broche,Labial,Tijeras,Piedrita
+from clasesfoto1 import Esmalte,Espejo_corazon,Retrato,Marcador,Boligrafo,Libreta,Pegamento,Cinta,Telefono,Sticker,Broche,Labial,Tijeras,Piedrita,Hoja_plantilla
 
 esmalte1=Esmalte("rosa pastel","cuadrado",20,"chico","5ml")
 esmalte1.info()
@@ -15,8 +15,20 @@ esmalte4.info()
 espejo1=Espejo_corazon(10,14,"rojo con base rosa",100)
 espejo1.info()
 
-#retrato1=Retrato() aqui me quede
+retrato1=Retrato(15,13,"beige",40,"stickers de flores rosas y celestes")
+retrato1.info()
 
+retrato2=Retrato(15,12,"beige",40,"stickers de estrellas grandes doradas")
+retrato2.info()
+
+marcador1=Marcador("morado",38,"agua","pelikan")
+marcador1.info()
+
+marcador2=Marcador("naranja",38,"agua","pelikan")
+marcador2.info()
+
+marcador3=Marcador("fiusha",38,"agua","pelikan")
+marcador3.info()
 
 
 #pluma1,pluma2,pluma3 y meter datos a cada una
