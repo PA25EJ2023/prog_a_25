@@ -1,4 +1,5 @@
 from clasesfoto2 import Revista,Portafolio,Zapatos,Laptop,Pila_camara,Tripie
+from clasesfoto2 import Celular,Pila_cel,Reloj
 
 revista1 = Revista("Juice","Para jovenes","Junio del 2015",150)
 print("Revista ")
@@ -27,3 +28,16 @@ pilacam2.info()
 tripie1 = Tripie("Excell","Negro","106cm/42",400)
 print("Tripie")
 tripie1.info()
+
+celular1 = Celular("Android","Negro",4000)
+print("Celular")
+celular1.info()
+
+pilacel1 = Pila_cel("Power bank","Recargable","Negro",500)
+print("Pila del Celular")
+pilacel1.info()
+
+reloj1 = Reloj("Lorus","Negro","Unisex",900)
+print("Reloj")
+reloj1.info()
+
