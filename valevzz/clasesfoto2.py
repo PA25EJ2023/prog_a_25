@@ -37,3 +37,42 @@ class Cable:
     def info(self):
         print(f"Numero cable: {self.numero} \nColor: {self.color} \nDispositivo al que pertenece: {self.dispo}")
 
+class Maletin:
+    def __init__(self,numero,color,marca,tamaño):
+        self.numero = numero
+        self.color = color
+        self.marca = marca
+        self.tamaño = tamaño
+
+    def info (self):
+        print(f"Numero maletin: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño:{self.tamaño}")
+
+class Lente_Camara:
+    def __init__(self,numero,color,marca,tamaño) -> None:
+        self.numero = numero
+        self.color = color
+        self.marca = marca
+        self.tamaño = tamaño
+
+    def info (self):
+        print(f"Numero Lente: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño:{self.tamaño}")
+
+class Tapa_Lente:
+    def __init__(self,numero,color,marca,tamaño):
+        self.numero = numero
+        self.color = color
+        self.marca = marca
+        self.tamaño = tamaño
+       
+    def info (self):
+        print(f"Numero Tapa: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño:{self.tamaño}")
+
+class Revista:
+    def __init__(self,numero,nombre,titulo,fecha_publicacion):
+        self.numero = numero
+        self.nombre = nombre
+        self.titulo = titulo
+        self.fecha_antiguedad = fecha_publicacion
+
+    def info (self):
+        print(f"Numero Revista: {self.numero} \nNombre: {self.nombre} \nTitulo: {self.titulo} \nFecha de publicacion: {self.fecha_publicacion} ")
