@@ -91,3 +91,11 @@ class Cintas():
     def inf(self):
         print(f"Color>> {self.color}\nMarca>> {self.marca}\nLongitud>> {self.longitud}\nAncho>> {self.ancho}")
         
+class Broches():
+    def __init__(self,color,tamaño,figura,marca):
+        self.color = color
+        self.tamaño = tamaño
+        self.figura = figura 
+        self.marca = marca
+    def inf(self):
+        print(f"Color>> {self.color}\nTamaño>> {self.tamaño}\nForma>> {self.figura}\nMarca>> {self.marca}")
