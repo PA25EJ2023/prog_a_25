@@ -48,7 +48,7 @@ class Maletin:
         print(f"Numero maletin: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño:{self.tamaño}")
 
 class Lente_Camara:
-    def __init__(self,numero,color,marca,tamaño) -> None:
+    def __init__(self,numero,color,marca,tamaño):
         self.numero = numero
         self.color = color
         self.marca = marca
@@ -76,3 +76,42 @@ class Revista:
 
     def info (self):
         print(f"Numero Revista: {self.numero} \nNombre: {self.nombre} \nTitulo: {self.titulo} \nFecha de publicacion: {self.fecha_publicacion} ")
+
+class Mac:
+    def __init__(self,numero,color,marca,modelo):
+        self.numero = numero
+        self.color = color
+        self.modelo = modelo
+        self.marca = marca
+
+    def info (self):
+        print(f"Numero Mac: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nModelo:{self.modelo}")
+
+class Reloj:
+    def __init__(self,numero,color,modelo,marca):
+        self.numero = numero
+        self.color = color
+        self.modelo = modelo
+        self.marca = marca
+
+    def info (self):
+        print(f"Numero Reloj: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nModelo:{self.modelo}")
+
+class Tripoide:
+    def __init__(self,numero,color,marca):
+        self.numero = numero
+        self.color = color
+        self.marca = marca
+
+    def info (self):
+        print(f"Numero Tripoide: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+
+class Zapatos:
+    def __init__(self,numero,color,marca):
+        self.numero = numero
+        self.color = color
+        self.marca = marca
+
+    def info (self):
+        print(f"Numero Zapatos: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+
