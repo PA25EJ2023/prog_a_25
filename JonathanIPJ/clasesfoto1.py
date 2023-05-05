@@ -6,7 +6,7 @@ class Pluma:
         self.marca = marca 
     
     def imprimir(self):
-        print({self.color}, {self.precio}, {self.tamano}, {self.marca})
+        print(f"Pluma- Color: {self.color}, Precio: {self.precio}, Tamano: {self.tamano}, Marca: {self.marca}")
 
 
 class Tijera:
@@ -17,7 +17,7 @@ class Tijera:
         self.marca = marca 
 
     def imprimir(self):
-        print({self.color}, {self.tamano}, {self.precio}, {self.marca}) 
+        print(f"Tijeras- Color: {self.color}, Tamano: {self.tamano}, Precio: {self.precio}, Marca: {self.marca}") 
 
 
 class Libreta:
@@ -28,7 +28,7 @@ class Libreta:
         self.precio = precio
 
     def imprimir(self):
-        print({self.color}, {self.num_hojas}, {self.marca}, {self.precio})
+        print(f"Libreta- Color: {self.color}, Numero de Hojas: {self.num_hojas}, Marca: {self.marca}, Precio: {self.precio}")
 
 
 class Espejo:
@@ -38,7 +38,7 @@ class Espejo:
         self.precio = precio 
 
     def imprimir(self):
-        print({self.forma}, {self.color}, {self.precio})
+        print(f"Espejo- Forma: {self.forma}, Color: {self.color}, Precio: {self.precio}")
 
 class Pegamento:
     def __init__(self,tipo,marca,precio,tamano):
@@ -48,7 +48,7 @@ class Pegamento:
         self.tamano = tamano 
 
     def imprimir(self):
-        print({self.tipo},{self.marca},{self.precio},self.tamano)
+        print(f"Pegamento- Tipo: {self.tipo}, Marca: {self.marca}, Precio: {self.precio}, Tamano:{self.tamano}")
 
 
 class Marco:
@@ -59,7 +59,53 @@ class Marco:
         self.imagen = imagen
 
     def imprimir(self):
-        print({self.tamano}, {self.color}, {self.forma}, {self.imagen}) 
+        print(f"Marco Para Fotos- Tamano: {self.tamano}, Color: {self.color}, Forma: {self.forma}, Imagen: {self.imagen}") 
 
 
+class Esmalte:
+    def __init__(self, color, marca, precio):
+        self.color = color 
+        self.marca = marca 
+        self.precio = precio
+
+    def imprimir(self):
+        print(f"Esmalte- Color: {self.color} Marca: {self.marca} Precio: {self.precio}")
+
+
+class Labial:
+    def __init__(self, color, marca, precio):
+        self.color = color 
+        self.marca = marca 
+        self.precio = precio
+
+    def imprimir(self):
+        print(f"Labial- Color: {self.color} Marca: {self.marca} Precio: {self.precio}")
+
+class Cuenta:
+    def __init__(self, cantidad, color, forma):
+        self.cantidad = cantidad 
+        self.color = color 
+        self.forma = forma 
+
+    def imprimir(self):
+        print(f"Cuentas para pulseras- Cantidad: {self.cantidad} Color: {self.color} forma: {self.forma}")
+
+
+class Marcador:
+    def __init__(self, color, marca, precio):
+        self.color = color 
+        self.marca = marca 
+        self.precio = precio 
+
+    def imprimir(self):
+        print(f"Marcadores- Color: {self.color}, Marca: {self.marca}, Precio: {self.precio}")
+
+class Cinta:
+    def __init__(self, color, longitud, precio):
+        self.color = color 
+        self.longitud = longitud 
+        self.precio = precio
+
+    def imprimir(self):
+        print(f"Cintas- Color: {self.color}, Longitud: {self.longitud}, Precio: {self.precio}")
 
