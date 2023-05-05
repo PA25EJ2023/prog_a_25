@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono,Tijeras,Paleta_sombras,Poster,Pulsera,Nota_adhesiva,Tarjeta,Fotografía,Serie_cuentas,Serie_stickers
+from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Portaretrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono,Tijeras,Paleta_sombras,Poster,Pulsera,Nota_adhesiva,Tarjeta,Fotografía,Serie_cuentas,Serie_stickers
 
 print("*"*50)
 print("Estos son los bolígrafos")
@@ -43,23 +43,23 @@ print("*"*50)
 print("Estos son los portaretratos")
 print("*"*50)
 
-retrato1 = Retrato("20cm")
-retrato2 = Retrato("18cm")
+portaretrato1 = Portaretrato("18cm","Hueso","Madera",200)
+portaretrato2 = Portaretrato("18cm","Hueso","Plastico",120)
 
-retrato1.info()
-retrato2.info()
+portaretrato1.info()
+portaretrato2.info()
 
 print("*"*50)
 print("Estos son los esmaltes")
 print("*"*50)
 
-esmalte1 = Esmalte("Celeste","Bissu","Cilindrico")
-esmalte2 = Esmalte("Rosa","Bissu","Cuadrado")
-esmalte3 = Esmalte("Blanco","Bissu","Cilindrico")
-esmalte4 = Esmalte("Con Brillos","Bissu","Rombo")
-esmalte5 = Esmalte("Fiusha","Bissu","Diamante")
-esmalte6 = Esmalte("Rojo","Bissu","Ovalado")
-esmalte7 = Esmalte("Plateado","Bissu","Circular")
+esmalte1 = Esmalte("Celeste","Bissu","Cilindrico","30g")
+esmalte2 = Esmalte("Rosa","Bissu","Cuadrado","30g")
+esmalte3 = Esmalte("Blanco","Bissu","Cilindrico","30g")
+esmalte4 = Esmalte("Con Brillos","Bissu","Rombo","30g")
+esmalte5 = Esmalte("Fiusha","Bissu","Diamante","30g")
+esmalte6 = Esmalte("Rojo","Bissu","Ovalado","30g")
+esmalte7 = Esmalte("Plateado","Bissu","Circular","30g")
 
 esmalte1.info()
 esmalte2.info()
@@ -87,6 +87,7 @@ pinza3 = Pinza("amarillo","mariposa","2cm","Goody")
 pinza4 = Pinza("rosa claro","mariposa","2cm","Goody")
 pinza5 = Pinza("fiusha","mariposa","2cm","Goody")
 pinza6 = Pinza("naranja","mariposa","2cm","Goody")
+pinza7 = Pinza("salmón","mariposa","2cm","Goody")
 
 pinza1.info()
 pinza2.info()
@@ -94,6 +95,7 @@ pinza3.info()
 pinza4.info()
 pinza5.info()
 pinza6.info()
+pinza7.info()
 
 print("*"*50)
 print("Estos son los brillos labiales")
