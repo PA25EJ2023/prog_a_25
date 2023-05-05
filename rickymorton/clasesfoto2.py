@@ -55,3 +55,32 @@ class Tripie:
     
     def info(self):
         print(f'marca: {self.marca}\n color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}')
+
+class Celular:
+    def __init__(self,marca,color,precio):
+        self.marca = marca
+        self.color = color
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+
+class Pila_cel:
+    def __init__(self,marca,tipo,color,precio):
+        self.marca = marca
+        self.tipo = tipo
+        self.color = color
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n tipo: {self.tipo}\n color: {self.color}\n precio: {self.precio}')
+
+class Reloj:
+    def __init__(self,marca,color,modelo,precio):
+        self.marca = marca
+        self.color = color
+        self.modelo = modelo
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n modelo: {self.modelo}\n precio: {self.precio}')
