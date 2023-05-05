@@ -1,5 +1,5 @@
 from clasesfoto1 import Boligrafo, Espejo, Recuadro,Esmalte,Cinta,Marcadores
-
+from clasesfoto1 import Lip_gloss,Reloj,Libreta
 boligrafo1 = Boligrafo("BIC","Azul",20)
 print("Boligrafo 1")
 boligrafo1.info()
@@ -84,7 +84,32 @@ marcador3 = Marcadores("Naranja","Sharpie",70)
 print("Marcador 3")
 marcador3.info()
 
+gloss1 = Lip_gloss("Rosa","Mediano",500,"Sephora")
+print("Lip gloss 1")
+gloss1.info()
 
+gloss2 = Lip_gloss("Rojo","Mediano",500,"Sephora")
+print("Lip gloss 2")
+gloss2.info()
 
+gloss3 = Lip_gloss("Plateado","Mediano",500,"Sephora")
+print("Lip gloss 3")
+gloss3.info()
+
+reloj = Reloj("Whoophen","Vintaje","Rosa",1500)
+print("Reloj")
+reloj.info()
+
+libreta1 = Libreta("Scribe","Aqua","Con estrellitas",150)
+print("Libreta 1")
+libreta1.info()
+
+libreta2 = Libreta("Scribe","Rosa","Con estrellitas y una imagen",250)
+print("Libreta 2")
+libreta2.info()
+
+libreta3 = Libreta("Scribe","Naranja","lisa",100)
+print("Libreta 3")
+libreta3.info()
 
 

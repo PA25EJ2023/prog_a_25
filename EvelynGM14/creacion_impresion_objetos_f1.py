@@ -1,6 +1,8 @@
-from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial
+from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento
 
-"""Estos son los bolígrafos"""
+print("*"*50)
+print("Estos son los bolígrafos")
+print("*"*50)
 
 boligrafo1 = Boligrafo("Rosa",15.3,12,"Bic")
 boligrafo2 = Boligrafo("Azul",15.3,12,"Bic")
@@ -12,7 +14,9 @@ boligrafo2.info()
 boligrafo3.info()
 boligrafo4.info()
 
-"""Estos son los marcadores"""
+print("*"*50)
+print("Estos son los marcadores")
+print("*"*50)
 
 marcador1 = Marcador("Morado",13,20,"Crayola")
 marcador2 = Marcador("Rosa",13,20,"Crayola")
@@ -22,7 +26,9 @@ marcador1.info()
 marcador2.info()
 marcador3.info()
 
-"""Estas son las cintas adhesivas"""
+print("*"*50)
+print("Estas son las cintas adhesivas")
+print("*"*50)
 
 cinta1 = Cinta_Adhesiva("Lila","1cm","2mts","Tuk")
 cinta2 = Cinta_Adhesiva("Rosa","1cm","2mts","Tuk")
@@ -33,15 +39,19 @@ cinta1.info()
 cinta2.info()
 cinta3.info()
 
-"""Estos son los retratos"""
+print("*"*50)
+print("Estos son los portaretratos")
+print("*"*50)
 
 retrato1 = Retrato("20cm")
 retrato2 = Retrato("18cm")
 
 retrato1.info()
 retrato2.info()
-print("*"*35)
+
+print("*"*50)
 print("Estos son los esmaltes")
+print("*"*50)
 
 esmalte1 = Esmalte("Celeste","Bissu","Cilindrico")
 esmalte2 = Esmalte("Rosa","Bissu","Cuadrado")
@@ -59,13 +69,17 @@ esmalte5.info()
 esmalte6.info()
 esmalte7.info()
 
-"""Este es el espejo"""
+print("*"*50)
+print("Este es el espejo")
+print("*"*50)
 
 espejo1 = Espejo("rosa","corazón","15cm",65)
 
 espejo1.info()
 
-"""Estas son las pinzas"""
+print("*"*50)
+print("Estas son las pinzas")
+print("*"*50)
 
 pinza1 = Pinza("celeste","mariposa","2cm","Goody")
 pinza2 = Pinza("rosa","mariposa","2cm","Goody")
@@ -81,7 +95,9 @@ pinza4.info()
 pinza5.info()
 pinza6.info()
 
-"""Estos son los brillos labiales"""
+print("*"*50)
+print("Estos son los brillos labiales")
+print("*"*50)
 
 brillo_labial1 = Brillo_labial("rosa","Bissu","10cm",40)
 brillo_labial2 = Brillo_labial("rojo","Bissu","10cm",40)
@@ -90,6 +106,38 @@ brillo_labial3 = Brillo_labial("plateado","Bissu","10cm",40)
 brillo_labial1.info()
 brillo_labial2.info()
 brillo_labial3.info()
+
+print("*"*50)
+print("Estos son los cuadernos")
+print("*"*50)
+
+cuaderno1 = Cuaderno("rosa","22cm","80 hojas","norma")
+cuaderno2 = Cuaderno("rosa claro","28cm","100 hojas","norma")
+
+cuaderno1.info()
+cuaderno2.info()
+
+print("*"*50)
+print("Esta es la regla metrica")
+print("*"*50)
+
+regla1 = Regla("rosa","30cm","triangular","aluminio")
+
+regla1.info()
+
+print("*"*50)
+print("Este es el pegamento")
+print("*"*50)
+
+pegamento1 = Pegamento("rosa claro","14cm","Pritt",66)
+
+pegamento1.info()
+
+
+
+
+
+
 
 
 
