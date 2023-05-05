@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono
+from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono,Tijeras,Paleta_sombras,Poster
 
 print("*"*50)
 print("Estos son los bolígrafos")
@@ -157,6 +157,31 @@ telefono1 = Telefono("salmon","Retro, con cable","24x21x12cm","Telpal")
 
 telefono1.info()
 
+print("*"*50)
+print("Estas son las tijeras")
+print("*"*50)
+
+tijeras1 = Tijeras("celeste","13cm","Pelikan","Redondeada")
+
+tijeras1.info()
+
+print("*"*50)
+print("Esta es la paleta de sombras")
+print("*"*50)
+
+paleta_sombras1 = Paleta_sombras("Fiusha",9,"MAC",740)
+
+paleta_sombras1.info()
+
+print("*"*50)
+print("Estos son los posters")
+print("*"*50)
+
+poster1 = Poster("Celeste","25cm","Imagen de la playa","Papel estucado")
+poster2 = Poster("Azul","18cm","Palabras repetidas","Papel estucado")
+
+poster1.info()
+poster2.info()
 
 
 

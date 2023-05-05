@@ -149,6 +149,39 @@ class Telefono:
         print(f"Color: {self.color}\nTipo: {self.tipo}\nMedida: {self.medida}\nModelo: {self.modelo}")
 
 
+class Tijeras:
+    def __init__(self,color,tamaño,marca,forma_punta):
+        self.color = color
+        self.tamaño = tamaño
+        self.marca = marca
+        self.forma_punta = forma_punta
+
+    def info(self):
+        print(f"1 TIJERAS\nColor: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nForma de la punta: {self.forma_punta}")
+
+
+class Paleta_sombras:
+    def __init__(self,color,cantidad_sombras,marca,precio):
+        self.color = color
+        self.cantidad_sombras = cantidad_sombras
+        self.marca = marca
+        self.precio = precio
+
+    def info(self):
+        print(f"1 PALETA DE SOMBRAS\nColor: {self.color}\nCantidad de sombras: {self.cantidad_sombras}\nMarca: {self.marca}\nPrecio: {self.precio}")
+
+
+class Poster:
+    def __init__(self,color,tamaño,diseño,material):
+        self.color = color
+        self.tamaño = tamaño
+        self.diseño = diseño
+        self.material = material
+
+    def info(self):
+        print(f"1 POSTER\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
+
+
 
 
 
