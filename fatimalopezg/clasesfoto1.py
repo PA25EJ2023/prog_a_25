@@ -205,3 +205,20 @@ class Piedrita:
         print(f"Tamaño: {self.tamaño}")
         print(f"$ {self.precio}")
         print(f"Material: {self.material}")
+
+class Hojas_plantillas:
+    def __init__(self,imagen,tamaño,precio,material):
+        self.imagen=imagen
+        self.tamaño=tamaño
+        self.precio=precio
+        self.material=material
+
+    def info(self):
+        print("*** PLANTILLAS ***")
+        print(f"Imagen de la hoja es: {self.imagen}")
+        print(f"Tamaño (ch/md/gr): {self.tamaño}")
+        print(f"$ {self.precio}")
+        print(f"Material (plastico,papel,cartón) {self.material}")
+
+        
+    
