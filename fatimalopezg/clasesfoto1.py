@@ -87,7 +87,7 @@ class Libreta:
         print(f"Color de la libreta: {self.color}")
         print(f"Tamaño (ch,md,gr): {self.tamaño}")
         print(f"$ {self.precio}")    
-        print(f"Tipo (raya/cuadro): {self.tipo}")
+        print(f"Tipo (resorte/cosida): {self.tipo}")
         print(f"Marca: {self.marca}")
 
 class Pegamento:
