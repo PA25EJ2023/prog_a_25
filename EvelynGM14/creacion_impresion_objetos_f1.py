@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento
+from clasesfoto1 import Boligrafo,Marcador,Cinta_Adhesiva,Retrato,Esmalte,Espejo,Pinza,Brillo_labial,Cuaderno,Regla,Pegamento,Diario,Lapicero,Telefono
 
 print("*"*50)
 print("Estos son los bolígrafos")
@@ -132,6 +132,31 @@ print("*"*50)
 pegamento1 = Pegamento("rosa claro","14cm","Pritt",66)
 
 pegamento1.info()
+
+print("*"*50)
+print("Este es el diario")
+print("*"*50)
+
+diario1 = Diario("celeste","24cm","100 hojas",180)
+
+diario1.info()
+
+print("*"*50)
+print("Este es el lapicero")
+print("*"*50)
+
+lapicero1 = Lapicero("naranja","plastico",72,"Bic")
+
+lapicero1.info()
+
+print("*"*50)
+print("Este es el telefono")
+print("*"*50)
+
+telefono1 = Telefono("salmon","Retro, con cable","24x21x12cm","Telpal")
+
+telefono1.info()
+
 
 
 
