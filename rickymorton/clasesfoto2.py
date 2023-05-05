@@ -26,3 +26,32 @@ class Zapatos:
     
     def info(self):
         print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+
+class Laptop:
+    def __init__(self,marca,color,precio):
+        self.marca = marca
+        self.color = color 
+        self.precio = precio
+
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+
+class Pila_camara:
+    def __init__(self,marca,color,tipo,precio):
+        self.marca = marca
+        self.color = color
+        self.tipo = tipo
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n tipo de pila: {self.tipo}\n precio: {self.precio}')
+
+class Tripie:
+    def __init__(self,marca,color,tamaño,precio):
+        self.marca = marca
+        self.color = color
+        self.tamaño = tamaño
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}')
