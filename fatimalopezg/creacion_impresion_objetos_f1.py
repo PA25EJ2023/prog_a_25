@@ -15,4 +15,9 @@ esmalte4.info()
 espejo1=Espejo_corazon(10,14,"rojo con base rosa",100)
 espejo1.info()
 
-retrato1=Retrato()
+#retrato1=Retrato() aqui me quede
+
+
+
+#pluma1,pluma2,pluma3 y meter datos a cada una
+#camisa y especificar color
