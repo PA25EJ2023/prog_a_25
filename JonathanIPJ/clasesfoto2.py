@@ -83,7 +83,7 @@ class Microfono:
         self.tamano = tamano 
 
     def imprimir(self):
-        print(f"Microfono- Marca:{self.marca}, Precio:{self.precio}, Producto:{self.precio}, Longitud{self.tamano}")
+        print(f"Microfono- Marca:{self.marca}, Precio:{self.precio}, Producto:{self.producto_compatible}, Longitud:{self.tamano}")
 
 
 class Pluma:
@@ -130,7 +130,7 @@ class Telefono:
         print(f"Telefono- Marca:{self.marca}, Precio:{self.precio}, Color:{self.color}, Modelo:{self.modelo}")
 
 
-class Cargador_Telefono:
+class Inalambrico:
     def __init__(self, marca, tipo, precio, tipo_entrada):
         self.marca = marca 
         self.tipo = tipo 
@@ -138,7 +138,7 @@ class Cargador_Telefono:
         self.tipo_entrada = tipo_entrada
 
     def imprimir(self):
-        print(f"Cargador de Telefono- Marca:{self.marca}, Tipo de cargador:{self.tipo}, Precio:{self.precio}, Tipo de entrada{self.entrada}")
+        print(f"Cargador de Telefono- Marca:{self.marca}, Tipo de cargador:{self.tipo}, Precio:{self.precio}, Tipo de entrada:{self.tipo_entrada}")
 
 
 class Tripode:
