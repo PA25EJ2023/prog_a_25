@@ -115,3 +115,37 @@ class Zapatos:
     def info (self):
         print(f"Numero Zapatos: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
 
+class Plumones:
+      def __init__(self,numero,color,marca):
+            self.numero = numero 
+            self.color = color
+            self.marca = marca
+
+      def info (self):
+            print(f"Numero plumon: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+
+class Lapices:
+      def __init__(self,numero,color,marca):
+            self.numero = numero 
+            self.color = color
+            self.marca = marca
+
+      def info (self):
+            print(f"Numero lapiz: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+
+class Estuche:
+    def __init__(self,numero,color,marca):
+        self.numero = numero
+        self.color = color
+        self.marca = marca
+
+    def inifo (self):
+        print(f"Numero estuche: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+
+class Bateria_Camara:
+    def __init__(self,numero,color):
+        self.numero = numero
+        self.color = color
+
+    def inifo (self):
+        print(f"Numero bateria de camara: {self.numero} \nColor: {self.color}")
