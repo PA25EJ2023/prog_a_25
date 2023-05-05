@@ -28,7 +28,7 @@ class Libreta:
         self.precio = precio
 
     def imprimir(self):
-        print(f"Libreta- Color: {self.color}, Numero de Hojas: {self.num_hojas}, Marca: {self.marca}, Precio: {self.precio}")
+        print(f"Libreta- Color:{self.color}, Numero de Hojas:{self.num_hojas}, Marca:{self.marca}, Precio:{self.precio}")
 
 
 class Espejo:
@@ -156,7 +156,7 @@ class Imagen:
         self.forma = forma 
 
     def imprimir(self):
-        print(f"Imagen- Tamano: {self.tamano}, Contenido: {self.contenido}, Material: {self.material}, Forma: {self.forma}")
+        print(f"Imagen- Tamaño: {self.tamano}, Contenido: {self.contenido}, Material: {self.material}, Forma: {self.forma}")
 
 
 class Brillantina:
@@ -178,4 +178,4 @@ class Libro:
         self.precio = precio 
 
     def imprimir(self):
-        print(f"Color: {self.color}, Numero de Paginas: {self.num_pagina}, Titulo: {self.titulo}, Precio: {self.precio}")
+        print(f"Libro- Color: {self.color}, Numero de Paginas: {self.num_pagina}, Titulo: {self.titulo}, Precio: {self.precio}")
