@@ -83,5 +83,39 @@ class Libreta:
     
     def info(self):
         print(f'marca: {self.marca}\n color: {self.color}\n diseño {self.diseño}\n marca: {self.precio}')
-    
 
+class Pegamento:
+    def __init__(self,marca,color,precio):
+        self.marca = marca
+        self.color = color
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+
+class Sticker:
+    def __init__(self,forma,color,no_stick):
+        self.forma = forma
+        self.color = color
+        self.no_stick = no_stick
+    
+    def info(self):
+        print(f'forma: {self.forma}\n color: {self.color}\n Numero de stickers: {self.no_stick}')
+
+class Cuencas:
+    def __init__(self,forma,color,no_cuen):
+        self.forma = forma
+        self.color = color
+        self.no_cuen = no_cuen
+    
+    def info(self):
+        print(f'forma: {self.forma}\n color: {self.color}\n Numero de cuencas: {self.no_cuen}')
+
+class Pinzas:
+    def __init__(self,forma,color,precio):
+        self.forma = forma
+        self.color = color
+        self.precio = precio
+    
+    def info(self):
+        print(f'forma: {self.forma}\n color: {self.color}\n precio: {self.precio}')
