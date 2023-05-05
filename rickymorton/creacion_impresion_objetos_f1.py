@@ -1,5 +1,5 @@
 from clasesfoto1 import Boligrafo, Espejo, Recuadro,Esmalte,Cinta,Marcadores
-from clasesfoto1 import Lip_gloss,Reloj,Libreta
+from clasesfoto1 import Lip_gloss,Reloj,Libreta,Pegamento,Sticker,Cuencas,Pinzas
 boligrafo1 = Boligrafo("BIC","Azul",20)
 print("Boligrafo 1")
 boligrafo1.info()
@@ -112,4 +112,70 @@ libreta3 = Libreta("Scribe","Naranja","lisa",100)
 print("Libreta 3")
 libreta3.info()
 
+pegamento1 = Pegamento("Prit","Rosa",20)
+print("Pegamento")
+pegamento1.info()
 
+sticker1 = Sticker("Diamante","Azul",11)
+print("Stickers 1")
+sticker1.info()
+
+sticker2 = Sticker("Circulo","Blanco",15)
+print("Stickers 2")
+sticker2.info()
+
+sticker3 = Sticker("Corazon gigante","Rosa",1)
+print("Stickers 3")
+sticker3.info()
+
+sticker4 = Sticker("Estrellitas","Doradas",6)
+print("Stickers 4")
+sticker4.info()
+
+sticker5 = Sticker("Corazon","Doradas",9)
+print("Stickers 5")
+sticker5.info()
+
+cuenca1 = Cuencas("Circular","Amarilla",6)
+print("Cuancas 1")
+cuenca1.info()
+
+cuenca2 = Cuencas("Circular","Blanca",2)
+print("Cuancas 2")
+cuenca2.info()
+
+cuenca3 = Cuencas("Circular","Rosa",5)
+print("Cuancas 3")
+cuenca3.info()
+
+cuenca4 = Cuencas("Circular","Naranja",4)
+print("Cuancas 4")
+cuenca4.info()
+
+cuenca5 = Cuencas("Circular","Rosa fuerte",2)
+print("Cuancas 5")
+cuenca5.info()
+
+cuenca6 = Cuencas("Circular","Aqua",2)
+print("Cuancas 6")
+cuenca6.info()
+
+pinza1 = Pinzas("Flor","Azul",10)
+print("Pinza 1")
+pinza1.info()
+
+pinza2 = Pinzas("Flor","Roja",10)
+print("Pinza 2")
+pinza2.info()
+
+pinza3 = Pinzas("Flor","Amarilla",10)
+print("Pinza 3")
+pinza3.info()
+
+pinza4 = Pinzas("Flor","Naranja",10)
+print("Pinza 4")
+pinza4.info()
+
+pinza5 = Pinzas("Flor","Marrón",10)
+print("Pinza 5")
+pinza5.info()

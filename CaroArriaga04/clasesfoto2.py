@@ -151,4 +151,15 @@ class Tapa:
         print(f"Tamaño: {self.tamaño}")
         print(f"La forma es: {self.forma}")
         print(f"Es de tipo: {self.tipo}")
-    
+
+class Tripode:
+    def __init__(self,color,marca,material,precio):
+        self.color = color
+        self.marca = marca
+        self.material = material
+        self.precio = precio
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"La marca es: {self.marca}")
+        print(f"El material es: {self.material}")
+        print(f"El precio es de: ${self.precio}")
