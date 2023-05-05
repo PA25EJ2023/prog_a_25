@@ -139,9 +139,27 @@ class Pegantinas:
             print(f"Numero pegantina: {self.numero} \nColor: {self.color} \nForma: {self.forma}")
 
             
-    
+class Hojas:
+      def __init__(self,numero,color,tamaño):
+            self.numero = numero
+            self.color = color 
+            self.tamaño = tamaño
 
-    
+      def info (self):
+            print("***Hojas***")
+            print(f"Numero hoja: {self.numero} \nColor: {self.color} \nTamaño: {self.tamaño}")
+
+class Plumones:
+      def __init__(self,numero,color,marca):
+            self.numero = numero 
+            self.color = color
+            self.marca = marca
+
+      def info (self):
+            print("***Plumones***")
+            print(f"Numero plumon: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+
+
 
       
 
