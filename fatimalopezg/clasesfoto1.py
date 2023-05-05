@@ -8,11 +8,12 @@ class Esmalte:
         self.cantidad=cantidad
     
     def info(self):
-        print(f"El color del esmalte es: {self.color}")
-        print(f"La forma del envase es: {self.forma_envase}")
-        print(f"El precio es de: {self.precio}")    
-        print(f"El tamaño es de: {self.tamaño}")
-        print (f"Su cantidad en mg es de: {self.cantidad}")
+        print("ESMALTE")
+        print(f"Color del esmalte: {self.color}")
+        print(f"Forma del envase: {self.forma_envase}")
+        print(f"Precio: {self.precio}")    
+        print(f"Tamaño: {self.tamaño}")
+        print (f"Cantidad en ml: {self.cantidad}")
 
 
 class Espejo_corazon:
