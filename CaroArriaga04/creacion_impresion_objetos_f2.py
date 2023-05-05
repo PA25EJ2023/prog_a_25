@@ -1,5 +1,4 @@
-from clasesfoto2 import Celular,Camisa,Maletin,Cargador,Laptop,Revista,Reloj,Zapato,Lapiz,Lente,Bateria
-
+from clasesfoto2 import Celular,Camisa,Maletin,Cargador,Laptop,Revista,Reloj,Zapato,Lapiz,Lente,Bateria,Estuche,Tapa,Tripode
 celular = Celular("Negro","Samsung",4500,"60 gb")
 celular.info()
 
@@ -56,3 +55,18 @@ bateria2.info()
 
 bateria3 = Bateria("King","Camara",800)
 bateria3.info()
+
+estuche = Estuche("Negro","Tela textil y plastico",300,"Camara")
+estuche.info()
+
+tapa1 = Tapa("Negro","Mediano","Redonda","Para lente de camara")
+tapa1.info()
+
+tapa2 = Tapa("Negro","Mediano","Redonda","Para lente de camara")
+tapa1.info()
+
+tapa2 = Tapa("Negro","Mediano","Redonda","Para lente de camara")
+tapa2.info()
+
+tripode = Tripode("Negro","Canon","Plastico",800)
+tripode.info()

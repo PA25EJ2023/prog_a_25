@@ -111,6 +111,11 @@ class Cuencas:
     def info(self):
         print(f'forma: {self.forma}\n color: {self.color}\n Numero de cuencas: {self.no_cuen}')
 
+class Pinzas:
+    def __init__(self,forma,color,precio):
+        self.forma = forma
+        self.color = color
+        self.precio = precio
     
-
-
+    def info(self):
+        print(f'forma: {self.forma}\n color: {self.color}\n precio: {self.precio}')

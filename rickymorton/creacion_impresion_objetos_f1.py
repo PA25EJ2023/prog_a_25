@@ -1,5 +1,5 @@
 from clasesfoto1 import Boligrafo, Espejo, Recuadro,Esmalte,Cinta,Marcadores
-from clasesfoto1 import Lip_gloss,Reloj,Libreta,Pegamento,Sticker,Cuencas
+from clasesfoto1 import Lip_gloss,Reloj,Libreta,Pegamento,Sticker,Cuencas,Pinzas
 boligrafo1 = Boligrafo("BIC","Azul",20)
 print("Boligrafo 1")
 boligrafo1.info()
@@ -159,3 +159,23 @@ cuenca5.info()
 cuenca6 = Cuencas("Circular","Aqua",2)
 print("Cuancas 6")
 cuenca6.info()
+
+pinza1 = Pinzas("Flor","Azul",10)
+print("Pinza 1")
+pinza1.info()
+
+pinza2 = Pinzas("Flor","Roja",10)
+print("Pinza 2")
+pinza2.info()
+
+pinza3 = Pinzas("Flor","Amarilla",10)
+print("Pinza 3")
+pinza3.info()
+
+pinza4 = Pinzas("Flor","Naranja",10)
+print("Pinza 4")
+pinza4.info()
+
+pinza5 = Pinzas("Flor","Marrón",10)
+print("Pinza 5")
+pinza5.info()
