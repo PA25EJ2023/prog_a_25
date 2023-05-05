@@ -1,4 +1,4 @@
-from clasesfoto2 import Maletin,Laptop,Reloj,Celular,Camisa,Saco
+from clasesfoto2 import Maletin,Laptop,Reloj,Celular,Camisa,Saco,Cargador_laptop,Tripie_camara,Revista
 
 print("*"*50)
 print("Este es el Maletin")
@@ -48,3 +48,26 @@ saco1 = Saco("Gris","M","Mezclilla","Svperbia")
 
 saco1.info()
 
+print("*"*50)
+print("Este es el cargador de laptop")
+print("*"*50)
+
+cargador_laptop1 = Cargador_laptop("Blanco","2mts","Plastico","Apple")
+
+cargador_laptop1.info()
+
+print("*"*50)
+print("Este es el ctripie de camara")
+print("*"*50)
+
+tripie_camara1 = Tripie_camara("Negro","138cm","Aluminio",500)
+
+tripie_camara1.info()
+
+print("*"*50)
+print("Esta es la revista")
+print("*"*50)
+
+revista1 = Revista("Blanco","Deportes,Musica","Juice","12 dolares")
+
+revista1.info()
