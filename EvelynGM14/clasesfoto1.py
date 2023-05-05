@@ -83,6 +83,42 @@ class Brillo_labial:
         print(f"Color: {self.color}\nMarca: {self.marca}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
 
 
+class Cuaderno:
+    def __init__(self,color,tamaño,no_hojas,marca):
+        self.color = color
+        self.tamaño = tamaño
+        self.no_hojas = no_hojas
+        self.marca = marca
+
+    def info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nNúmero de hojas: {self.no_hojas}\nMarca: {self.marca}")
+
+
+class Regla:
+    def __init__(self,color,tamaño,forma,material):
+        self.color = color
+        self.tamaño = tamaño
+        self.forma = forma
+        self.material = material
+
+    def info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nForma: {self.forma}\nMaterial: {self.material}")
+
+
+class Pegamento:
+    def __init__(self,color,tamaño,marca,precio):
+        self.color = color
+        self.tamaño = tamaño
+        self.marca = marca
+        self.precio = precio
+
+    def info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nPrecio: {self.precio}")
+
+
+
+
+
 
         
 

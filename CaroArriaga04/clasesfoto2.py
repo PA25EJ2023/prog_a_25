@@ -3,7 +3,7 @@ class Celular:
         self.color = color
         self.marca = marca
         self.precio = precio
-        self.alamcenamiento = almacenamiento
+        self.almacenamiento = almacenamiento
     def info(self):
         print(f"La marca del celular es: {self.marca}")
         print(f"El precio es de: ${self.precio}")

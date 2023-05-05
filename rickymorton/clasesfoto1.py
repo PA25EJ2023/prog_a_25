@@ -53,3 +53,35 @@ class Marcadores:
     
     def info(self):
         print(f'color: {self.color}\n marca: {self.marca}\n precio: {self.precio}')
+
+class Lip_gloss:
+    def __init__(self,color,tamaño,precio,marca):
+        self.color = color
+        self.tamaño = tamaño
+        self.precio = precio
+        self.marca = marca
+    
+    def info(self):
+        print(f'color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}\n marca: {self.marca}')
+
+class Reloj:
+    def __init__(self,marca,modelo,color,precio):
+        self.marca = marca
+        self.modelo = modelo
+        self.color = color
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n modelo: {self.modelo}\n color: {self.color}\n precio: {self.precio}')
+
+class Libreta:
+    def __init__(self,marca,color,diseño,precio):
+        self.marca = marca
+        self.color = color
+        self.diseño = diseño
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n diseño {self.diseño}\n marca: {self.precio}')
+    
+
