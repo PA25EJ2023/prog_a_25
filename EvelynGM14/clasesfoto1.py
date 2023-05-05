@@ -44,18 +44,47 @@ class Esmalte:
     def __init__(self,color,marca,forma):
         self.color = color
         self.marca = marca
-        self.precio = forma
+        self.forma = forma
 
     def info(self):
         print(f"Color: {self.color}\nMarca: {self.marca}\nForma: {self.forma}")
 
 
-class Sticker:
-    def __init__(self,cantidad):
-        self.cantidad = cantidad
+class Espejo:
+    def __init__(self,color,forma,tamaño,precio):
+        self.color = color
+        self.forma = forma
+        self.tamaño = tamaño
+        self.precio = precio
 
     def info(self):
-        print(f"Cantidad: {self.cantidad}")
+        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
+
+
+class Pinza:
+    def __init__(self,color,forma, tamaño, marca):
+        self.color = color
+        self.forma = forma
+        self.tamaño = tamaño
+        self.marca = marca
+
+    def info(self):
+        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nMarca: {self.marca}")
+
+
+class Brillo_labial:
+    def __init__(self,color,marca,tamaño,precio):
+        self.color = color
+        self.marca = marca
+        self.tamaño = tamaño
+        self.precio = precio
+
+    def info(self):
+        print(f"Color: {self.color}\nMarca: {self.marca}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
+
+
+
+        
 
     
 
