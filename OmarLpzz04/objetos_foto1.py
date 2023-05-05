@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Cuaderno,Tijeras,Plumones,Esmalte
+from clasesfoto1 import Boligrafo,Cuaderno,Tijeras,Plumones,Esmalte,Regla,Resistol
 print(f"{'*'*10} PLUMAS {'*'*10}")
 #Clase de plumas
 pluma1 = Boligrafo("rosa","bic","grande",17)
@@ -52,3 +52,27 @@ esmalte4 = Esmalte("crema","bissu","chicos","diamante",)
 esmalte5 = Esmalte("rojo","bissu","chicos","cuadrado",)
 esmalte6 = Esmalte("azul","bissu","chicos","cilindrico",)
 esmalte7 = Esmalte("dorado","bissu","chicos","cilindrico",)
+
+esmalte1.inf()
+print(f"{'-'*20}")
+esmalte2.inf()
+print(f"{'-'*20}")
+esmalte3.inf()
+print(f"{'-'*20}")
+esmalte4.inf
+print(f"{'-'*20}")
+esmalte5.inf()
+print(f"{'-'*20}")
+esmalte6.inf()
+print(f"{'-'*20}")
+esmalte7.inf()
+
+print(f"{'*'*10} REGLA {'*'*10}")
+#Clase de regla
+regla = Regla("rosa",30,"triangular","scolari")
+regla.inf()
+
+print(f"{'*'*10} PEGAMENTO {'*'*10}")
+#Clase de pegamento
+pegamento = Resistol("rosa","mediano","prit","cilindrica")
+pegamento.inf()
