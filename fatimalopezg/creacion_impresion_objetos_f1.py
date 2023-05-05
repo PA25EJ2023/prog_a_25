@@ -21,13 +21,14 @@ retrato1.info()
 retrato2=Retrato(15,12,"beige",40,"stickers de estrellas grandes doradas")
 retrato2.info()
 
+marcador1=Marcador("morado",38,"agua","pelikan")
+marcador1.info()
 
+marcador2=Marcador("naranja",38,"agua","pelikan")
+marcador2.info()
 
-
-
-
-
-
+marcador3=Marcador("fiusha",38,"agua","pelikan")
+marcador3.info()
 
 
 #pluma1,pluma2,pluma3 y meter datos a cada una

@@ -55,7 +55,7 @@ class Marcador:
 
     def info(self):
         print("*** MARCADOR ***")
-        print(f"Color del marcadoror: {self.color}")
+        print(f"Color del marcador: {self.color}")
         print(f"$ {self.precio}")    
         print(f"Tipo (agua/permanente): {self.tipo}")
         print(f"Marca: {self.marca}")
