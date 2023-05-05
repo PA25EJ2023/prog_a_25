@@ -1,6 +1,6 @@
 from clasesfoto2 import Revista,Portafolio,Zapatos,Laptop,Pila_camara,Tripie
 from clasesfoto2 import Celular,Pila_cel,Reloj,Pila_lap,Camisa,Lente_camara
-from clasesfoto2 import Estuche_camara,Protector_lente,Marcador,Lapices
+from clasesfoto2 import Estuche_camara,Protector_lente,Marcador,Lapices,Pin,Cable
 
 revista1 = Revista("Juice","Para jovenes","Junio del 2015",150)
 print("Revista ")
@@ -93,3 +93,11 @@ lapiz3.info()
 lapiz4 = Lapices("Ylira","Blanco",20)
 print("Lapiz 4")
 lapiz4.info()
+
+pin1 = Pin("plateado",10)
+print("Pin")
+pin1.info()
+
+cable1 = Cable("Auxiliar","Negro")
+print("Cable")
+cable1.info()
