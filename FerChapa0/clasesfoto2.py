@@ -59,7 +59,7 @@ class Tapa_Lente:
 
     def imprimir_info(self):
         print(f'La tapa es color {self.color}')
-        print(f'El precio es {self.precio}')
+        print(f'El precio es {self.precio} pesos')
         print(f'La marca es {self.marca}')
         print(f'El diametro de la tapa es {self.diametro}')
 
@@ -71,10 +71,10 @@ class Pila:
         self.precio=precio
 
     def imprimir_info(self):
-        print(f'El camisa es color {self.color}')
-        print(f'El tipo de la camisa es {self.tipo}')
-        print(f'La marca de la camisa es {self.marca}')
-        print(f'El precio de la camisa es {self.precio}')
+        print(f'La pila es color {self.color}')
+        print(f'El tipo de la pila es {self.tipo}')
+        print(f'La marca de la pila es {self.marca}')
+        print(f'El precio de la pila es {self.precio} pesos')
 
 class Revista:
     def __init__(self, marca, precio,largo,tipo):
@@ -83,7 +83,7 @@ class Revista:
         self.largo=largo
         self.tipo=tipo
     def imprimir_info(self):
-        print(f'El precio de la revista es {self.precio}')
+        print(f'El precio de la revista es {self.precio} pesos')
         print(f'La marca de la revista es {self.marca}')
         print(f'El largo de la revista es {self.largo} cm')
         print(f'La tipo de la revista es {self.tipo}')
@@ -125,7 +125,7 @@ class Maletin:
         print(f'El color del Maletin es {self.color}')
         print(f'El material del Maletin es {self.material}')
         print(f'El tamaño del Maletin es {self.tamaño}')
-        print(f'El precio del Maletin es {self.precio}')
+        print(f'El precio del Maletin es {self.precio} pesos')
 
 class Celular:
     def __init__(self,color,marca,tamaño,precio):
@@ -175,9 +175,9 @@ class Estuche:
     
     def imprimir_info(self):
         print(f'El color del estuche es {self.color}')
-        print(f'El tamaño del estuche es {self.tamaño}')
+        print(f'El tamaño del estuche es {self.tamaño} cm')
         print(f'La marca del estuche es {self.marca}')
-        print(f'El precio del estuche es {self.precio}')
+        print(f'El precio del estuche es {self.precio} pesos')
 
 class Lapiz:
     def __init__(self, forma, color, marca, clasificacion):#2b b hb 2h
@@ -187,10 +187,10 @@ class Lapiz:
         self.clasificacion=clasificacion
 
     def imprimir_info(self):
-        print(f'El color del estuche es {self.color}')
-        print(f'La forma del estuche es {self.forma}')
-        print(f'La marca del estuche es {self.marca}')
-        print(f'La casificacion del estuche es {self.casificacion}') 
+        print(f'El color del lapiz es {self.color}')
+        print(f'La forma del lapiz es {self.forma}')
+        print(f'La marca del lapiz es {self.marca}')
+        print(f'La casificacion del lapiz es {self.clasificacion}') 
 
 class Plumon:
     def __init__(self,color, grosor,marca,tamaño):
@@ -206,12 +206,14 @@ class Plumon:
         print(f'El tamaño del plumon es {self.tamaño}')
 
 class Cable:
-    def __init__(self, color, tipo, forma):
+    def __init__(self, color, tipo, forma,largo):
         self.color=color
         self.tipo=tipo
         self.forma=forma
+        self.largo=largo
 
     def imprimir_info(self):
         print(f'El color del cable es {self.color}')
         print(f'El tipo del cable es {self.tipo}')
         print(f'La forma del cable es {self.forma}')
+        print(f'El largo del cable es {self.largo}')

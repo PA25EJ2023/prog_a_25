@@ -1,14 +1,54 @@
-from clasesfoto1 import Boligrafo,Cuaderno,Tijeras,Plumones
+from clasesfoto1 import Boligrafo,Cuaderno,Tijeras,Plumones,Esmalte
 print(f"{'*'*10} PLUMAS {'*'*10}")
 #Clase de plumas
-pluma = Boligrafo("rojo","bic","grande",10)
-pluma.escribir()
+pluma1 = Boligrafo("rosa","bic","grande",17)
+pluma2 = Boligrafo("azul","bic","grande",17)
+pluma3 = Boligrafo("amarillo","bic","grande",20)
+pluma4 = Boligrafo("naranja","bic","grande",14)
+pluma1.inf()
+print(f"{'-'*20}")
+pluma2.inf()
+print(f"{'-'*20}")
+pluma3.inf()
+print(f"{'-'*20}")
+pluma4.inf()
 print(f"{'*'*10} LIBRETAS {'*'*10}")
 #Clase de libretas
-libreta = Cuaderno("rosa","scribe","chica",18)
-libreta.escribir()
-print(f"{'*'*10} PLUMONES {'*'*10}")
-#Clase de plumnoes
-marcador = Plumones("pastel","sharpie","grande",25)
-marcador.escribir()
+libreta1 = Cuaderno("rosa","scribe","profesional","resorte")
+libreta2 = Cuaderno("azul","scribe","profesional","cosida")
+libreta3 = Cuaderno("naranja","scribe","profesional","resorte")
 
+libreta1.inf()
+print(f"{'-'*20}")
+libreta2.inf()
+print(f"{'-'*20}")
+libreta3.inf()
+
+
+print(f"{'*'*10} PLUMONES {'*'*10}")
+#Clase de plumones
+marcador1 = Plumones("rosa","sharpie","grande",25)
+marcador2 = Plumones("naranja","sharpie","grande",25)
+marcador3 = Plumones("morado","sharpie","grande",25)
+marcador1.inf()
+print(f"{'-'*20}")
+marcador2.inf()
+print(f"{'-'*20}")
+marcador3.inf()
+
+
+
+print(f"{'*'*10} TIJERAS {'*'*10}")
+#Clase de tijeras
+tijeras = Tijeras("azulez","barrilito","grandes",23)
+tijeras.inf()
+
+print(f"{'*'*10} ESMALTES {'*'*10}")
+#Clase de esmaltes
+esmalte1 = Esmalte("rosa","bissu","chicos","diamante",)
+esmalte2 = Esmalte("brillos","bissu","chicos","diamante",)
+esmalte3 = Esmalte("blanco","bissu","chicos","cubo",)
+esmalte4 = Esmalte("crema","bissu","chicos","diamante",)
+esmalte5 = Esmalte("rojo","bissu","chicos","cuadrado",)
+esmalte6 = Esmalte("azul","bissu","chicos","cilindrico",)
+esmalte7 = Esmalte("dorado","bissu","chicos","cilindrico",)
