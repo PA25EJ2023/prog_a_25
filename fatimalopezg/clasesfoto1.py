@@ -141,8 +141,8 @@ class Sticker:
         self.precio=precio
 
     def info(self):
-        print("*** STICKER ***")
-        print(f"Tamaño del sticker (ch/md/gr): {self.tamaño}")    
+        print("*** PLASTICO DE STICKERS ***")
+        print(f"Tamaño de los stickers (ch/md/gr): {self.tamaño}")    
         print(f"Figura (estrella/corazon/luna): {self.figura}")
         print(f"Color: {self.color}")
         print(f"$ {self.precio}")
@@ -176,7 +176,7 @@ class Labial:
         print(f"$ {self.precio}")
         print(f"Tamaño (md/gr): {self.tamaño}")
         print(f"Color: {self.color}")
-        print(f"Tipo (líquido/mate/gloss): {self.tipo}")
+        print(f"Tipo (tinta/mate/gloss): {self.tipo}")
     
 class Tijeras:
     def __init__ (self,color,precio,marca,tipo):
@@ -207,18 +207,18 @@ class Piedrita:
         print(f"Material: {self.material}")
 
 class Hoja_plantilla:
-    def __init__(self,imagen,tamaño,precio,material):
-        self.imagen=imagen
+    def __init__(self,tamaño,precio,material,estampado):
         self.tamaño=tamaño
         self.precio=precio
         self.material=material
+        self.estampado=estampado
 
     def info(self):
         print("*** PLANTILLA ***")
-        print(f"Imagen de la hoja es: {self.imagen}")
-        print(f"Tamaño (ch/md/gr): {self.tamaño}")
+        print(f"Tamaño de la plantilla (ch/md/gr): {self.tamaño}")
         print(f"$ {self.precio}")
         print(f"Material (plastico,papel,cartón): {self.material}")
+        print(f"Estampado (blanco y negro/color: {self.estampado}")
 
 
     

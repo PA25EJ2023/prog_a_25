@@ -161,3 +161,19 @@ class Lapices:
     
     def info(self):
         print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+
+class Pin:
+    def __init__(self,color,precio):
+        self.color = color
+        self.precio = precio
+    
+    def info(self):
+        print(f'color: {self.color}\n precio: {self.precio}')
+
+class Cable:
+    def __init__(self,tipo,color):
+        self.tipo = tipo
+        self.color = color
+    
+    def info(self):
+        print(f'tipo: {self.tipo}\n color: {self.color}')

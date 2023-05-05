@@ -56,6 +56,7 @@ libreta3.info()
 pegamento1=Pegamento("mediano",25,"pritt","barra")
 pegamento1.info()
 
+
 cinta1=Cinta("adhesiva",10,"chica","rosa")
 cinta1.info()
 
@@ -67,6 +68,86 @@ cinta3.info()
 
 cinta4=Cinta("papel decorativo",18,"chica","azul")
 cinta4.info()
+
+
+telefono1=Telefono("rosa pastel",700,81587602,"Motorola")
+telefono1.info()
+
+
+sticker1=Sticker("chicos","estrellas y corazones","rosa,azul,plateado,amarillo y verde",20)
+sticker1.info()
+
+
+broche1=Broche("rosa",5,"shein","plastico")
+broche1.info()
+
+broche2=Broche("azul",5,"shein","plastico")
+broche2.info()
+
+broche3=Broche("amarillo",5,"shein","plastico")
+broche3.info()
+
+broche4=Broche("naranja",5,"shein","plastico")
+broche4.info()
+
+broche5=Broche("rojo",5,"shein","plastico")
+broche5.info()
+
+broche6=Broche("rosa pastel",5,"shein","plastico")
+broche6.info()
+
+
+
+labial1=Labial("urban decay",350,"grande","transparente","gloss")
+labial1.info()
+
+labial2=Labial("urban decay",400,"grande","rosa satinado","mate")
+labial2.info()
+
+labial3=Labial("urban decay",400,"grande","rojo","mate")
+labial3.info()
+
+
+tijeras1=Tijeras("azul",80,"bic","diestro")
+tijeras1.info()
+
+
+
+piedrita1=Piedrita("amarilla","chico",2,"plástico")
+piedrita1.info()
+
+piedrita2=Piedrita("rosa","chico",2,"plástico")
+piedrita2.info()
+
+piedrita3=Piedrita("azul","chico",2,"plástico")
+piedrita3.info()
+
+piedrita4=Piedrita("rojo","chico",2,"plástico")
+piedrita4.info()
+
+piedrita5=Piedrita("aqua","chico",2,"plástico")
+piedrita5.info()
+
+piedrita6=Piedrita("verde","chico",2,"plástico")
+piedrita6.info()
+
+piedrita7=Piedrita("melon","chico",2,"plástico")
+piedrita7.info()
+
+
+
+plantilla1=Hoja_plantilla("grande",13,"cartón","color")
+plantilla1.info()
+
+plantilla2=Hoja_plantilla("mediana",10,"papel","color")
+plantilla2.info()
+
+plantilla3=Hoja_plantilla("mediana",8,"papel","blanco y negro")
+plantilla3.info()
+
+plantilla4=Hoja_plantilla("chica",5,"papel","color")
+plantilla4.info()
+
 
 #pluma1,pluma2,pluma3 y meter datos a cada una
 #camisa y especificar color
