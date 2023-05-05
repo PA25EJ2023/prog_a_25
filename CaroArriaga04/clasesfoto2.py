@@ -3,7 +3,7 @@ class Celular:
         self.color = color
         self.marca = marca
         self.precio = precio
-        self.alamcenamiento = almacenamiento
+        self.almacenamiento = almacenamiento
     def info(self):
         print(f"La marca del celular es: {self.marca}")
         print(f"El precio es de: ${self.precio}")
@@ -47,25 +47,108 @@ class Cargador:
         print(f"El precio es de: ${self.precio}")
 
 class Laptop:
-    pass
+    def __init__(self,marca,tipo,color,precio):
+        self.color = color
+        self.marca = marca
+        self.tipo = tipo
+        self.precio = precio 
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"La marca es: {self.marca}")
+        print(f"Es de tipo: {self.tipo}")
+        print(f"El precio es de: ${self.precio}")
 
 class Revista:
-    pass
+    def __init__(self,precio,titulo,editorial,idioma):
+        self.precio = precio
+        self.titulo = titulo
+        self.editorial = editorial
+        self.idioma = idioma
+    def info(self):
+        print(f"El precio es de: {self.precio}")
+        print(f"Titulo: {self.titulo}")
+        print(f"La editorial es: {self.editorial}")
+        print(f"Esta en idioma: {self.idioma}")
 
 class Reloj:
-    pass
+    def __init__(self,marca,tipo,precio,color):
+        self.marca = marca
+        self.tipo = tipo
+        self.precio = precio 
+        self.color = color
+    def info(self):
+        print(f"La marca es: {self.marca}")
+        print(f"Es de tipo: {self.tipo}")
+        print(f"El precio es de: ${self.precio}")
+        print(f"El color es: {self.color}")
 
 class Zapato:
-    pass
+    def __init__(self,material,color,estilo,precio):
+        self.material = material
+        self.color = color
+        self.estilo = estilo
+        self.precio = precio
+    def info(self):
+        print(f"El material es: {self.material}")
+        print(f"El color es: {self.color}")
+        print(f"El estilo es: {self.estilo}")
+        print(f"El precio es de: ${self.precio}")
 
 class Lapiz:
-    pass
-
+    def __init__ (self,precio,marca,color,tipo):
+        self.precio = precio
+        self.marca = marca
+        self.color = color
+        self.tipo = tipo
+    def info(self):
+        print(f"El precio es de: ${self.precio}")
+        print(f"La marca es: {self.marca}")
+        print(f"El color es: {self.color}")
+        print(f"Es de tipo: {self.tipo}")
+        
 class Lente:
-    pass
-
+    def __init__(self,color,marca,tipo,precio):
+        self.color = color
+        self.marca = marca
+        self.tipo = tipo
+        self.precio = precio
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"La marca es: {self.marca}")
+        print(f"Es de tipo: {self.tipo}")
+        print(f"El precio es de: ${self.precio}")
+        
 class Bateria:
-    pass
+    def __init__(self,marca,tipo,precio,):
+        self.marca = marca
+        self.tipo = tipo
+        self.precio = precio
+    def info(self):
+        print(f"La marca es: {self.marca}")
+        print(f"Es de tipo: {self.tipo}")
+        print(f"El precio es de: ${self.precio}")
 
 class Estuche:
-    pass
+    def __init__(self,color,material,precio,tipo):
+        self.color = color
+        self.material = material
+        self.precio = precio
+        self.tipo = tipo
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"El material es: {self.material}")
+        print(f"El precio es de: ${self.precio}")
+        print(f"Es de tipo: {self.tipo}")
+
+class Tapa:
+    def __init__(self,color,tamaño,forma,tipo):
+        self.color = color
+        self.tamaño = tamaño
+        self.forma = forma
+        self.tipo = tipo
+    def info(self):
+        print(f"El color es: {self.color}")
+        print(f"Tamaño: {self.tamaño}")
+        print(f"La forma es: {self.forma}")
+        print(f"Es de tipo: {self.tipo}")
+    
