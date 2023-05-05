@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Cuaderno,Tijeras,Plumones,Esmalte,Regla,Resistol,Fotos,Labiales,Cintas,Broches
+from clasesfoto1 import Boligrafo,Cuaderno,Tijeras,Plumones,Esmalte,Regla,Resistol,Fotos,Labiales,Cintas,Broches,Espejo,Telefono
 print(f"{'*'*10} PLUMAS {'*'*10}")
 #Clase de plumas
 pluma1 = Boligrafo("rosa","bic","grande",17)
@@ -126,4 +126,12 @@ broche5.inf()
 print(f"{'-'*20}")
 broche6.inf()
 
+print(f"{'*'*10} ESPEJO {'*'*10}")
+#Clase de espejo
+espejo = Espejo("rosa","grande","corazon",70)
+espejo.inf()
 
+print(f"{'*'*10} TELEFONO {'*'*10}")
+#Clase de telefono
+telefono = Telefono("crema","grande","200","telmex")
+telefono.inf()
