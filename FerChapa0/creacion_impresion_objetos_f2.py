@@ -95,3 +95,4 @@ print('*'*15)
 #CABLE
 cable1=Cable("negro","de microfono","resorte","15 cm")
 cable1.imprimir_info()
+print('*'*15)
