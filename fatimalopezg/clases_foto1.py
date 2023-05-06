@@ -11,7 +11,7 @@ class Esmalte:
         print(" *** ESMALTE ***")
         print(f"Color del esmalte: {self.color}")
         print(f"Forma del envase: {self.forma_envase}")
-        print(f"Precio: {self.precio}")    
+        print(f"$ {self.precio}")    
         print(f"Tamaño: {self.tamaño}")
         print (f"Cantidad en ml: {self.cantidad}")
 
