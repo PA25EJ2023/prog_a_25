@@ -201,9 +201,16 @@ class Funda:
         print(f"Tipo: {self.tipo}")
         print(f"Tamaño: {self.tamaño}")
         print(f"$ {self.precio}")
-class Tapa:
-    pass
-class Lapiz:
-    pass
 
- 
+class Lapiz:
+    def __init__(self,color_punta,material,marca,precio):
+        self.color_punta=color_punta
+        self.material=material
+        self.marca=marca
+        self.precio=precio
+
+    def info(self):
+        print(f"Color de la punta del lápiz: {self.color}") 
+        print(f"Tipo (madera/plástico): {self.material}")
+        print(f"Marca: {self.marca}") 
+        print(f"$ {self.precio}")   
