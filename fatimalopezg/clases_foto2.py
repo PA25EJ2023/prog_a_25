@@ -151,10 +151,36 @@ class Tripie:
         print(f"$ {self.precio}")
 
 class Lente_camara:
-    pass
+    def __init__(self,marca,material,color,precio):
+        self.marca=marca
+        self.material=material
+        self.color=color
+        self.precio=precio
+    
+    def info(self):
+        print(f"Marca del lente de la cámara: {self.marca}")
+        print(f"Material: {self.material}")
+        print(f"Color: {self.color}")
+        print(f"$ {self.precio}")
+
+class Tapa:
+    def __init__(self,material,color,tamaño,precio):
+        self.material=material
+        self.color=color
+        self.tamaño=tamaño
+        self.precio=precio
+    
+    def info(self):
+        print(f"Material del lente de la cámara: {self.material}")
+        print(f"Color: {self.color}")
+        print(f"Tamaño: {self.tamaño}")
+        print(f"$ {self.precio}")
+
 class Bateria:
     pass
 class Funda:
+    pass
+class Tapa:
     pass
 class Lapiz:
     pass
