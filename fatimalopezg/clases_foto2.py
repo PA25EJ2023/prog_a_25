@@ -141,7 +141,7 @@ class Cable:
     def info(self):
         print("--- CABLE ---")
         print(f"Color: {self.color}")
-        print(f"Tipo: {self.marca}")
+        print(f"Tipo: {self.tipo}")
         print(f"Medida: {self.medida}")
         print(f"$ {self.precio}")
 
