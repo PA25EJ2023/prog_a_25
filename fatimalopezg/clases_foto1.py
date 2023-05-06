@@ -1,19 +1,19 @@
 #clases foto 1 (tocador,peinador)
 class Esmalte:
-    def __init__(self,color,forma_envase,precio,tamaño,cantidad):
+    def __init__(self,color,forma_envase,precio,tamaño,marca):
         self.color=color   #PONERLO EN MODO PRIVADO
         self.forma_envase=forma_envase
         self.precio=precio
         self.tamaño=tamaño
-        self.cantidad=cantidad
+        self.marca=marca
     
     def info(self):
         print(" *** ESMALTE ***")
         print(f"Color del esmalte: {self.color}")
         print(f"Forma del envase: {self.forma_envase}")
-        print(f"Precio: {self.precio}")    
+        print(f"$ {self.precio}")    
         print(f"Tamaño: {self.tamaño}")
-        print (f"Cantidad en ml: {self.cantidad}")
+        print(f"Marca: {self.marca}")
 
 
 class Espejo_corazon:
