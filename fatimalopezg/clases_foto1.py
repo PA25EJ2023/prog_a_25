@@ -36,8 +36,6 @@ class Retrato:
         self.color=color
         self.precio=precio
         self.decoracion=decoracion
-        #self.altura_foto=altura_foto
-        #self.ancho_foto=ancho_foto
 
     def info(self):
         print("*** RETRATO ***")
