@@ -8,7 +8,8 @@ class Camisa:
         self.precio=precio
 
     def info(self):
-        print(f"Color de la camisa: {self.color}")
+        print("--- CAMISA ---")
+        print(f"Color: {self.color}")
         print(f"Talla: {self.talla}")
         print(f"Marca: {self.marca}")
         print(f"Sección/área ropa: {self.seccion_ropa}")
@@ -22,7 +23,8 @@ class Sueter_mezclilla:
         self.precio=precio
         
     def info(self):
-        print(f"Color de la mezclilla: {self.color}")
+        print("--- SUETER DE MEZCLILLA ---")
+        print(f"Color: {self.color}")
         print(f"Talla: {self.talla}")
         print(f"Marca: {self.marca}")
         print(f"$ {self.precio}")
@@ -37,7 +39,8 @@ class Celular:
         self.precio=precio
        
     def info(self):
-        print(f"Marca del celular: {self.marca}")
+        print("--- CELULAR ---")
+        print(f"Marca: {self.marca}")
         print(f"Color: {self.color}")
         print(f"Número de teléfono: {self.num_tel}")
         print(f"Modelo: {self.modelo}")
@@ -52,7 +55,8 @@ class Bolso:
         self.precio=precio
 
     def info(self):
-        print(f"Color del bolso: {self.color}")
+        print("--- BOLSO/MALETIN ---")
+        print(f"Color: {self.color}")
         print(f"Material: {self.material}")
         print(f"Marca: {self.marca}")
         print(f"$ {self.precio}")
@@ -65,7 +69,8 @@ class Laptop:
         self.precio=precio
         
     def info(self):
-        print(f"Marca de la laptop: {self.marca}")
+        print("--- LAPTOP ---")
+        print(f"Marca: {self.marca}")
         print(f"Color: {self.color}")
         print(f"Modelo: {self.modelo}")
         print(f"$ {self.precio}")
@@ -78,7 +83,8 @@ class Libro:
         self.precio=precio
 
     def info(self):
-        print(f"Titulo del libro: {self.titulo}")
+        print("--- LIBRO ---")
+        print(f"Titulo: {self.titulo}")
         print(f"Autor: {self.autor}")
         print(f"Fecha de lanzamiento: {self.fecha_lanzamiento}")
         print(f"$ {self.precio}")
@@ -91,7 +97,8 @@ class Reloj:
         self.precio=precio
     
     def info(self):
-        print(f"Color del reloj: {self.color}")
+        print("--- RELOJ DE CABALLERO ---")
+        print(f"Color: {self.color}")
         print(f"Marca: {self.marca}")
         print(f"Tipo (analógico/digital/bolsillo): {self.tipo}")
         print(f"$ {self.precio}")
@@ -104,7 +111,8 @@ class Cargador:
         self.precio=precio
         
     def info(self):
-        print(f"Color del cargador: {self.color}")
+        print("--- CARGADOR PORTATIL ---")
+        print(f"Color: {self.color}")
         print(f"Tipo: {self.marca}")
         print(f"Medida: {self.medida}")
         print(f"$ {self.precio}")
@@ -117,24 +125,42 @@ class Marcador:
         self.precio=precio
         
     def info(self):
-        print(f"Color del marcador: {self.color}")
+        print("--- MARCADOR ---")
+        print(f"Color: {self.color}")
         print(f"Tipo (agua/permanente): {self.tipo}")
         print(f"Marca: {self.marca}")
         print(f"$ {self.precio}")
 
+class Cable:
+    def __init__(self,color,tipo,medida,precio):
+        self.color=color
+        self.tipo=tipo
+        self.medida=medida
+        self.precio=precio
+        
+    def info(self):
+        print("--- CABLE ---")
+        print(f"Color: {self.color}")
+        print(f"Tipo: {self.marca}")
+        print(f"Medida: {self.medida}")
+        print(f"$ {self.precio}")
+
 class Zapato:
-    def __init__(self,talla,color,marca,estilo,precio):
+    def __init__(self,talla,color,marca,estilo,material,precio):
         self.talla=talla
         self.color=color
         self.marca=marca
         self.estilo=estilo
+        self.material=material
         self.precio=precio
 
     def info(self):
-        print(f"Talla del zapato: {self.talla}")
+        print("--- ZAPATOS ---")
+        print(f"Talla: {self.talla}")
         print(f"Color: {self.tipo}")
         print(f"Marca: {self.marca}")
         print(f"Estilo: {self.estilo}")
+        print(f"Material: {self.material}")
         print(f"$ {self.precio}")
 
 class Tripie:
@@ -145,7 +171,8 @@ class Tripie:
         self.precio=precio
 
     def info(self):
-        print(f"Marca del tripié: {self.marca}")
+        print("--- TRIPIE ---")
+        print(f"Marca: {self.marca}")
         print(f"Material: {self.material}")
         print(f"Tipo: {self.tipo}")
         print(f"$ {self.precio}")
@@ -158,7 +185,8 @@ class Lente_camara:
         self.precio=precio
     
     def info(self):
-        print(f"Marca del lente de la cámara: {self.marca}")
+        print("--- LENTE DE LA CAMARA ---")
+        print(f"Marca: {self.marca}")
         print(f"Material: {self.material}")
         print(f"Color: {self.color}")
         print(f"$ {self.precio}")
@@ -171,20 +199,8 @@ class Tapa:
         self.precio=precio
     
     def info(self):
-        print(f"Material del lente de la cámara: {self.material}")
-        print(f"Color: {self.color}")
-        print(f"Tamaño: {self.tamaño}")
-        print(f"$ {self.precio}")
-
-class Bateria:
-    def __init__(self,marca,color,tamaño,precio):
-        self.marca=marca
-        self.color=color
-        self.tamaño=tamaño
-        self.precio=precio
-    
-    def info(self):
-        print(f"Marca de la batería: {self.marca}")
+        print("--- TAPA DE LA CÁMARA ---")
+        print(f"Material: {self.material}")
         print(f"Color: {self.color}")
         print(f"Tamaño: {self.tamaño}")
         print(f"$ {self.precio}")
@@ -197,7 +213,8 @@ class Funda:
         self.precio=precio
     
     def info(self):
-        print(f"Color de la funda: {self.color}")
+        print("--- FUNDA---")
+        print(f"Color: {self.color}")
         print(f"Tipo: {self.tipo}")
         print(f"Tamaño: {self.tamaño}")
         print(f"$ {self.precio}")
@@ -210,7 +227,8 @@ class Lapiz:
         self.precio=precio
 
     def info(self):
-        print(f"Color de la punta del lápiz: {self.color}") 
+        print("--- LAPIZ ---")
+        print(f"Color (punta lápiz): {self.color}") 
         print(f"Tipo (madera/plástico): {self.material}")
         print(f"Marca: {self.marca}") 
         print(f"$ {self.precio}")   
