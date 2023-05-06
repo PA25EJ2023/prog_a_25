@@ -228,7 +228,7 @@ class Lapiz:
 
     def info(self):
         print("--- LAPIZ ---")
-        print(f"Color (punta lápiz): {self.color}") 
+        print(f"Color (punta lápiz): {self.color_punta}") 
         print(f"Tipo (madera/plástico): {self.material}")
         print(f"Marca: {self.marca}") 
         print(f"$ {self.precio}")   
