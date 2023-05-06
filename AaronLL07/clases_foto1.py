@@ -6,7 +6,7 @@ class Esmalte:
         self.forma = forma
 
     def imprimir(self):
-        print(f"{self.color} {self.forma} {self.tamano} {self.sticker}")
+        print(f"Color: {self.color}\nTamaño: {self.tamano}\nForma: {self.forma}")
 
 class Marco_foto:
     
@@ -16,7 +16,7 @@ class Marco_foto:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.color} {self.forma} {self.tamano}")
+        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamano}")
 
 class Labial:
 
@@ -26,7 +26,7 @@ class Labial:
         self.marca = marca
 
     def imprimir(self):
-        print(f"{self.color} {self.tamano} {self.marca}")
+        print(f"Color: {self.color}\nTamaño: {self.tamano}\nMarca: {self.marca}")
 
 class Cinta:
 
@@ -37,7 +37,7 @@ class Cinta:
         self.material = material
 
     def imprimir(self):
-        print(f"{self.color} {self.ancho} {self.tamano} {self.material}")
+        print(f"Color: {self.color}\nAncho: {self.ancho}\nTamaño: {self.tamano}\nMaterial: {self.material}")
 
 class Boligrafo:
 
@@ -49,7 +49,7 @@ class Boligrafo:
         self.precio = precio
 
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.marca} {self.tamano} {self.precio}")
+        print(f"Tipo: {self.tipo}\nColor: {self.color}\nMarca: {self.marca}\nTamaño: {self.tamano}\nPrecio: {self.precio}")
 
 class Cuenta:
 
@@ -59,7 +59,7 @@ class Cuenta:
         self.forma = forma
     
     def imprimir(self):
-        print(f"{self.color} {self.tamano} {self.forma}") 
+        print(f"Color: {self.color}\nTamaño: {self.tamano}\nForma: {self.forma}") 
 
 class Espejo:
     
@@ -69,7 +69,7 @@ class Espejo:
         self.color = color
 
     def imprimir(self):
-        print(f"{self.forma} {self.tamano} {self.color}")
+        print(f"Forma: {self.forma}\nTamaño: {self.tamano}\nColor: {self.color}")
 
 class Telefono:
 
@@ -79,7 +79,7 @@ class Telefono:
         self.tamano = tamano
     
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.tamano}")
+        print(f"Tipo: {self.tipo}\nColor: {self.color}\nTamaño: {self.tamano}")
 
 class Cuaderno:
 
@@ -89,7 +89,7 @@ class Cuaderno:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.tamano}")
+        print(f"Tipo: {self.tipo}\nColor: {self.color}\nTamaño: {self.tamano}")
 
 class Poster:
 
@@ -98,7 +98,7 @@ class Poster:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.tamano}")
+        print(f"Contenido: {self.contendio}\nTamaño: {self.tamano}")
 
 class Tijera:  
     
@@ -108,7 +108,7 @@ class Tijera:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.tipo_punta} {self.tamano}")
+        print(f"Tipo de punta: {self.tipo_punta}\nTamaño: {self.tamano}")
 
 class Pegamento:
 
@@ -118,7 +118,7 @@ class Pegamento:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.tamano}")
+        print(f"Tipo: {self.tipo}\nColor: {self.color}\nTamaño: {self.tamano}")
 
 class Pinza:
 
@@ -128,7 +128,7 @@ class Pinza:
         self.material = material
 
     def imprimir(self):
-        print(f"{self.color} {self.tamano} {self.material}")
+        print(f"Pinza: {self.color}\nTamaño: {self.tamano}\nMaterial: {self.material}")
 
 class Pegatina:
 
@@ -139,4 +139,4 @@ class Pegatina:
         self.cantidad = cantidad
 
     def imprimir(self):
-        print(f"{self.forma} {self.color} {self.tamano} {self.cantidad}")
+        print(f"Forma: {self.forma}\nColor: {self.color}\nTamaño: {self.tamano}\nCantidad: {self.cantidad}")
