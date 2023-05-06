@@ -177,9 +177,30 @@ class Tapa:
         print(f"$ {self.precio}")
 
 class Bateria:
-    pass
+    def __init__(self,marca,color,tamaño,precio):
+        self.marca=marca
+        self.color=color
+        self.tamaño=tamaño
+        self.precio=precio
+    
+    def info(self):
+        print(f"Marca de la batería: {self.marca}")
+        print(f"Color: {self.color}")
+        print(f"Tamaño: {self.tamaño}")
+        print(f"$ {self.precio}")
+
 class Funda:
-    pass
+    def __init__(self,color,tipo,tamaño,precio):
+        self.color=color
+        self.tipo=tipo
+        self.tamaño=tamaño
+        self.precio=precio
+    
+    def info(self):
+        print(f"Color de la funda: {self.color}")
+        print(f"Tipo: {self.tipo}")
+        print(f"Tamaño: {self.tamaño}")
+        print(f"$ {self.precio}")
 class Tapa:
     pass
 class Lapiz:
