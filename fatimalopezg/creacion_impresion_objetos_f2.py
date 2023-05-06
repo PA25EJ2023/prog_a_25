@@ -40,3 +40,10 @@ cable=Cable("blanco","C","30 cm",250)
 cable.info()
 
 
+zapato1=Zapato(7.5,"café","dockers","mocasines","piel",949)
+zapato1.info()
+
+
+trip=Tripie("EXCELL","aluminio","para cámara fotográfica",900)
+trip.info()
+
