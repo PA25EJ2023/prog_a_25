@@ -10,23 +10,25 @@ class Esmalte:
 
 class Marco_foto:
     
-    def __init__(self, color, forma, tamano):
+    def __init__(self, color, forma, tamano, descripcion):
         self.color = color
         self.forma = forma
         self.tamano = tamano
+        self.descripcion = descripcion
 
     def imprimir(self):
-        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamano}")
+        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamano}\nDescripción: {self.descripcion}")
 
 class Labial:
 
-    def __init__(self, color, tamano, marca):
+    def __init__(self, color, tamano, marca, forma):
         self.color = color
         self.tamano = tamano
         self.marca = marca
+        self.forma = forma
 
     def imprimir(self):
-        print(f"Color: {self.color}\nTamaño: {self.tamano}\nMarca: {self.marca}")
+        print(f"Color: {self.color}\nTamaño: {self.tamano}\nMarca: {self.marca}\nForma: {self.forma}")
 
 class Cinta:
 
@@ -53,13 +55,14 @@ class Boligrafo:
 
 class Cuenta:
 
-    def __init__(self, color, tamano, forma):
+    def __init__(self, color, tamano, forma, cantidad):
         self.color = color
         self.tamano = tamano
         self.forma = forma
+        self.cantidad = cantidad
     
     def imprimir(self):
-        print(f"Color: {self.color}\nTamaño: {self.tamano}\nForma: {self.forma}") 
+        print(f"Color: {self.color}\nTamaño: {self.tamano}\nForma: {self.forma}\nCantidad: {self.cantidad}") 
 
 class Espejo:
     
@@ -98,7 +101,7 @@ class Poster:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"Contenido: {self.contendio}\nTamaño: {self.tamano}")
+        print(f"Contenido: {self.contenido}\nTamaño: {self.tamano}")
 
 class Tijera:  
     
@@ -108,7 +111,7 @@ class Tijera:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"Tipo de punta: {self.tipo_punta}\nTamaño: {self.tamano}")
+        print(f"Tipo de punta: {self.tipo_punta}\nColor: {self.color}\nTamaño: {self.tamano}")
 
 class Pegamento:
 
