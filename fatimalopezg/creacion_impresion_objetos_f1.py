@@ -1,4 +1,4 @@
-from clasesfoto1 import Esmalte,Espejo_corazon,Retrato,Marcador,Boligrafo,Libreta,Pegamento,Cinta,Telefono,Sticker,Broche,Labial,Tijeras,Piedrita,Hoja_plantilla
+from clases_foto1 import Esmalte,Espejo_corazon,Retrato,Marcador,Boligrafo,Libreta,Pegamento,Cinta,Telefono,Sticker,Broche,Labial,Tijeras,Piedrita,Hoja_plantilla
 
 esmalte1=Esmalte("rosa pastel","cuadrado",20,"chico","5ml")
 esmalte1.info()
