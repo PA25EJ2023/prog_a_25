@@ -122,4 +122,41 @@ class Marcador:
         print(f"Marca: {self.marca}")
         print(f"$ {self.precio}")
 
-    
+class Zapato:
+    def __init__(self,talla,color,marca,estilo,precio):
+        self.talla=talla
+        self.color=color
+        self.marca=marca
+        self.estilo=estilo
+        self.precio=precio
+
+    def info(self):
+        print(f"Talla del zapato: {self.talla}")
+        print(f"Color: {self.tipo}")
+        print(f"Marca: {self.marca}")
+        print(f"Estilo: {self.estilo}")
+        print(f"$ {self.precio}")
+
+class Tripie:
+    def __init__(self,marca,material,tipo,precio):
+        self.marca=marca
+        self.material=material
+        self.tipo=tipo
+        self.precio=precio
+
+    def info(self):
+        print(f"Marca del tripié: {self.marca}")
+        print(f"Material: {self.material}")
+        print(f"Tipo: {self.tipo}")
+        print(f"$ {self.precio}")
+
+class Lente_camara:
+    pass
+class Bateria:
+    pass
+class Funda:
+    pass
+class Lapiz:
+    pass
+
+ 
