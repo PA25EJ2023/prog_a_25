@@ -1,12 +1,13 @@
 class Cargador:
-    
-    def __init__(self, color, capacidad, tamano):
+
+    def __init__(self, marca, color, tamano, desc):
+        self.marca = marca
         self.color = color
-        self.capacidad = capacidad
         self.tamano = tamano
-    
+        self.desc = desc
+
     def imprimir(self):
-        print(f"Color: {self.color}\nCapacidad de carga: {self.capacidad}\n Tamaño: {self.tamano}")
+        print(f"Marca: {self.marca}\nColor: {self.color}\nTamaño: {self.tamano}\nDescripción: {self.desc}")
 
 class Celular:
 
@@ -138,16 +139,6 @@ class Revista:
     def imprimir(self):
         print(f"Nombre: {self.nombre}\nDescripción: {self.descripcion}\nTamaño: {self.tamano}\nPrecio: {self.precio}")
 
-class Cargador:
-
-    def __init__(self, marca, color, tamano):
-        self.marca = marca
-        self.color = color
-        self.tamano = tamano
-
-    def imprimir(self):
-        print(f"Marca: {self.marca}\nColor: {self.color}\nTamaño: {self.tamano}")
-
 class Estuche:
 
     def __init__(self, marca, color, tamano, desc):
@@ -157,5 +148,5 @@ class Estuche:
         self.desc = desc
     
     def imprimir(self):
-        print(f"Marca: {self.marca}\nColor: {self.color}\nTamaño: {self.tamano}\n Descripción: {self.desc}")
+        print(f"Marca: {self.marca}\nColor: {self.color}\nTamaño: {self.tamano}\nDescripción: {self.desc}")
 
