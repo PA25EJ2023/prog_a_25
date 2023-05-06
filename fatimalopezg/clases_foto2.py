@@ -70,4 +70,16 @@ class Laptop:
         print(f"Modelo: {self.modelo}")
         print(f"$ {self.precio}")
 
-#class Libro:
+class Libro:
+    def __init__(self,titulo,autor,fecha_lanzamiento,precio):
+        self.titulo=titulo
+        self.autor=autor
+        self.fecha_lanzamiento=fecha_lanzamiento
+        self.precio=precio
+
+    def info(self):
+        print(f"Titulo del libro: {self.titulo}")
+        print(f"Autor: {self.autor}")
+        print(f"Fecha de lanzamiento: {self.fecha_lanzamiento}")
+        print(f"$ {self.precio}")
+        
