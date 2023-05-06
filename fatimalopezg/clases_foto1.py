@@ -1,19 +1,19 @@
 #clases foto 1 (tocador,peinador)
 class Esmalte:
-    def __init__(self,color,forma_envase,precio,tamaño,cantidad):
+    def __init__(self,color,forma_envase,precio,tamaño,marca):
         self.color=color   #PONERLO EN MODO PRIVADO
         self.forma_envase=forma_envase
         self.precio=precio
         self.tamaño=tamaño
-        self.cantidad=cantidad
+        self.marca=marca
     
     def info(self):
         print(" *** ESMALTE ***")
         print(f"Color del esmalte: {self.color}")
         print(f"Forma del envase: {self.forma_envase}")
-        print(f"Precio: {self.precio}")    
+        print(f"$ {self.precio}")    
         print(f"Tamaño: {self.tamaño}")
-        print (f"Cantidad en ml: {self.cantidad}")
+        print(f"Marca: {self.marca}")
 
 
 class Espejo_corazon:
@@ -55,7 +55,7 @@ class Marcador:
 
     def info(self):
         print("*** MARCADOR ***")
-        print(f"Color del marcadoror: {self.color}")
+        print(f"Color del marcador: {self.color}")
         print(f"$ {self.precio}")    
         print(f"Tipo (agua/permanente): {self.tipo}")
         print(f"Marca: {self.marca}")
@@ -87,7 +87,7 @@ class Libreta:
         print(f"Color de la libreta: {self.color}")
         print(f"Tamaño (ch,md,gr): {self.tamaño}")
         print(f"$ {self.precio}")    
-        print(f"Tipo (raya/cuadro): {self.tipo}")
+        print(f"Tipo (resorte/cosida): {self.tipo}")
         print(f"Marca: {self.marca}")
 
 class Pegamento:
@@ -141,8 +141,8 @@ class Sticker:
         self.precio=precio
 
     def info(self):
-        print("*** STICKER ***")
-        print(f"Tamaño del sticker (ch/md/gr): {self.tamaño}")    
+        print("*** PLASTICO DE STICKERS ***")
+        print(f"Tamaño de los stickers (ch/md/gr): {self.tamaño}")    
         print(f"Figura (estrella/corazon/luna): {self.figura}")
         print(f"Color: {self.color}")
         print(f"$ {self.precio}")
@@ -176,7 +176,7 @@ class Labial:
         print(f"$ {self.precio}")
         print(f"Tamaño (md/gr): {self.tamaño}")
         print(f"Color: {self.color}")
-        print(f"Tipo (líquido/mate/gloss): {self.tipo}")
+        print(f"Tipo (tinta/mate/gloss): {self.tipo}")
     
 class Tijeras:
     def __init__ (self,color,precio,marca,tipo):
@@ -205,3 +205,20 @@ class Piedrita:
         print(f"Tamaño: {self.tamaño}")
         print(f"$ {self.precio}")
         print(f"Material: {self.material}")
+
+class Hoja_plantilla:
+    def __init__(self,tamaño,precio,material,estampado):
+        self.tamaño=tamaño
+        self.precio=precio
+        self.material=material
+        self.estampado=estampado
+
+    def info(self):
+        print("*** PLANTILLA ***")
+        print(f"Tamaño de la plantilla (ch/md/gr): {self.tamaño}")
+        print(f"$ {self.precio}")
+        print(f"Material (plastico,papel,cartón): {self.material}")
+        print(f"Estampado (blanco y negro/color: {self.estampado}")
+
+
+    
