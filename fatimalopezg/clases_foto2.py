@@ -30,7 +30,7 @@ class Sueter_mezclilla:
         print(f"$ {self.precio}")
     
 class Celular:
-    def __init__(self,marca,color,num_tel,modelo,precio,capacidad):
+    def __init__(self,marca,color,num_tel,modelo,capacidad,precio):
         self.marca=marca
         self.color=color
         self.num_tel=num_tel
@@ -75,17 +75,17 @@ class Laptop:
         print(f"Modelo: {self.modelo}")
         print(f"$ {self.precio}")
 
-class Libro:
-    def __init__(self,titulo,autor,fecha_lanzamiento,precio):
+class Revista:
+    def __init__(self,titulo,banda,fecha_lanzamiento,precio):
         self.titulo=titulo
-        self.autor=autor
+        self.banda=banda
         self.fecha_lanzamiento=fecha_lanzamiento
         self.precio=precio
 
     def info(self):
-        print("--- LIBRO ---")
-        print(f"Titulo: {self.titulo}")
-        print(f"Autor: {self.autor}")
+        print("--- REVISTA ---")
+        print(f"Nombre: {self.titulo}")
+        print(f"Banda musical: {self.banda}")
         print(f"Fecha de lanzamiento: {self.fecha_lanzamiento}")
         print(f"$ {self.precio}")
 
@@ -103,7 +103,7 @@ class Reloj:
         print(f"Tipo (analógico/digital/bolsillo): {self.tipo}")
         print(f"$ {self.precio}")
 
-class Cargador:
+class Bateria:
     def __init__(self,color,tipo,medida,precio):
         self.color=color
         self.tipo=tipo
@@ -111,9 +111,9 @@ class Cargador:
         self.precio=precio
         
     def info(self):
-        print("--- CARGADOR PORTATIL ---")
+        print("--- BATERIA PORTATIL ---")
         print(f"Color: {self.color}")
-        print(f"Tipo: {self.marca}")
+        print(f"Tipo: {self.tipo}")
         print(f"Medida: {self.medida}")
         print(f"$ {self.precio}")
 
@@ -141,7 +141,7 @@ class Cable:
     def info(self):
         print("--- CABLE ---")
         print(f"Color: {self.color}")
-        print(f"Tipo: {self.marca}")
+        print(f"Tipo: {self.tipo}")
         print(f"Medida: {self.medida}")
         print(f"$ {self.precio}")
 
@@ -157,7 +157,7 @@ class Zapato:
     def info(self):
         print("--- ZAPATOS ---")
         print(f"Talla: {self.talla}")
-        print(f"Color: {self.tipo}")
+        print(f"Color: {self.color}")
         print(f"Marca: {self.marca}")
         print(f"Estilo: {self.estilo}")
         print(f"Material: {self.material}")
@@ -178,10 +178,11 @@ class Tripie:
         print(f"$ {self.precio}")
 
 class Lente_camara:
-    def __init__(self,marca,material,color,precio):
+    def __init__(self,marca,material,color,forma,precio):
         self.marca=marca
         self.material=material
         self.color=color
+        self.forma=forma
         self.precio=precio
     
     def info(self):
@@ -189,21 +190,22 @@ class Lente_camara:
         print(f"Marca: {self.marca}")
         print(f"Material: {self.material}")
         print(f"Color: {self.color}")
+        print(f"Forma: {self.forma}")
         print(f"$ {self.precio}")
 
 class Tapa:
-    def __init__(self,material,color,tamaño,precio):
+    def __init__(self,material,color,tamaño,tipo):
         self.material=material
         self.color=color
         self.tamaño=tamaño
-        self.precio=precio
+        self.tipo=tipo
     
     def info(self):
         print("--- TAPA DE LA CÁMARA ---")
         print(f"Material: {self.material}")
         print(f"Color: {self.color}")
         print(f"Tamaño: {self.tamaño}")
-        print(f"$ {self.precio}")
+        print(f"Tipo tapa: {self.tipo}")
 
 class Funda:
     def __init__(self,color,tipo,tamaño,precio):
@@ -228,7 +230,7 @@ class Lapiz:
 
     def info(self):
         print("--- LAPIZ ---")
-        print(f"Color (punta lápiz): {self.color}") 
+        print(f"Color (punta lápiz): {self.color_punta}") 
         print(f"Tipo (madera/plástico): {self.material}")
         print(f"Marca: {self.marca}") 
         print(f"$ {self.precio}")   
