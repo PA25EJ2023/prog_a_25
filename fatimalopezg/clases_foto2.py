@@ -157,7 +157,7 @@ class Zapato:
     def info(self):
         print("--- ZAPATOS ---")
         print(f"Talla: {self.talla}")
-        print(f"Color: {self.tipo}")
+        print(f"Color: {self.color}")
         print(f"Marca: {self.marca}")
         print(f"Estilo: {self.estilo}")
         print(f"Material: {self.material}")
