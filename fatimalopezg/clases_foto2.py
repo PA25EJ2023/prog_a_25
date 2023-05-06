@@ -82,4 +82,17 @@ class Libro:
         print(f"Autor: {self.autor}")
         print(f"Fecha de lanzamiento: {self.fecha_lanzamiento}")
         print(f"$ {self.precio}")
-        
+
+class Reloj:
+    def __init__(self,color,marca,tipo,precio):
+        self.color=color
+        self.marca=marca
+        self.tipo=tipo
+        self.precio=precio
+    
+    def info(self):
+        print(f"Color del reloj: {self.color}")
+        print(f"Marca: {self.marca}")
+        print(f"Tipo (analógico/digital/bolsillo): {self.tipo}")
+        print(f"$ {self.precio}")
+
