@@ -95,3 +95,35 @@ class Revista:
     
     def info(self):
         print(f"1 REVISTA\nColor: {self.color}\nCategoria: {self.categoria}\nMarca: {self.marca}\nPrecio: {self.precio}")
+
+
+class Estuche_camara:
+    def __init__(self,color,material,tamaño,precio):
+        self.color = color
+        self.material = material
+        self.tamaño = tamaño
+        self.precio = precio
+
+    def info(self):
+        print(f"1 ESTUCHE DE CÁMARA\nColor: {self.color}\nMaterial: {self.material}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
+
+
+class Pluma_estilografica:
+    def __init__(self,color,material,marca,precio):
+        self.color = color
+        self.material = material
+        self.marca = marca
+        self.precio = precio
+
+    def info(self):
+        print(f"1 PLUMA ESTILOGRAFICA\nColor: {self.color}\nMaterial: {self.material}\nMarca: {self.marca}\nPrecio: {self.precio}")
+
+class Lapiz:
+    def __init__(self,tipo,color,marca,precio):
+        self.tipo = tipo
+        self.color = color
+        self.marca = marca
+        self.precio = precio
+
+    def info(self):
+        print(f"1 LAPIZ\nTipo: {self.tipo}\nColor: {self.color}\nMarca: {self.marca}\nPrecio: {self.precio}")
