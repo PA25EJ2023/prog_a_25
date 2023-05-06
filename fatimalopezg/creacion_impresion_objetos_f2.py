@@ -51,10 +51,10 @@ trip=Tripie("EXCELL","aluminio","para cámara fotográfica",900)
 trip.info()
 
 
-lente1=Lente_camara("canon","vidrio y plástico","negro",4000)
+lente1=Lente_camara("canon","vidrio y plástico","negro","circulo",4000)
 lente1.info()
 
-lente2=Lente_camara("canon","vidrio y plástico","negro",4800)
+lente2=Lente_camara("canon","vidrio y plástico","negro","circulo",4800)
 lente2.info()
 
 

@@ -178,10 +178,11 @@ class Tripie:
         print(f"$ {self.precio}")
 
 class Lente_camara:
-    def __init__(self,marca,material,color,precio):
+    def __init__(self,marca,material,color,forma,precio):
         self.marca=marca
         self.material=material
         self.color=color
+        self.forma=forma
         self.precio=precio
     
     def info(self):
@@ -189,6 +190,7 @@ class Lente_camara:
         print(f"Marca: {self.marca}")
         print(f"Material: {self.material}")
         print(f"Color: {self.color}")
+        print(f"Forma: {self.forma}")
         print(f"$ {self.precio}")
 
 class Tapa:
