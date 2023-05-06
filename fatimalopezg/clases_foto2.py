@@ -96,3 +96,30 @@ class Reloj:
         print(f"Tipo (analógico/digital/bolsillo): {self.tipo}")
         print(f"$ {self.precio}")
 
+class Cargador:
+    def __init__(self,color,tipo,medida,precio):
+        self.color=color
+        self.tipo=tipo
+        self.medida=medida
+        self.precio=precio
+        
+    def info(self):
+        print(f"Color del cargador: {self.color}")
+        print(f"Tipo: {self.marca}")
+        print(f"Medida: {self.medida}")
+        print(f"$ {self.precio}")
+
+class Marcador:
+    def __init__(self,color,tipo,marca,precio):
+        self.color=color
+        self.tipo=tipo
+        self.marca=marca
+        self.precio=precio
+        
+    def info(self):
+        print(f"Color del marcador: {self.color}")
+        print(f"Tipo (agua/permanente): {self.tipo}")
+        print(f"Marca: {self.marca}")
+        print(f"$ {self.precio}")
+
+    
