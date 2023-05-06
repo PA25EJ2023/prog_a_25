@@ -1,20 +1,22 @@
 class Boligrafo:
-    def __init__(self,marca,color,precio):
+    def __init__(self,marca,color,precio,tamaño):
         self.marca = marca 
         self.color = color
         self.precio = precio
+        self.tamaño = tamaño
     
     def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}\n tamaño: {self.tamaño}')
 
 class Espejo:
-    def __init__(self,tamaño,forma,color):
+    def __init__(self,marca,tamaño,forma,color):
+        self.marca = marca
         self.tamaño = tamaño
         self.forma = forma
         self.color = color
     
     def info(self):
-        print(f'tamaño: {self.tamaño}\n forma: {self.forma}\n color: {self.color}')
+        print(f'marca: {self.marca}\n tamaño: {self.tamaño}\n forma: {self.forma}\n color: {self.color}')
 
 
 class Recuadro:
@@ -28,13 +30,14 @@ class Recuadro:
         print(f'forma: {self.forma}\n diseño: {self.diseño}\n tamaño: {self.tamaño}\n color: {self.color}')
 
 class Esmalte:
-    def __init__(self,color,forma,tamaño):
+    def __init__(self,color,forma,tamaño,precio):
         self.color = color
         self.forma = forma
         self.tamaño = tamaño
+        self.precio = precio
     
     def info(self):
-        print(f'color: {self.color}\n forma: {self.forma}\n tamaño: {self.tamaño}')
+        print(f'color: {self.color}\n forma: {self.forma}\n tamaño: {self.tamaño}\n precio: {self.precio}')
 
 class Cinta:
     def __init__(self,color,tamaño,precio):
@@ -46,13 +49,14 @@ class Cinta:
         print(f'color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}')
         
 class Marcadores:
-    def __init__(self,color,marca,precio):
+    def __init__(self,color,marca,tamaño,precio):
         self.color = color
         self.marca = marca
+        self.tamaño = tamaño
         self.precio = precio
     
     def info(self):
-        print(f'color: {self.color}\n marca: {self.marca}\n precio: {self.precio}')
+        print(f'color: {self.color}\n marca: {self.marca}\n tamaño: {self.tamaño}\n precio: {self.precio}')
 
 class Lip_gloss:
     def __init__(self,color,tamaño,precio,marca):
