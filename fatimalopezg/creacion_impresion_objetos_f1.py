@@ -9,8 +9,15 @@ esmalte2.info()    #####FALTAN 2 ESMALTES!!!!
 esmalte3=Esmalte("rosa","pentagono",25,"mediano","7ml")
 esmalte3.info()
 
-esmalte4=Esmalte("blanco","cilindro",30,"grande","12ml")
+esmalte4=Esmalte("blanco","cilindro",25,"mediano","7ml")
 esmalte4.info()
+
+esmalte5=Esmalte("rojo","cuadrado",25,"mediano","12ml")
+esmalte5.info()
+
+esmalte6=Esmalte("celeste","rectangulo",30,"grande","12ml")
+esmalte6.info()
+
 
 espejo1=Espejo_corazon(10,14,"rojo con base rosa",100)
 espejo1.info()
@@ -43,13 +50,13 @@ pluma4=Boligrafo("rojo",35,"normal","paper mate")
 pluma4.info()
 
 
-libreta1=Libreta("celeste","mediana",170,"cosida","scribe") #BIC
+libreta1=Libreta("celeste","mediana",170,"cosida","scribe") 
 libreta1.info()
 
-libreta2=Libreta("rosa","mediana",100,"resorte","BIC") #BIC
+libreta2=Libreta("rosa","mediana",100,"resorte","BIC") 
 libreta2.info()
 
-libreta3=Libreta("lila","mediana",10,"resorte","BIC") #BIC
+libreta3=Libreta("lila","mediana",10,"resorte","BIC") 
 libreta3.info()
 
 
@@ -110,7 +117,6 @@ labial3.info()
 
 tijeras1=Tijeras("azul",80,"bic","diestro")
 tijeras1.info()
-
 
 
 piedrita1=Piedrita("amarilla","chico",2,"plástico")
