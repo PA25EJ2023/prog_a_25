@@ -1,4 +1,4 @@
-from clasesfoto1 import Boligrafo,Cuaderno,Tijeras,Plumones,Esmalte,Regla,Resistol,Fotos,Labiales,Cintas,Broches,Espejo,Telefono
+from clasesfoto1 import Boligrafo,Cuaderno,Tijeras,Plumones,Esmalte,Regla,Resistol,Fotos,Labiales,Cintas,Broches,Espejo,Telefono,Cuentas,Stickers
 print(f"{'*'*10} PLUMAS {'*'*10}")
 #Clase de plumas
 pluma1 = Boligrafo("rosa","bic","grande",17)
@@ -131,7 +131,49 @@ print(f"{'*'*10} ESPEJO {'*'*10}")
 espejo = Espejo("rosa","grande","corazon",70)
 espejo.inf()
 
+
 print(f"{'*'*10} TELEFONO {'*'*10}")
 #Clase de telefono
 telefono = Telefono("crema","grande","200","telmex")
 telefono.inf()
+
+print(f"{'*'*10} CUENTAS {'*'*10}")
+#Clase de cuentas
+cuenta1 = Cuentas("Rojo","2","plastico","5mm")
+cuenta2 = Cuentas("Rosa","5","plastico","5mm")
+cuenta3 = Cuentas("Blanco","2","plastico","5mm")
+cuenta4 = Cuentas("Naranja","4","plastico","5mm")
+cuenta5 = Cuentas("Aqua","2","plastico","5mm")
+cuenta6 = Cuentas("Lima","6","plastico","5mm")
+cuenta1.info()
+print(f"{'-'*20}")
+cuenta2.info()
+print(f"{'-'*20}")
+cuenta3.info()
+print(f"{'-'*20}")
+cuenta4.info()
+print(f"{'-'*20}")
+cuenta5.info()
+print(f"{'-'*20}")
+cuenta6.info()
+
+print(f"{'*'*10} STICKERS {'*'*10}")
+#Clase de stickers 
+sticker1 = Stickers("Nuevo",25,"Gota","Plastico")
+sticker2 = Stickers("Nuevo",26,"Estrella","Plastico")
+sticker3 = Stickers("Usado",15,"Estrella","Plastico")
+sticker4 = Stickers("Nuevo",8,"Corazón","Papel")
+sticker5 = Stickers("Usado",12,"Estrella","Papel")
+sticker6 = Stickers("Usado",15,"Flor","Papel")
+
+sticker1.info()
+print(f"{'-'*20}")
+sticker2.info()
+print(f"{'-'*20}")
+sticker3.info()
+print(f"{'-'*20}")
+sticker4.info()
+print(f"{'-'*20}")
+sticker5.info()
+print(f"{'-'*20}")
+sticker6.info()
