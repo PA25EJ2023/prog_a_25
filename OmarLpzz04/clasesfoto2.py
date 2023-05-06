@@ -65,6 +65,15 @@ class Tripie():
     def inf(self):
         print(f"Color>> {self.color}\nMedida>> {self.medida}\nMarca>> {self.marca}")
 
+class Reloj():
+    def __init__(self,marca,color,precio,tipo):
+        self.marca = marca 
+        self.color = color 
+        self.precio = precio 
+        self.tipo = tipo 
+    def inf(self):
+        print(f"Color>> {self.color}\nMarca>> {self.marca}\nPrecio>> {self.precio}\nTipo>> {self.tipo}")
+
 class Revista():
     def __init__(self,color,categoria,marca,precio):
         self.color = color
@@ -73,7 +82,32 @@ class Revista():
         self.precio = precio 
     def inf(self):
         print(f"Color>> {self.color}\nCategoria>> {self.categoria}\nMarca>> {self.marca}\nPrecio>> {self.precio}")
+
+class Plumon():
+    def __init__(self,color,marca,medida):
+        self.color = color
+        self.marca = marca 
+        self.medida = medida 
+    def inf(self):
+        print(f"Color>> {self.color}\nMarca>> {self.marca}\nMedida>> {self.medida}")
+
+class Cargadores_camaras():
+    def __init__(self,marca,color,tipo,precio):
+        self.color = color
+        self.marca = marca 
+        self.tipo = tipo 
+        self.precio = precio 
+    def inf(self):
+        print(f"Color>> {self.color}\nMarca>> {self.marca}\nTipo>> {self.tipo}\nPrecio>> {self.precio}")
         
+class Estuche():
+    def __init__(self,color,material,precio,tipo):
+        self.color = color 
+        self.material = material
+        self.precio = precio 
+        self.tipo = tipo 
+    def inf(self):
+        print(f"Color>> {self.color}\nMaterial>> {self.material}\nPrecio>> {self.precio}\nTipo>> {self.tipo}")
 
 
         
