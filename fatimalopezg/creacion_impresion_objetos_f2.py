@@ -1,4 +1,4 @@
-from clases_foto2 import Camisa,Sueter_mezclilla,Celular,Bolso,Laptop,Revista,Reloj,Cargador,Marcador,Cable,Zapato,Tripie,Lente_camara,Tapa,Funda,Lapiz
+from clases_foto2 import Camisa,Sueter_mezclilla,Celular,Bolso,Laptop,Revista,Reloj,Bateria,Marcador,Cable,Zapato,Tripie,Lente_camara,Tapa,Funda,Lapiz
 
 camisa=Camisa("blanca","mediana","svperbia","ropa de caballero",500)
 camisa.info()
@@ -26,3 +26,17 @@ revista.info()
 
 reloj=Reloj("negro","salvatore ferragamo","analógico",10000)
 reloj.info()
+
+
+bateria=Bateria("negra","de celular","mediana",250)
+bateria.info()
+
+
+marcador=Marcador("negro","permanente","caligraphy pen 3.0",75)
+marcador.info()
+
+
+cable=Cable("blanco","C","30 cm",250)
+cable.info()
+
+
