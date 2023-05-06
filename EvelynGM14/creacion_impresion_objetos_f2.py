@@ -1,4 +1,4 @@
-from clasesfoto2 import Maletin,Laptop,Reloj,Celular,Camisa,Saco,Cargador_laptop,Tripie_camara,Revista,Estuche_camara,Pluma_estilografica,Lapiz
+from clasesfoto2 import Maletin,Laptop,Reloj,Celular,Camisa,Saco,Cargador_laptop,Tripie_camara,Revista,Estuche_camara,Pluma_estilografica,Lapiz,Pila_camara,Lente_camara,Tapa_lente_camara,Bateria_portatil,Zapato_derecho,Zapato_izquierdo
 
 print("*"*50)
 print("Este es el Maletin")
@@ -101,3 +101,59 @@ lapiz1.info()
 lapiz2.info()
 lapiz3.info()
 lapiz4.info()
+
+print("*"*50)
+print("Estas son las pilas de la camara")
+print("*"*50)
+
+pila_camara1 = Pila_camara("1800mAh","King","Negro",450)
+pila_camara2 = Pila_camara("3100mAh","King","Negro",1200)
+
+pila_camara1.info()
+pila_camara2.info()
+
+print("*"*50)
+print("Estas son las lentes de la camara")
+print("*"*50)
+
+lente_camara1 = Lente_camara("Lente Fijo","Canon","Negro",10000)
+lente_camara2 = Lente_camara("Lente Macro","Canon","Negro",26000)
+
+lente_camara1.info()
+lente_camara2.info()
+
+print("*"*50)
+print("Estas son las tapas de las lentes de la camara")
+print("*"*50)
+
+tapa_lente1 = Tapa_lente_camara("Lente Macro","Canon","Negro",168)
+tapa_lente2 = Tapa_lente_camara("Lente Gran Angular","Canon","Negro",168)
+tapa_lente3 = Tapa_lente_camara("Lente Normal","Canon","Negro",168)
+
+tapa_lente1.info()
+tapa_lente2.info()
+tapa_lente3.info()
+
+print("*"*50)
+print("Esta es la bateria portatil")
+print("*"*50)
+
+bateria_portatil1 = Bateria_portatil("5500mAh","Negro","1HORA",500)
+
+bateria_portatil1.info()
+
+print("*"*50)
+print("Este es el zapato derecho")
+print("*"*50)
+
+zapato_derecho1 = Zapato_derecho("Cafe","Piel","28","Mocasin")
+
+zapato_derecho1.info()
+
+print("*"*50)
+print("Este es el zapato derecho")
+print("*"*50)
+
+zapato_izquierdo1 = Zapato_izquierdo("Cafe","Piel","28","Mocasin")
+
+zapato_izquierdo1.info()
