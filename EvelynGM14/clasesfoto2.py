@@ -127,3 +127,34 @@ class Lapiz:
 
     def info(self):
         print(f"1 LAPIZ\nTipo: {self.tipo}\nColor: {self.color}\nMarca: {self.marca}\nPrecio: {self.precio}")
+
+
+class Pila_camara:
+    def __init__(self,amperaje,marca,color,precio):
+        self.amperaje = amperaje
+        self.marca = marca
+        self.color = color
+        self.precio = precio
+
+    def info(self):
+        print(f"1 PILA DE CAMARA\nColor: {self.color}\nMarca: {self.marca}\nColor: {self.color}\nPrecio: {self.precio}")
+
+class Lente_camara:
+    def __init__(self,tipo,marca,color,precio):
+        self.tipo = tipo
+        self.marca = marca
+        self.color = color
+        self.precio = precio
+
+    def info(self):
+        print(f"1 LENTE DE CAMARA\nTipo: {self.tipo}\nMarca: {self.marca}\nColor: {self.color}\nPrecio: {self.precio}")
+
+class Tapa_lente_camara:
+    def __init__(self,tipo,marca,color,precio):
+        self.tipo = tipo
+        self.marca = marca
+        self.color = color
+        self.precio = precio
+
+    def info(self):
+        print(f"1 TAPA DE LENTE DE CAMARA\nTipo: {self.tipo}\nMarca: {self.marca}\nColor: {self.color}\nPrecio: {self.precio}")
