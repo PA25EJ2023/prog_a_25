@@ -13,7 +13,7 @@ class Esmalte:
         print(f"Forma del envase: {self.forma_envase}")
         print(f"$ {self.precio}")    
         print(f"Tamaño: {self.tamaño}")
-        print (f"Marca: {self.marca}")
+        print(f"Marca: {self.marca}")
 
 
 class Espejo_corazon:
