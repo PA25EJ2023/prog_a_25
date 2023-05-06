@@ -18,3 +18,23 @@ laptop = Laptop("Appel","Macbook","Plateada",15000)
 print("Laptop")
 laptop.info()
 
+flash1 = Flash("Canon", "negro", "Retractil", 1700)
+print("Flash 1")
+flash1.info()
+
+flash2 = Flash("Canon", "negro", "Retractil", 1700)
+print("Flash 2")
+flash2.info()
+
+tripie = Tripie("RabbitStorm", "Negro", "125cm", 400)
+print("Tripie ")
+tripie.info()
+
+celular = Celular("Bmobile", "AX687", "Azul", 700)
+print("Celular ")
+celular.info()
+
+pila = Pila("Power bank","Recargable","Negro",500)
+print("Pila del Celular")
+pila.info()
+
