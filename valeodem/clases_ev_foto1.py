@@ -60,13 +60,14 @@ class Portaretratos:
         print(f'forma: {self.forma}\n tamaño: {self.tamaño}\n stickers: {self.stickers}\n color: {self.color}')
 
 class Cuentas: 
-    def __init__(self,color,forma,precio):
+    def __init__(self,color,forma,precio,tamaño):
         self.color = color
         self.forma = forma
         self.precio = precio
+        self.tamaño = tamaño
 
     def info(self):
-        print(f'color: {self.color}\n forma: {self.forma}\n precio: {self.precio}')
+        print(f'color: {self.color}\n forma: {self.forma}\n precio: {self.precio}\n tamaño: {self.tamaño}')
 
 class Gloss: 
      def __init__(self,color,brillo,marca,precio):
