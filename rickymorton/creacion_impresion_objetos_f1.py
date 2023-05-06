@@ -1,22 +1,22 @@
 from clasesfoto1 import Boligrafo, Espejo, Recuadro,Esmalte,Cinta,Marcadores
 from clasesfoto1 import Lip_gloss,Reloj,Libreta,Pegamento,Sticker,Cuencas,Pinzas
-boligrafo1 = Boligrafo("BIC","Azul",20)
+boligrafo1 = Boligrafo("BIC","Azul",20,"17.5cm")
 print("Boligrafo 1")
 boligrafo1.info()
 
-boligrafo2 = Boligrafo("BIC","Rosa",20)
+boligrafo2 = Boligrafo("BIC","Rosa",20,"17.5cm")
 print("Boligrafo 2")
 boligrafo2.info()
 
-boligrafo3 = Boligrafo("BIC","Amarillo",20)
+boligrafo3 = Boligrafo("BIC","Amarillo",20,"17.5cm")
 print("Boligrafo 3")
 boligrafo2.info()
 
-boligrafo4 = Boligrafo("BIC","Naranja",20)
+boligrafo4 = Boligrafo("BIC","Naranja",20,"17.5cm")
 print("Boligrafo 4")
 boligrafo2.info()
 
-espejo = Espejo("Pequeño","Corazon","Rojo")
+espejo = Espejo("Chino","Pequeño","Corazon","Rojo")
 print("Espejo")
 espejo.info()
 
@@ -28,31 +28,31 @@ recuadro2 = Recuadro("Rectangulo","Luna y estrellas","Chico","Blanco")
 print("Recuadro 2")
 recuadro2.info()
 
-esmalte1 = Esmalte("Rojo","Rectangular","Chico")
+esmalte1 = Esmalte("Rojo","Rectangular","Chico",120)
 print("Esmalte 1")
 esmalte1.info()
 
-esmalte2 = Esmalte("Rosa","Cuadrado","Chico")
+esmalte2 = Esmalte("Rosa","Cuadrado","Chico",120)
 print("Esmalte 2")
 esmalte2.info()
 
-esmalte3 = Esmalte("Azul","Cuadrado","Mediano")
+esmalte3 = Esmalte("Azul","Cuadrado","Mediano",150)
 print("Esmalte 3")
 esmalte3.info()
 
-esmalte4 = Esmalte("Blanco","Rectangulo","Mediano")
+esmalte4 = Esmalte("Blanco","Rectangulo","Mediano",150)
 print("Esmalte 4")
 esmalte4.info()
 
-esmalte5 = Esmalte("Fiusha","Rombo","Chico")
+esmalte5 = Esmalte("Fiusha","Rombo","Chico",120)
 print("Esmalte 5")
 esmalte5.info()
 
-esmalte6 = Esmalte("Dorado","Ovalo","Chico")
+esmalte6 = Esmalte("Dorado","Ovalo","Chico",120)
 print("Esmalte 6")
 esmalte6.info()
 
-esmalte7 = Esmalte("Rosa con brillitos","Cuadrado","Chico")
+esmalte7 = Esmalte("Rosa con brillitos","Cuadrado","Chico",120)
 print("Esmalte 7")
 esmalte7.info()
 
@@ -72,15 +72,15 @@ cinta4 = Cinta("Verde","18mmx33m",8.12)
 print("Cinta 4")
 cinta4.info()
 
-marcador1 = Marcadores("Morado","Sharpie",70)
+marcador1 = Marcadores("Morado","Sharpie","12.47",70)
 print("Marcador 1")
 marcador1.info()
 
-marcador2 = Marcadores("Rosa","Sharpie",70)
+marcador2 = Marcadores("Rosa","Sharpie","12.47",70)
 print("Marcador 2")
 marcador2.info()
 
-marcador3 = Marcadores("Naranja","Sharpie",70)
+marcador3 = Marcadores("Naranja","Sharpie","12.47",70)
 print("Marcador 3")
 marcador3.info()
 
