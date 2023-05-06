@@ -99,7 +99,7 @@ class Tijeras:
      def info(self):
         print(f'color: {self.color}\n marca: {self.marca}\n tamaño: {self.tamaño}\n precio: {self.precio}')
 
-class Reloj:
+class Telefono:
     def __init__(self,marca,modelo,color,precio):
         self.marca = marca
         self.modelo = modelo
@@ -108,6 +108,28 @@ class Reloj:
     
     def info(self):
         print(f'marca: {self.marca}\n modelo: {self.modelo}\n color: {self.color}\n precio: {self.precio}')
+
+class Pinzas:
+    def __init__(self,color,marca,tamaño,precio):
+        self.color = color
+        self.marca = marca
+        self.tamaño = tamaño
+        self.precio = precio
+
+    def info(self):
+        print(f'color: {self.color}\n marca: {self.marca}\n tamaño: {self.tamaño}\n precio: {self.precio}')
+    
+class Pegamento:
+    def __init__(self,color,marca,tamaño,precio):
+        self.color = color
+        self.marca = marca
+        self.tamaño = tamaño
+        self.precio = precio
+
+    def info(self):
+        print(f'color: {self.color}\n marca: {self.marca}\n tamaño: {self.tamaño}\n precio: {self.precio}')
+
+
 
         
         
