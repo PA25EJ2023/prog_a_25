@@ -30,7 +30,7 @@ class Sueter_mezclilla:
         print(f"$ {self.precio}")
     
 class Celular:
-    def __init__(self,marca,color,num_tel,modelo,precio,capacidad):
+    def __init__(self,marca,color,num_tel,modelo,capacidad,precio):
         self.marca=marca
         self.color=color
         self.num_tel=num_tel
