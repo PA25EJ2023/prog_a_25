@@ -56,21 +56,7 @@ esmalte7 = Esmalte("Rosa con brillitos","Cuadrado","Chico")
 print("Esmalte 7")
 esmalte7.info()
 
-cinta1 = Cinta("Azul","18mmx33m",8.12)
-print("Cinta 1")
-cinta1.info()
 
-cinta2 = Cinta("Rosa","18mmx33m",8.12)
-print("Cinta 2")
-cinta1.info()
-
-cinta3 = Cinta("Rosa pastel","18mmx33m",8.12)
-print("Cinta 3")
-cinta3.info()
-
-cinta4 = Cinta("Verde","18mmx33m",8.12)
-print("Cinta 4")
-cinta4.info()
 
 marcador1 = Marcadores("Morado","Sharpie",70)
 print("Marcador 1")
