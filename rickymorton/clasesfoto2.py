@@ -19,22 +19,25 @@ class Portafolio:
         print(f'marca: {self.marca}\n color: {self.color}\n tamaño {self.tamaño}\n precio: {self.precio}')
 
 class Zapatos:
-    def __init__(self,marca,color,precio):
+    def __init__(self,marca,color,precio,tipo):
         self.marca = marca
         self.color = color
         self.precio = precio
+        self.tipo = tipo
     
     def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}\n tipo: {self.tipo}')
 
 class Laptop:
-    def __init__(self,marca,color,precio):
+    def __init__(self,marca,modelo,color,precio):
         self.marca = marca
+        self.modelo = modelo
         self.color = color 
         self.precio = precio
 
+
     def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+        print(f'marca: {self.marca}\n modelo: {self.modelo}\n color: {self.color}\n precio: {self.precio}')
 
 class Pila_camara:
     def __init__(self,marca,color,tipo,precio):
@@ -57,13 +60,14 @@ class Tripie:
         print(f'marca: {self.marca}\n color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}')
 
 class Celular:
-    def __init__(self,marca,color,precio):
+    def __init__(self,marca,modelo,color,precio):
         self.marca = marca
+        self.modelo = modelo
         self.color = color
         self.precio = precio
     
     def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
+        print(f'marca: {self.marca}\n modelo: {self.modelo}\n color: {self.color}\n precio: {self.precio}')
 
 class Pila_cel:
     def __init__(self,marca,tipo,color,precio):
@@ -114,3 +118,73 @@ class Lente_camara:
     
     def info(self):
         print(f'marca: {self.marca}\n color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}')
+
+class Chaqueta:
+    def __init__(self,marca,color,talla,tipo):
+        self.marca = marca
+        self.color = color
+        self.talla = talla
+        self.tipo = tipo
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n talla: {self.talla}\n tipo: {self.tipo}')
+
+class Protector_lente:
+    def __init__(self,marca,color,tamaño,precio):
+        self.marca = marca
+        self.color = color
+        self.tamaño = tamaño
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}')
+
+class Estuche_camara:
+    def __init__(self,marca,color,tamaño,precio):
+        self.marca = marca
+        self.color = color
+        self.tamaño = tamaño
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n tamaño: {self.tamaño}\n precio: {self.precio}')
+
+class Marcador:
+    def __init__(self,marca,color,tipo_pluma,tamaño):
+        self.marca = marca
+        self.color = color
+        self.tipo_pluma = tipo_pluma
+        self.tamaño = tamaño
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n tipo pluma: {self.tipo_pluma}\n tamaño: {self.tamaño}')
+
+class Lapices:
+    def __init__(self,marca,color,precio,tamaño):
+        self.marca = marca
+        self.color = color
+        self.precio = precio
+        self.tamaño = tamaño
+    
+    def info(self):
+        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}\n tamaño: {self.tamaño}')
+
+class Pin:
+    def __init__(self,marca,tamaño,color,precio):
+        self.marca = marca
+        self.tamaño = tamaño
+        self.color = color
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n tamaño: {self.tamaño}\n color: {self.color}\n precio: {self.precio}')
+
+class Cable:
+    def __init__(self,marca,tipo,color,precio):
+        self.marca = marca
+        self.tipo = tipo
+        self.color = color
+        self.precio = precio
+    
+    def info(self):
+        print(f'marca: {self.marca}\n tipo: {self.tipo}\n color: {self.color}\n precio: {self.precio}')

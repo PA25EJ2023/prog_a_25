@@ -7,7 +7,7 @@ class Libreta:
     
     def info_libreta(self):
         print(f"Libreta {self.numero}")
-        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y es {self.tipo}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y es: {self.tipo}")
 
 class Espejo:
     def __init__(self, numero, color, tamaño, forma):
@@ -43,13 +43,12 @@ class Esmalte:
         print(f"Es de color: {self.color} y tiene forma de {self.forma}")
 
 class Tijeras:
-    def __init__(self, numero, color, material, tipo):
-        self.color = color
+    def __init__(self, numero, color, material,):
         self.numero = numero
+        self.color = color
         self.material = material
-        self.tipo = tipo
     
-    def info_espejo(self):
+    def info_tijeras(self):
         print(f"Tijeras {self.numero}")
         print(f"Son de color: {self.color} y están hechas de: {self.material}")
 
@@ -95,27 +94,70 @@ class Pegamento:
         self.tamaño = tamaño
         self.forma = forma
 
-    def info_pinza(self):
+    def info_pegamento(self):
         print(f"Pegamento {self.numero}")
         print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y tiene forma de: {self.forma}")
 
 class Cinta:
-    def __init__(self, numero, color, tamaño):
+    def __init__(self, numero, color, tamaño, largo):
         self.color = color
         self.numero = numero
         self.tamaño = tamaño
+        self.largo = largo
 
-    def info_pinza(self):
+    def info_cinta(self):
         print(f"Pinza {self.numero}")
-        print(f"Es de color: {self.color} y es de tamaño: {self.tamaño}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y tiene un largo de {self.largo} m")
 
 class Stickers:
-    def __init__(self, numero, color, tamaño, forma):
+    def __init__(self, numero, color, forma):
+        self.color = color
+        self.numero = numero
+        self.forma = forma
+
+    def info_sticker(self):
+        print(f"Sticker {self.numero}")
+        print(f"Es de color: {self.color} y tienen forma de: {self.forma}")
+
+class Cuentas:
+    def __init__(self, numero, color, material):
+        self.color = color
+        self.numero = numero
+        self.material = material
+
+    def info_cuentas(self):
+        print(f"Cuenta {self.numero}")
+        print(f"Es de color: {self.color} y esta hecha de: {self.material}")
+
+class Maquillaje:
+    def __init__(self, numero, color, tamaño, colores):
         self.color = color
         self.numero = numero
         self.tamaño = tamaño
-        self.forma = forma
+        self.colores = colores
 
-    def info_pinza(self):
-        print(f"Pinza {self.numero}")
-        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y tienen forma de: {self.forma}")
+    def info_maquillaje(self):
+        print(f"Maquillaje {self.numero}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y tiene: {self.colores} colores diferentes de maquillaje")
+
+class Fotos:
+    def __init__(self, numero, imagen, tamaño, material):
+        self.imagen = imagen
+        self.numero = numero
+        self.tamaño = tamaño
+        self.material = material
+
+    def info_fotos(self):
+        print(f"Foto {self.numero}")
+        print(f"En la foto aparece una: {self.imagen}, mide: {self.tamaño} cm, y esta impresa en: {self.material}")
+
+class Regla:
+    def __init__(self, numero, color, tamaño, material):
+        self.color = color
+        self.numero = numero
+        self.tamaño = tamaño
+        self.material = material
+
+    def info_regla(self):
+        print(f"Regla {self.numero}")
+        print(f"Es de color: {self.color}, mide: {self.tamaño} cm y esta hecha de: {self.material}")

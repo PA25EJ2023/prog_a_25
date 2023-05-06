@@ -99,3 +99,42 @@ class Broches():
         self.marca = marca
     def inf(self):
         print(f"Color>> {self.color}\nTamaño>> {self.tamaño}\nForma>> {self.figura}\nMarca>> {self.marca}")
+
+class Espejo():
+    def __init__(self,tamaño,color,forma,precio):
+        self.tamaño = tamaño 
+        self.color = color
+        self.forma = forma 
+        self.precio = precio 
+    def inf(self):
+        print(f"Color>> {self.color}\nTamaño>> {self.tamaño}\nForma>> {self.forma}\nPrecio>> {self.precio}")
+
+class Telefono():
+    def __init__(self,color,tamaño,precio,marca):
+        self.color = color
+        self.tamaño = tamaño
+        self.precio = precio 
+        self.marca = marca 
+    def inf(self):
+        print(f"Color>> {self.color}\nTamaño>> {self.tamaño}\nPrecio>> {self.precio}\nMarca>> {self.marca}")
+
+class Cuentas():
+    def __init__(self,color,cantidad,material,tamaño):
+        self.color = color
+        self.cantidad = cantidad
+        self.material = material
+        self.tamaño = tamaño
+
+    def info(self):
+        print(f"Color: {self.color}\nCantidad: {self.cantidad}\nMaterial: {self.material}\nTamaño: {self.tamaño}")
+
+
+class Stickers():
+    def __init__(self,estado,cantidad,forma,material):
+        self.estado = estado
+        self.cantidad = cantidad
+        self.forma = forma
+        self.material = material
+
+    def info(self):
+        print(f"Estado: {self.estado}\nCantidad: {self.cantidad}\nForma: {self.forma}\nMaterial: {self.material}")
