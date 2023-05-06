@@ -1,4 +1,4 @@
-from clasesfoto2 import Maletin,Laptop,Reloj,Celular,Camisa,Saco,Cargador_laptop,Tripie_camara,Revista
+from clasesfoto2 import Maletin,Laptop,Reloj,Celular,Camisa,Saco,Cargador_laptop,Tripie_camara,Revista,Estuche_camara,Pluma_estilografica,Lapiz
 
 print("*"*50)
 print("Este es el Maletin")
@@ -71,3 +71,33 @@ print("*"*50)
 revista1 = Revista("Blanco","Deportes,Musica","Juice","12 dolares")
 
 revista1.info()
+
+print("*"*50)
+print("Este es el estuche de la camara")
+print("*"*50)
+
+estuche_camara1 = Estuche_camara("Negro","Poliester","13x13cm",350)
+
+estuche_camara1.info()
+
+print("*"*50)
+print("Esta es la pluma estilografica")
+print("*"*50)
+
+pluma_estilografica1 = Pluma_estilografica("Negro","Acero inoxidable","Artline Ergoline",225)
+
+pluma_estilografica1.info()
+
+print("*"*50)
+print("Estos son los lapices")
+print("*"*50)
+
+lapiz1 = Lapiz("2B","negro","Lyra",64)
+lapiz2 = Lapiz("4B","negro","Lyra",64)
+lapiz3 = Lapiz("8B","negro","Lyra",64)
+lapiz4 = Lapiz("2B","blanco","Lyra",64)
+
+lapiz1.info()
+lapiz2.info()
+lapiz3.info()
+lapiz4.info()
