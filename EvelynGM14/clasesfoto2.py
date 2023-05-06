@@ -158,3 +158,35 @@ class Tapa_lente_camara:
 
     def info(self):
         print(f"1 TAPA DE LENTE DE CAMARA\nTipo: {self.tipo}\nMarca: {self.marca}\nColor: {self.color}\nPrecio: {self.precio}")
+
+
+class Bateria_portatil:
+    def __init__(self,amperaje,color,marca,precio):
+        self.amperaje = amperaje
+        self.color = color
+        self.marca = marca
+        self.precio = precio
+
+    def info(self):
+        print(f"1 BATERIA PORTATIL\nAmperaje: {self.amperaje}\nColor: {self.color}\nMarca: {self.marca}\nPrecio: {self.precio}")
+
+
+class Zapato_derecho:
+    def __init__(self,color,material,talla,tipo):
+        self.color = color
+        self.material = material
+        self.talla = talla
+        self.tipo = tipo
+
+    def info(self):
+        print(f"1 ZAPATO DERECHO\nColor: {self.color}\nMaterial: {self.material}\nTalla: {self.talla}\nTipo: {self.tipo}")
+
+class Zapato_izquierdo:
+    def __init__(self,color,material,talla,tipo):
+        self.color = color
+        self.material = material
+        self.talla = talla
+        self.tipo = tipo
+
+    def info(self):
+        print(f"1 ZAPATO IZQUIERDO\nColor: {self.color}\nMaterial: {self.material}\nTalla: {self.talla}\nTipo: {self.tipo}")

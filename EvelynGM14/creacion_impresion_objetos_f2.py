@@ -1,4 +1,4 @@
-from clasesfoto2 import Maletin,Laptop,Reloj,Celular,Camisa,Saco,Cargador_laptop,Tripie_camara,Revista,Estuche_camara,Pluma_estilografica,Lapiz,Pila_camara,Lente_camara,Tapa_lente_camara
+from clasesfoto2 import Maletin,Laptop,Reloj,Celular,Camisa,Saco,Cargador_laptop,Tripie_camara,Revista,Estuche_camara,Pluma_estilografica,Lapiz,Pila_camara,Lente_camara,Tapa_lente_camara,Bateria_portatil,Zapato_derecho,Zapato_izquierdo
 
 print("*"*50)
 print("Este es el Maletin")
@@ -133,3 +133,27 @@ tapa_lente3 = Tapa_lente_camara("Lente Normal","Canon","Negro",168)
 tapa_lente1.info()
 tapa_lente2.info()
 tapa_lente3.info()
+
+print("*"*50)
+print("Esta es la bateria portatil")
+print("*"*50)
+
+bateria_portatil1 = Bateria_portatil("5500mAh","Negro","1HORA",500)
+
+bateria_portatil1.info()
+
+print("*"*50)
+print("Este es el zapato derecho")
+print("*"*50)
+
+zapato_derecho1 = Zapato_derecho("Cafe","Piel","28","Mocasin")
+
+zapato_derecho1.info()
+
+print("*"*50)
+print("Este es el zapato derecho")
+print("*"*50)
+
+zapato_izquierdo1 = Zapato_izquierdo("Cafe","Piel","28","Mocasin")
+
+zapato_izquierdo1.info()
