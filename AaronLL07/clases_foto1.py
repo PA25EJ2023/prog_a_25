@@ -1,6 +1,3 @@
-# https://www.pexels.com/es-es/foto/escritorio-oficina-escritura-boligrafos-10605242/
-# https://www.pexels.com/es-es/foto/bolso-de-cuero-marron-ropa-y-macbook-57750/
-
 class Esmalte:
     
     def __init__(self, color, tamano, forma):
@@ -44,14 +41,15 @@ class Cinta:
 
 class Boligrafo:
 
-    def __init__(self, tipo, color, marca, tamano):
+    def __init__(self, tipo, color, marca, tamano, precio):
         self.tipo = tipo
         self.color = color
         self.marca = marca
         self.tamano = tamano
+        self.precio = precio
 
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.marca} {self.tamano}")
+        print(f"{self.tipo} {self.color} {self.marca} {self.tamano} {self.precio}")
 
 class Cuenta:
 
@@ -102,7 +100,7 @@ class Poster:
     def imprimir(self):
         print(f"{self.tamano}")
 
-class Tijeras:  
+class Tijera:  
     
     def __init__(self, tipo_punta, color, tamano):
         self.tipo_punta = tipo_punta
@@ -134,10 +132,11 @@ class Pinza:
 
 class Pegatina:
 
-    def __init__(self, forma, color, tamano):
+    def __init__(self, forma, color, tamano, cantidad):
         self.forma = forma
         self.color = color
         self.tamano = tamano
+        self.cantidad = cantidad
 
     def imprimir(self):
-        print(f"{self.forma} {self.color} {self.tamano}")
+        print(f"{self.forma} {self.color} {self.tamano} {self.cantidad}")
