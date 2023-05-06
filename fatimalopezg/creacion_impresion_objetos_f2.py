@@ -10,3 +10,5 @@ suetermezc1.info()
 
 cel1=Celular("huawei","negro",8154475,"ascend P1 XL U9200E","64gb",1700)
 cel1.info()
+
+
