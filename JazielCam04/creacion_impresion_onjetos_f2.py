@@ -36,7 +36,7 @@ celular.info()
 
 disco_duro = Disco_duro("Lenovo","1 TB","Negro",2500)
 print("Disco Duro")
-pila.info()
+disco_duro.info()
 
 reloj = Reloj("Samsung","Negro",1900)
 print("Reloj")
