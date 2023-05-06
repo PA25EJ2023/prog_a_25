@@ -47,3 +47,35 @@ zapato1.info()
 trip=Tripie("EXCELL","aluminio","para cámara fotográfica",900)
 trip.info()
 
+
+lente1=Lente_camara("canon","vidrio y plástico","negro",4000)
+lente1.info()
+
+lente2=Lente_camara("canon","vidrio y plástico","negro",4800)
+lente2.info()
+
+
+tapa1=Tapa("plástico","negro","chico","para lente de cámara")
+tapa1.info()
+
+tapa2=Tapa("plástico","negro","mediana","para lente de cámara")
+tapa2.info()
+
+tapa3=Tapa("plástico","negro","mediana","para lente de cámara")
+tapa3.info()
+
+
+funda_cam=Funda("negro","de cámara","mediana",600)
+funda_cam.info()
+
+
+lapiz1=Lapiz("gris","madera","lyra",25)
+lapiz1.info()
+
+
+lapiz2=Lapiz("gris","madera","lyra",25)
+lapiz2.info()
+
+
+lapiz3=Lapiz("blanco","madera","lyra",28)
+lapiz3.info()

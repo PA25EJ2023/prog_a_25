@@ -113,7 +113,7 @@ class Bateria:
     def info(self):
         print("--- BATERIA PORTATIL ---")
         print(f"Color: {self.color}")
-        print(f"Tipo: {self.marca}")
+        print(f"Tipo: {self.tipo}")
         print(f"Medida: {self.medida}")
         print(f"$ {self.precio}")
 
@@ -192,18 +192,18 @@ class Lente_camara:
         print(f"$ {self.precio}")
 
 class Tapa:
-    def __init__(self,material,color,tamaño,precio):
+    def __init__(self,material,color,tamaño,tipo):
         self.material=material
         self.color=color
         self.tamaño=tamaño
-        self.precio=precio
+        self.tipo=tipo
     
     def info(self):
         print("--- TAPA DE LA CÁMARA ---")
         print(f"Material: {self.material}")
         print(f"Color: {self.color}")
         print(f"Tamaño: {self.tamaño}")
-        print(f"$ {self.precio}")
+        print(f"Tipo tapa: {self.tipo}")
 
 class Funda:
     def __init__(self,color,tipo,tamaño,precio):
