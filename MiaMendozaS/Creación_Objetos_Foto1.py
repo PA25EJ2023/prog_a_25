@@ -1,5 +1,4 @@
-from Clases_Foto1 import Boligrafo,Marcador,Cinta,Libreta,Esmalte_Uñas,Brillo_labial,Pinza_Pelo,Paleta_Maquillaje,Barra_Pegamento,Tijera,Regla
-
+from Clases_Foto1 import Boligrafo,Marcador,Cinta,Libreta,Esmalte_Uñas,Brillo_labial,Pinza_Pelo,Paleta_Maquillaje,Barra_Pegamento,Tijera,Regla,Lapicero_Pompon,Portaretrato,Espejo,Telefono,Pulsera
 
 #BOLÍGRAFOS
 boligrafo1 = Boligrafo("Rosa","12 cm","Bic","$10")
@@ -97,7 +96,6 @@ brillo2.mostrar_info()
 print(f"{'-'*5} Brillo 3 {'-'*5}")
 brillo3.mostrar_info()
 
-
 #PINZA_PELO
 pinza1 = Pinza_Pelo("Rosa","2x2 cm","Plástico","Ormromra")
 pinza2 = Pinza_Pelo("Azul","2x2 cm","Plástico","Ormromra")
@@ -135,19 +133,51 @@ print("")
 print(f"{'-'*30} BARRA DE PEGAMENTO {'-'*30}")
 barra_pegamento.mostrar_info()
 
-
 #TIJERA
 tijera = Tijera("Azul","15 cm","Dos cuchillas de acero y plástico","Barrilito")
 print("")
 print(f"{'-'*30} TIJERA {'-'*30}")
 tijera.mostrar_info()
 
-
 #REGLA
 regla = Regla("Morado","30 cm","Plástico","Maped")
 print("")
 print(f"{'-'*30} REGLA {'-'*30}")
 regla.mostrar_info()
+
+#LAPICERO CON POMPÓN
+lapicerp_pom= Lapicero_Pompon("Naranja","14 cm","5 cm","Paper Mate")
+print("")
+print(f"{'-'*30} LAPICERO CON POMPÓN {'-'*30}")
+lapicerp_pom.mostrar_info()
+
+#PORTARETRATO
+portaretrato1 = Portaretrato("Blanco","20x13 cm","Madera","17x10 cm")
+portaretrato2 = Portaretrato("Blanco","20x13 cm","Madera","17x10 cm")
+print("")
+print(f"{'-'*30} PORTARETRATOS {'-'*30}")
+print(f"{'-'*5} Portaretato 1{'-'*5}")
+portaretrato1.mostrar_info()
+print(f"{'-'*5} Portaretato 2{'-'*5}")
+portaretrato2.mostrar_info()
+
+#ESPEJO
+espejo = Espejo("Rosa","25 cm","Plástico","Corazón")
+print("")
+print(f"{'-'*30} ESPEJO{'-'*30}")
+espejo.mostrar_info()
+
+#TELEFONO
+telefono = Telefono("Rosa","23x20x12 cm","Máximo 60cm","Plástico","GPO")
+print("")
+print(f"{'-'*30} TELÉFONO {'-'*30}")
+telefono.mostrar_info()
+
+#PULCERA
+pulcera = Pulsera("Blanco, Amarillo, Rojo, Negro y Vino","12 cm","Circular y Cuadrada","Color sólido y Letras")
+print("")
+print(f"{'-'*30} PULCERA {'-'*30}")
+pulcera.mostrar_info()
 
 
 
