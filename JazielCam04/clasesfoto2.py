@@ -1,32 +1,29 @@
 class Revista:
-    def __init__(self,nombre,tipo,fecha_salida,precio):
+    def __init__(self,nombre,tipo,precio):
         self.nombre = nombre
         self.tipo = tipo
-        self.fecha_salida = fecha_salida
         self.precio = precio
     
     def info(self):
-        print(f'nombre: {self.nombre}\n tipo: {self.tipo}\n fecha_salida: {self.fecha_salida}\n precio: {self.precio}')
+        print(f'nombre: {self.nombre}\n tipo: {self.tipo}\n \n precio: {self.precio}')
 
 class Portafolio:
-    def __init__(self,marca,color,tamaño,precio):
-        self.marca = marca
+    def __init__(self,color,tamaño,precio):
         self.color = color
         self.tamaño = tamaño
         self.precio = precio
     
     def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n tamaño {self.tamaño}\n precio: {self.precio}')
+        print(f'color: {self.color}\n tamaño {self.tamaño}\n precio: {self.precio}')
 
 class Zapatos:
-    def __init__(self,marca,color,precio,tipo):
+    def __init__(self,marca,color,tipo):
         self.marca = marca
         self.color = color
-        self.precio = precio
         self.tipo = tipo
     
     def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}\n tipo: {self.tipo}')
+        print(f'marca: {self.marca}\n color: {self.color}\n tipo: {self.tipo}')
 
 class Laptop:
     def __init__(self,marca,modelo,color,precio):
@@ -39,7 +36,7 @@ class Laptop:
     def info(self):
         print(f'marca: {self.marca}\n modelo: {self.modelo}\n color: {self.color}\n precio: {self.precio}')
 
-class Pila_camara:
+class Flash:
     def __init__(self,marca,color,tipo,precio):
         self.marca = marca
         self.color = color
@@ -69,7 +66,7 @@ class Celular:
     def info(self):
         print(f'marca: {self.marca}\n modelo: {self.modelo}\n color: {self.color}\n precio: {self.precio}')
 
-class Pila_cel:
+class Disco_duro:
     def __init__(self,marca,tipo,color,precio):
         self.marca = marca
         self.tipo = tipo
@@ -80,24 +77,13 @@ class Pila_cel:
         print(f'marca: {self.marca}\n tipo: {self.tipo}\n color: {self.color}\n precio: {self.precio}')
 
 class Reloj:
-    def __init__(self,marca,color,modelo,precio):
+    def __init__(self,marca,color,precio):
         self.marca = marca
         self.color = color
-        self.modelo = modelo
         self.precio = precio
     
     def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n modelo: {self.modelo}\n precio: {self.precio}')
-
-class Pila_lap:
-    def __init__(self,marca,color,tipo,precio):
-        self.marca = marca
-        self.color = color
-        self.tipo = tipo
-        self.precio = precio
-    
-    def info(self):
-        print(f'marca: {self.marca}\n color: {self.color}\n tipo: {self.tipo}\n precio: {self.precio}')
+        print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}')
 
 class Camisa:
     def __init__(self,marca,color,talla,tipo):
@@ -129,7 +115,7 @@ class Chaqueta:
     def info(self):
         print(f'marca: {self.marca}\n color: {self.color}\n talla: {self.talla}\n tipo: {self.tipo}')
 
-class Protector_lente:
+class Protector:
     def __init__(self,marca,color,tamaño,precio):
         self.marca = marca
         self.color = color
@@ -169,17 +155,7 @@ class Lapices:
     def info(self):
         print(f'marca: {self.marca}\n color: {self.color}\n precio: {self.precio}\n tamaño: {self.tamaño}')
 
-class Pin:
-    def __init__(self,marca,tamaño,color,precio):
-        self.marca = marca
-        self.tamaño = tamaño
-        self.color = color
-        self.precio = precio
-    
-    def info(self):
-        print(f'marca: {self.marca}\n tamaño: {self.tamaño}\n color: {self.color}\n precio: {self.precio}')
-
-class Cable:
+class Cargador_lap:
     def __init__(self,marca,tipo,color,precio):
         self.marca = marca
         self.tipo = tipo
