@@ -71,7 +71,7 @@ class Telefono:
      def imprimir(self):
         print(f"El telefono es de colo:{self.color},y es de tipo={self.tipo}")
 
-class Pinzas:
+class Pinzaa:
      def __init__(self,color,tamaño):
         self.color=color
         self.tamaño=tamaño
