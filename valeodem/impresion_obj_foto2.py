@@ -1,4 +1,4 @@
-from clases_ev2_foto2 import: *
+from clases_ev2_foto2 import Computadora,Maletin,Lente_camara,Revista,Zapatos,Cargador,Reloj,Pila_camara,Camisas,Celular,Marcador,Lapices,Tripie
 
 print("--Computadora--")
 computadora = Computadora("Apple","22 x 17 cm","Blanco","1MB",28.000)
@@ -53,7 +53,7 @@ pila2.info()
 
 print("****************************")
 print("--Celular--")
-celular = Celular("Negro","Apple",                                        "   ",7.000)
+celular = Celular("Negro","Apple","	12 MP f/1.8 12 MP gran angular f/2.4","6.06 pul",12.000)
 celular.info()
 
 print("****************************")
