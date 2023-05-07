@@ -46,7 +46,7 @@ class Pegamento:
     def imprimir(self):
         print(f"El color es={self.color},el tipo de pegamento es={self.tipo},y es de la marca={self.marca}")
 
-class Tijeras:
+class Tijera:
     def __init_(self,color,marca):
         self.color=color
         self.marca= marca
@@ -80,7 +80,67 @@ class Pinzas:
         print(f"La pinza es de colo:{self.color},y de tamaño de={self.tamaño}")
 
 
+class Libreta:
+    def __init_(self,color,tipo,altura,ancho):
+        self.color=color
+        self.altura= altura
+        self.ancho= ancho
+        self.tipo= tipo
+        
+    
+    def imprimir(self):
+        print(f"La libreta es de color:{self.color}, tiene una altura de:{self.altura},y un ancho de:{self.ancho},y es de tipo{self.tipo}")
+    
+
+class Sticker:
+    def __init_(self,color,marca,forma):
+        self.color=color
+        self.forma= forma
+    
+    def imprimir(self):
+        print(f"El Sticker tiene una forma de={self.forma}, y son de color={self.color}")
+
+class Labial:
+    def __init_(self,color,precio):
+        self.color=color
+        self.precio= precio
+    
+    def imprimir(self):
+        print(f"El labial es de color:{self.color}, y tiene el precio de={self.precio}")
+
+class Marcador:
+    def __init_(self,color,tamaño):
+        self.color=color
+        self.tamaño= tamaño 
+    
+    def imprimir(self):
+        print(f"El plumon es de color:{self.color}, y su tamaño es de={self.tamaño}")
+
+class Cuenta:
+    def __init_(self,color,tamaño):
+        self.color=color
+        self.tamaño= tamaño 
+    
+    def imprimir(self):
+        print(f"Color:{self.color}, y su tamaño es de={self.tamaño}")
+
+class Postal:
+    def __init_(self,tamaño):
+        self.tamaño=tamaño
+         
+    
+    def imprimir(self):
+        print(f"Su tamaño es de={self.tamaño}")
+
+class Estuche_sombra:
+    def __init_(self,tamaño,color):
+        self.tamaño=tamaño
+        self.color=color
+         
+    
+    def imprimir(self):
+        print(f"Su tamaño es de={self.tamaño},y su color es:{self.color}")
 
     
 
-
+    
