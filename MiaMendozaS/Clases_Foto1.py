@@ -58,6 +58,62 @@ class Brillo_labial:
     def mostrar_info(self):
         print(f"Color: {self.color}\nContenido Neto: {self.contenido}\nForma: {self.forma}\nMarca: {self.marca}")
 
+class Pinza_Pelo:
+    def __init__(self,color,tamaño,material,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.material= material
+        self.marca= marca
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMaterial: {self.material}\nMarca: {self.marca}")
+
+
+class Paleta_Maquillaje:
+    def __init__(self,color,tamaño,contenido,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.contenido= contenido
+        self.marca= marca 
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nContenido: {self.contenido}\nMarca: {self.marca}")
+
+class Barra_Pegamento:
+    def __init__(self,color,tamaño,contenido,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.contenido= contenido
+        self.marca= marca 
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nContenido: {self.contenido}\nMarca: {self.marca}")
+
+
+class Tijera:
+    def __init__(self,color,tamaño,material,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.material= material
+        self.marca= marca 
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMaterial: {self.material}\nMarca: {self.marca}")
+
+
+class Regla:
+    def __init__(self,color,tamaño,material,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.material= material
+        self.marca= marca 
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMaterial: {self.material}\nMarca: {self.marca}")
+
+
+
+
 
 
 

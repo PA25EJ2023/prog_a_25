@@ -1,7 +1,7 @@
 #clases foto 1 (tocador,peinador)
 class Esmalte:
     def __init__(self,color,forma_envase,precio,tamaño,marca):
-        self.color=color   #PONERLO EN MODO PRIVADO
+        self.color=color   
         self.forma_envase=forma_envase
         self.precio=precio
         self.tamaño=tamaño
@@ -36,8 +36,6 @@ class Retrato:
         self.color=color
         self.precio=precio
         self.decoracion=decoracion
-        #self.altura_foto=altura_foto
-        #self.ancho_foto=ancho_foto
 
     def info(self):
         print("*** RETRATO ***")

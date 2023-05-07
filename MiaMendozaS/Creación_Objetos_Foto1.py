@@ -1,4 +1,5 @@
-from Clases_Foto1 import Boligrafo,Marcador,Cinta,Libreta,Esmalte_Uñas,Brillo_labial
+from Clases_Foto1 import Boligrafo,Marcador,Cinta,Libreta,Esmalte_Uñas,Brillo_labial,Pinza_Pelo,Paleta_Maquillaje,Barra_Pegamento,Tijera,Regla
+
 
 #BOLÍGRAFOS
 boligrafo1 = Boligrafo("Rosa","12 cm","Bic","$10")
@@ -97,6 +98,56 @@ print(f"{'-'*5} Brillo 3 {'-'*5}")
 brillo3.mostrar_info()
 
 
+#PINZA_PELO
+pinza1 = Pinza_Pelo("Rosa","2x2 cm","Plástico","Ormromra")
+pinza2 = Pinza_Pelo("Azul","2x2 cm","Plástico","Ormromra")
+pinza3 = Pinza_Pelo("Rosa","2x2 cm","Plástico","Ormromra")
+pinza4 = Pinza_Pelo("Amarillo","2x2 cm","Plástico","Ormromra")
+pinza5 = Pinza_Pelo("Naranja","2x2 cm","Plástico","Ormromra")
+pinza6 = Pinza_Pelo("Morado","2x2 cm","Plástico","Ormromra")
+pinza7 = Pinza_Pelo("Salmón","2x2 cm","Plástico","Ormromra")
+print("")
+print(f"{'-'*30} PINZAS PARA EL PELO {'-'*30}")
+print(f"{'-'*5} Pinza 1 {'-'*5}")
+pinza1.mostrar_info()
+print(f"{'-'*5} Pinza 2 {'-'*5}")
+pinza2.mostrar_info()
+print(f"{'-'*5} Pinza 3 {'-'*5}")
+pinza3.mostrar_info()
+print(f"{'-'*5} Pinza 4 {'-'*5}")
+pinza4.mostrar_info()
+print(f"{'-'*5} Pinza 5 {'-'*5}")
+pinza5.mostrar_info()
+print(f"{'-'*5} Pinza 6 {'-'*5}")
+pinza6.mostrar_info()
+print(f"{'-'*5} Pinza 7 {'-'*5}")
+pinza7.mostrar_info()
+
+#PALETA_MAQUILLAJE
+paleta_maquillaje = Paleta_Maquillaje("Multicolor","10x10 cm","34 g","Bissú")
+print("")
+print(f"{'-'*30} PALETA DE MAQUILLAJE {'-'*30}")
+paleta_maquillaje.mostrar_info()
+
+#BARRA_PEGAMENTO
+barra_pegamento = Barra_Pegamento("Rosa","12x2 cm","43 g","Pritt")
+print("")
+print(f"{'-'*30} BARRA DE PEGAMENTO {'-'*30}")
+barra_pegamento.mostrar_info()
+
+
+#TIJERA
+tijera = Tijera("Azul","15 cm","Dos cuchillas de acero y plástico","Barrilito")
+print("")
+print(f"{'-'*30} TIJERA {'-'*30}")
+tijera.mostrar_info()
+
+
+#REGLA
+regla = Regla("Morado","30 cm","Plástico","Maped")
+print("")
+print(f"{'-'*30} REGLA {'-'*30}")
+regla.mostrar_info()
 
 
 
