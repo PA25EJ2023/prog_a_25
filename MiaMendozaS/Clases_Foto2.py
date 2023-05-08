@@ -1,6 +1,12 @@
 class Bolso:
-    def __init__(self,color,tamaño,material):
-        pass
+    def __init__(self,color,tamaño,material,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.material= material
+        self.marca= marca
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMaterial: {self.material}\nMarca: {self.marca}")
 
 class Laptop:
     def __init__(self,color,tamaño,tamaño_pantalla,marca):
@@ -93,6 +99,70 @@ class Disparador_Flash:
     
     def mostrar_info(self):
         print(f"Color: {self.color}\nTamaño: {self.tamaño}\nAlcance de Sincronización: {self.alcance_sincronizacion}\nMarca: {self.marca}")
+
+class Revista:
+    def __init__(self,color,diseño,tamaño,num_hojas,material):
+        self.color= color
+        self.diseño= diseño
+        self.tamaño= tamaño
+        self.num_hojas= num_hojas
+        self.material= material
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nDiseño: {self.diseño}\nTamaño: {self.tamaño}\nNúmero de Hojas: {self.num_hojas}\Material: {self.material}")
+
+class Tapa_Lente:
+    def __init__(self,color,tamaño,material,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.material= material
+        self.marca= marca
+
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMaterial: {self.material}\nMarca: {self.marca}")
+
+class Lente_Cam:
+    def __init__(self,color,tamaño,material,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.material= material
+        self.marca= marca
+
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMaterial: {self.material}\nMarca: {self.marca}")
+
+class Telefono:
+    def __init__(self,color,tamaño,material,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.material= material
+        self.marca= marca
+
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nMaterial: {self.material}\nMarca: {self.marca}")
+
+class Camisa:
+    def __init__(self,color,talla,tipo_ajuste,material,marca):
+        self.color= color
+        self.talla= talla
+        self.tipo_ajuste= tipo_ajuste   
+        self.material= material
+        self.marca= marca
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTalla: {self.talla}\nTipo de Ajuste: {self.tipo_ajuste}\nMaterial: {self.material}\nMarca: {self.marca}")
+
+class Cargador_Cam:
+    def __init__(self,color,tamaño,tipo_conector,marca):
+        self.color= color
+        self.tamaño= tamaño
+        self.tipo_conector= tipo_conector
+        self.marca= marca
+
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nTamaño: {self.tamaño}\nTipo de Conector: {self.tipo_conector}\nMarca: {self.marca}")
+
+
 
 
 
