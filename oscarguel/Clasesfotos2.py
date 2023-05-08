@@ -149,3 +149,5 @@ class Compu:
     def imprimir(self):
         print(F"La compu es color:{self.color},tiene una capacidad de:{self.capacidad},y es de la marca{self.marca}")
 
+
+

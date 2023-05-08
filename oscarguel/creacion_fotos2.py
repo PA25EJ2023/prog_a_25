@@ -80,5 +80,3 @@ Compu1.imprimir()
 
 
 
-
-
