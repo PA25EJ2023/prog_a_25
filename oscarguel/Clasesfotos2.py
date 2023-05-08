@@ -43,3 +43,40 @@ class Zapatos:
     
     def imprimir(self):
         print(F"Los zapatos son color:{self.color},su talla es:{self.talla},y son de la marca{self.marca}")
+
+class Tripie:
+    def __init_(self,altura,color,marca):
+        self.altura=altura
+        self.color=color
+        self.marca= marca
+    
+    def imprimir(self):
+        print(F"El tripie es color:{self.color},tiene una altura de:{self.altura},y es de la marca{self.marca}")
+
+class Reloj:
+    def __init_(self,largo,color,marca):
+        self.largo=largo
+        self.color=color
+        self.marca= marca
+    
+    def imprimir(self):
+        print(F"El reloj es color:{self.color},tiene un largo de:{self.largo},y es de la marca{self.marca}")
+
+class Pila:
+    def __init_(self,duracion,color,marca):
+        self.duracion=duracion
+        self.color=color
+        self.marca= marca
+    
+    def imprimir(self):
+        print(F"La pila es color:{self.color},tiene una duracion de:{self.duracion},y es de la marca{self.marca}")
+
+class lente:
+    def __init_(self,tamaño,color,marca,precio):
+        self.tamaño=tamaño
+        self.color=color
+        self.marca= marca
+        self.precio=precio
+    
+    def imprimir(self):
+        print(F"El lente es color:{self.color},tiene un tamaño de:{self.tamaño},cuesta {self.precio}, y es de la marca{self.marca}")
