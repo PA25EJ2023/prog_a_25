@@ -9,7 +9,7 @@ class Pluma:
         print(f"Color de empaque={self.color_empaque},Color de tinta={self.color_tinta},Tamaño={self.tamaño},Precio={self.precio}")
 
 class Retrato:
-    def __init_(self,largo,ancho,material):
+    def __init__(self,largo,ancho,material):
         self.largo=largo
         self.ancho= ancho
         self.material =material 
@@ -17,7 +17,7 @@ class Retrato:
         print(F"Tiene un largo de:{self.largo},un ancho de:{self.ancho}, y el material del que esta echo es de:{self.material}")
 
 class Esmalte:
-    def __init_(self,color,forma,precio):
+    def __init__(self,color,forma,precio):
         self.color=color
         self.forma= forma
         self.precio= precio
@@ -26,7 +26,7 @@ class Esmalte:
         print(f"Color={self.color},Forma={self.forma},Precio={self.precio}")
 
 class Cinta:
-    def __init_(self,color,ancho,longuitud):
+    def __init__(self,color,ancho,longuitud):
         self.color=color
         self.ancho= ancho
         self.longuitud= longuitud
@@ -38,7 +38,7 @@ class Cinta:
 
 
 class Pegamento:
-    def __init_(self,color,marca,tipo):
+    def __init__(self,color,marca,tipo):
         self.color=color
         self.tipo= tipo
         self.marca= marca
@@ -47,7 +47,7 @@ class Pegamento:
         print(f"El color es={self.color},el tipo de pegamento es={self.tipo},y es de la marca={self.marca}")
 
 class Tijera:
-    def __init_(self,color,marca):
+    def __init__(self,color,marca):
         self.color=color
         self.marca= marca
 
@@ -55,7 +55,7 @@ class Tijera:
         print(f"El color es={self.color},y es de la marca={self.marca}")
 
 class Espejo:
-    def __init_(self,color,marca,forma):
+    def __init__(self,color,marca,forma):
         self.color=color
         self.forma= forma
         self.marca= marca
@@ -81,7 +81,7 @@ class Pinzaa:
 
 
 class Libreta:
-    def __init_(self,color,tipo,altura,ancho):
+    def __init__(self,color,tipo,altura,ancho):
         self.color=color
         self.altura= altura
         self.ancho= ancho
@@ -93,7 +93,7 @@ class Libreta:
     
 
 class Sticker:
-    def __init_(self,color,forma):
+    def __init__(self,color,forma):
         self.color=color
         self.forma= forma
     
@@ -101,7 +101,7 @@ class Sticker:
         print(f"El Sticker tiene una forma de={self.forma}, y son de color={self.color}")
 
 class Labial:
-    def __init_(self,color,precio):
+    def __init__(self,color,precio):
         self.color=color
         self.precio= precio
     
@@ -109,7 +109,7 @@ class Labial:
         print(f"El labial es de color:{self.color}, y tiene el precio de={self.precio}")
 
 class Marcador:
-    def __init_(self,color,tamaño):
+    def __init__(self,color,tamaño):
         self.color=color
         self.tamaño= tamaño 
     
@@ -117,7 +117,7 @@ class Marcador:
         print(f"El plumon es de color:{self.color}, y su tamaño es de={self.tamaño}")
 
 class Cuenta:
-    def __init_(self,color,tamaño):
+    def __init__(self,color,tamaño):
         self.color=color
         self.tamaño= tamaño 
     
@@ -125,7 +125,7 @@ class Cuenta:
         print(f"Color:{self.color}, y su tamaño es de={self.tamaño}")
 
 class Postal:
-    def __init_(self,altura,ancho):
+    def __init__(self,altura,ancho):
         self.altura=altura
         self.ancho=ancho 
     
@@ -133,7 +133,7 @@ class Postal:
         print(f"Su altura es de={self.altura},Su ancho es de={self.ancho}")
 
 class Estuche_sombra:
-    def __init_(self,tamaño,color):
+    def __init__(self,tamaño,color):
         self.tamaño=tamaño
         self.color=color
          
