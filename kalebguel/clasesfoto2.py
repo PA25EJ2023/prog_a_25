@@ -75,7 +75,7 @@ class Maletin:
         self.ancho = ancho
 
     def imprimir(self):
-        print(f'color:{self.color},tamaño:{self.tamño},tipo:{self.tipo},ancho:{self.ancho}')
+        print(f'color:{self.color},tamaño:{self.tamaño},tipo:{self.tipo},ancho:{self.ancho}')
 
 class Lapiz:
     def __init__(self,color,marca,altura,ancho):
@@ -142,5 +142,5 @@ class Chaqueta:
 
     def imprimir(self):
         print(f'marca:{self.marca},color:{self.color},tamaño:{self.tamaño},tipo forro:{self.tipo_forro}') 
-           
+
 
