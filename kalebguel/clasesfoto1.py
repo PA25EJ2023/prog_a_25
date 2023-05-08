@@ -104,17 +104,37 @@ class Labial:
         print(f'Color:{self.color},Altura:{self.altura},Ancho:{self.ancho}')
 
 class Espejo:
-    def __init__(self):
-        pass
-
-class Telefono:
-    def __init__(self):
-        pass
+    def __init__(self,forma,color,altura,):
+        self.forma = forma
+        self.color = color
+        self.altura = altura
+        
+    def imprimir(self):
+        print(f'forma:{self.forma},color:{self.color},altura:{self.altura}')
 
 class Poster:
-    def __init__(self):
-        pass
+    def __init__(self,altura,ancho):
+        self.altura = altura
+        self.ancho = ancho
 
+    def imprimir(self):
+        print(f'altura:{self.altura},ancho:{self.ancho}')
+        
 class Pinza_pelo:
-    def __init__(self):
-        pass    
+    def __init__(self,color,forma,tamaño):
+        self.color = color
+        self.forma = forma
+        self.tamaño = tamaño
+
+    def imprimir(self):
+        print(f'color:{self.color},forma:{self.forma},tamaño:{self.tamaño}')
+
+class cuentas:
+    def __init__(self,color,forma,tamaño):
+        self.color = color
+        self.forma = forma
+        self.tamaño = tamaño
+
+    def imprimir(self):
+        print(f'color:{self.color},forma:{self.forma},tamaño:{self.tamaño}')
+            
