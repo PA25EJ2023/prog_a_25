@@ -72,3 +72,50 @@ print("Stickers")
 Sticker1=Sticker("Azul","circulos","chicos")
 Sticker1.imprimir()
 
+print("Marcadores")
+Marcador1=Marcador("Rosa","sharpee","doble punta","redonda")
+Marcador2=Marcador("Naranja","sharpee","doble punta","redonda")
+Marcador3=Marcador("Morado","sharpee","doble punta","redonda")
+
+Marcador1.imprimir()
+Marcador2.imprimir()
+Marcador3.imprimir()
+
+
+print("Labiales")
+Labial1=Labial("rosa","5cm","1cm")
+Labial2=Labial("Melon","5cm","1cm")
+Labial3=Labial("Gris","5cm","1cm")
+
+Labial1.imprimir()
+Labial2.imprimir()
+Labial3.imprimir()
+
+print("Espejos")
+Espejo1=Espejo("Corazon","rosa fuerte","15cm")
+
+Espejo1.imprimir()
+
+print("Posters")
+Poster1=Poster("9cm","9cm")
+Poster2=Poster("9cm","9cm")
+
+Poster1.imprimir()
+Poster2.imprimir()
+
+print("Pinzas de pelo")
+pinzapelo1=Pinza_pelo("azul","rara","chica")
+pinzapelo2=Pinza_pelo("rosa","rara","chica")
+pinzapelo3=Pinza_pelo("amarilla","rara","chica")
+pinzapelo4=Pinza_pelo("naranja","rara","chica")
+
+pinzapelo1.imprimir()
+pinzapelo2.imprimir()
+pinzapelo3.imprimir()
+pinzapelo4.imprimir()
+
+print("cuentas")
+cuentas1=cuentas("rosa,azul","circulo","chicas")
+
+cuentas1.imprimir()
+
