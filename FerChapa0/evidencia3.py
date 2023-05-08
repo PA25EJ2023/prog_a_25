@@ -25,12 +25,20 @@ while op!=5:
         lista_alumnos.append(alumnon)
         calificaciones=[]
     elif op==2:
-        alumnon.imprimir_info()
-        alumnon.calcular_promedio()
+        buscar=int(input(f'Cual es la matricula desea buscar: '))
+        for alumnon in lista_alumnos:
+            if buscar==matricula:
+                alumnon.imprimir_info()
+                alumnon.calcular_promedio()
+            else:
+                print("El alumno no existe")
     elif op==3:
-        borrar=int(input(f'Cual es la matricula del alumno que desea borrar'))
-        if borrar==matricula:
-            pass        
+        buscar=int(input(f'Cual es la matricula que desea borrar: '))
+        for alumnon in lista_alumnos:
+            if buscar==matricula:
+                lista_alumnos.pop()
+            else:
+                print("El alumno no existe")      
     elif op==4:
         if len(lista_alumnos) == 0:
             print("No hay alumnos ")

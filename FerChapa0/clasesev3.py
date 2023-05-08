@@ -1,5 +1,5 @@
 class Repositorio:
-    def __init__(self,nombre,matricula,carrera,callificaciones):
+    def __init__(self,):#lista de alumnos y los atributos lo que se hara con ella
         pass
     def agrega_Alumno(self):
         pass
