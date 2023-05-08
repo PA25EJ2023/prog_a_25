@@ -128,7 +128,7 @@ class Maletin:
         self.ancho = ancho
 
     def imprimir(self):
-        print(f'color:{self.color},tamaño:{self.tamño},tipo:{self.tipo},ancho:{self.ancho}')
+        print(f'color:{self.color},tamaño:{self.tamaño},tipo:{self.tipo},ancho:{self.ancho}')
 
 class Pila_cel:
     def __init__(self,duracion,color,marca):
