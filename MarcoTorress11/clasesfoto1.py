@@ -1,137 +1,172 @@
-class Celular:
-    def __init__(self, color, tamaño):
+class Libreta:
+    def __init__(self, numero, color, tamaño, tipo):
         self.color = color
+        self.numero = numero
         self.tamaño = tamaño
-    
-    def atributos_cel(self):
-        print(f"El celular es de color: {self.color}")
-        print(f"Tiene un tamaño de: {self.tamaño} Pulgadas")
-
-class Camisa:
-    def __init__(self, color, tamaño, marca, material):
-        self.color = color
-        self.tamaño = tamaño
-        self.marca = marca
-        self.material = material
-    
-    def atributos_camisa(self):
-        print(f"La camisa es de color: {self.color}, el material de la camisa es: {self.material}, es talla: {self.tamaño} y es de marca: {self.marca}")
-
-class Portafolio:
-    def __init__(self, color, tamaño, marca, material):
-        self.color = color
-        self.tamaño = tamaño
-        self.marca = marca
-        self.material = material
-    
-    def info(self):
-        print(f"La camisa es de color: {self.color}, el material de la camisa es: {self.material}, es talla: {self.tamaño} y es de marca: {self.marca}")
-
-
-class Lentes:
-    def __init__(self, color, tamaño, marca, material, aumento):
-        self.color = color
-        self.tamaño = tamaño
-        self.marca = marca
-        self.material = material
-        self.aumento = aumento
-    
-    def info_cam(self):
-        print(f"El lente de la camara es de color: {self.color}, mide: {self.tamaño} cm, es de la marca: {self.marca}, esta hecho de: {self.material} y tiene un aumento de {self.aumento} ")
-    
-
-class Tapas:
-    def __init__(self, color, tamaño, marca, material):
-        self.color = color
-        self.tamaño = tamaño
-        self.marca = marca
-        self.material = material
-
-    def info_tapa(self):
-        print(f"La tapa de la camara es de color: {self.color}, mide: {self.tamaño} cm, es de la marca: {self.marca} y esta hecho de {self.material}")
-
-
-class Computadora:
-    def __init__(self, color, tamaño, marca, material, peso):
-        self.color = color
-        self.tamaño = tamaño
-        self.marca = marca
-        self.material = material
-        self.peso = peso
-    
-    def info_compu(self):
-        print(f"La computadora es de color: {self.color}, mide {self.tamaño} cm de largo, es de la marca {self.marca}, esta hecha de {self.material} y pesa {self.peso} kg")
-
-class Pila_portatil:
-    def __init__(self, color, tamaño, marca, material, peso, capacidad):
-        self.color = color
-        self.tamaño = tamaño
-        self.marca = marca
-        self.material = material
-        self.peso = peso
-        self.capacidad = capacidad
-
-    def info_pilaP(self):
-        print(f"La pila portatil es de color: {self.color}, mide {self.tamaño} cm de largo, es de la marca {self.marca}, esta hecha de {self.material}, pesa {self.peso} gr y tiene capacidad de {self.capacidad} mAh")
-    
-
-class Pila_camara:
-    def __init__(self, color, tamaño, marca, material, peso, capacidad):
-        self.color = color
-        self.tamaño = tamaño
-        self.marca = marca
-        self.material = material
-        self.peso = peso
-        self.capacidad = capacidad
-
-    def info_pilaP(self):
-        print(f"La pila de la camara es de color: {self.color}, mide {self.tamaño} cm de largo, es de la marca {self.marca}, esta hecha de {self.material}, pesa {self.peso} gr y tiene capacidad de {self.capacidad} mAh")
-    
-    
-class Tripode:
-    def __init__(self, color, tamaño, tamañomax, marca, material, peso, capacidad):
-        self.color = color
-        self.tamaño = tamaño
-        self.tamañomax = tamañomax
-        self.marca = marca
-        self.material = material
-        self.peso = peso
-        self.capacidad = capacidad
-    
-    def info_tri(self):
-        print(f"El tripode es de color: {self.color}, mide: {self.tamaño} cm y se puede extender hasta: {self.tamañomax} cm, es de la marca: {self.marca}, esta hecho de: {self.material}, pesa: {self.peso} gr y puede cargar hasta: {self.capacidad} kg")
-
-    
-class Zapatos:
-    def __init__(self, color, tamaño, marca, material, tipo):
-        self.color = color
-        self.tamaño = tamaño
-        self.marca = marca
-        self.material = material
         self.tipo = tipo
-
-    def info_zapato(self):
-        print(f"Los zapatos son de color: {self.color}, son talla: {self.tamaño} cm, son de la marca: {self.marca}, están hechos de: {self.material} y son de tipo {self.tipo}")
     
+    def info_libreta(self):
+        print(f"Libreta {self.numero}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y es: {self.tipo}")
 
-#class plumas:
+class Espejo:
+    def __init__(self, numero, color, tamaño, forma, marca):
+        self.color = color
+        self.numero = numero
+        self.tamaño = tamaño
+        self.forma = forma
+        self.marca = marca
     
+    def info_espejo(self):
+        print(f"Libreta {self.numero}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño}, tiene forma de {self.forma} y es de la marca: {self.marca}")
 
-#class lapiz:
+class Marco:
+    def __init__(self, numero, color, tamaño, forma, decoracion):
+        self.color = color
+        self.numero = numero
+        self.tamaño = tamaño
+        self.forma = forma
+        self.decoracion = decoracion
     
+    def info_marco(self):
+        print(f"Marco {self.numero}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño}, tiene forma de {self.forma} y esta decorado con: {self.decoracion}")
 
-#class estuche:
+class Esmalte:
+    def __init__(self, numero, color, forma, marca, cantidad):
+        self.color = color
+        self.numero = numero
+        self.forma = forma
+        self.marca = marca
+        self.cantidad = cantidad
     
+    def info_esmalte(self):
+        print(f"Esmalte {self.numero}")
+        print(f"Es de color: {self.color}, tiene forma de {self.forma}, es de la marca: {self.marca} y tiene cantidad de: {self.cantidad} ml")
 
-#class cable:
+class Tijeras:
+    def __init__(self, numero, color, material, marca, tipo):
+        self.numero = numero
+        self.color = color
+        self.material = material
+        self.marca = marca
+        self.tipo = tipo
     
+    def info_tijeras(self):
+        print(f"Tijeras {self.numero}")
+        print(f"Son de color: {self.color}, están hechas de: {self.material}, son de la marca: {self.marca} y son de tipo {self.tipo}")
 
-#class reloj:
+class Plumas:
+    def __init__(self, numero, color, grosor, marca, material):
+        self.color = color
+        self.numero = numero
+        self.grosor = grosor
+        self.marca = marca
+        self.material = material
     
+    def info_plumas(self):
+        print(f"Pluma {self.numero}")
+        print(f"Es de color: {self.color}, su grosor es de: {self.grosor} mm, es de la marca: {self.marca} y esta hecha de: {self.material}")
 
-#class revista:
+class Plumones:
+    def __init__(self, numero, color, grosor, marca, material):
+        self.color = color
+        self.numero = numero
+        self.grosor = grosor
+        self.marca = marca
+        self.material = material
     
-cta1 = Celular("negro","25")
-cta1.atributos_cel()
+    def info_plumon(self):
+        print(f"Plumón {self.numero}")
+        print(f"Es de color: {self.color}, su grosor es de: {self.grosor} mm, es de la marca: {self.marca} y esta hecha de: {self.material}")
 
+class Pinza_pelo:
+    def __init__(self, numero, color, tamaño, material, marca):
+        self.color = color
+        self.numero = numero
+        self.tamaño = tamaño
+        self.material = material
+        self.marca = marca
 
+    def info_pinza(self):
+        print(f"Pinza {self.numero}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño}, esta hecha de: {self.material} y es de la marca: {self.marca}")
+
+class Pegamento:
+    def __init__(self, numero, color, tamaño, forma, marca):
+        self.color = color
+        self.numero = numero
+        self.tamaño = tamaño
+        self.forma = forma
+        self.marca = marca
+
+    def info_pegamento(self):
+        print(f"Pegamento {self.numero}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño}, tiene forma de: {self.forma} y es de la marca: {self.marca}")
+
+class Cinta:
+    def __init__(self, numero, color, tamaño, largo):
+        self.color = color
+        self.numero = numero
+        self.tamaño = tamaño
+        self.largo = largo
+
+    def info_cinta(self):
+        print(f"Pinza {self.numero}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y tiene un largo de {self.largo} m")
+
+class Stickers:
+    def __init__(self, numero, color, forma, cantidad ):
+        self.color = color
+        self.numero = numero
+        self.forma = forma
+        self.cantidad = cantidad
+
+    def info_sticker(self):
+        print(f"Sticker {self.numero}")
+        print(f"Es de color: {self.color}, tienen forma de: {self.forma} y son: {self.cantidad} en total")
+
+class Cuentas:
+    def __init__(self, numero, color, material, marca):
+        self.color = color
+        self.numero = numero
+        self.material = material
+        self.marca = marca
+
+    def info_cuentas(self):
+        print(f"Cuenta {self.numero}")
+        print(f"Es de color: {self.color}, están hechas de: {self.material} y son de la marca: {self.marca}")
+
+class Maquillaje:
+    def __init__(self, numero, color, tamaño, colores):
+        self.color = color
+        self.numero = numero
+        self.tamaño = tamaño
+        self.colores = colores
+
+    def info_maquillaje(self):
+        print(f"Maquillaje {self.numero}")
+        print(f"Es de color: {self.color}, es de tamaño: {self.tamaño} y tiene: {self.colores} colores diferentes de maquillaje")
+
+class Fotos:
+    def __init__(self, numero, imagen, tamaño, material):
+        self.imagen = imagen
+        self.numero = numero
+        self.tamaño = tamaño
+        self.material = material
+
+    def info_fotos(self):
+        print(f"Foto {self.numero}")
+        print(f"En la foto aparece una: {self.imagen}, mide: {self.tamaño} cm, y esta impresa en: {self.material}")
+
+class Regla:
+    def __init__(self, numero, color, tamaño, material):
+        self.color = color
+        self.numero = numero
+        self.tamaño = tamaño
+        self.material = material
+
+    def info_regla(self):
+        print(f"Regla {self.numero}")
+        print(f"Es de color: {self.color}, mide: {self.tamaño} cm y esta hecha de: {self.material}")

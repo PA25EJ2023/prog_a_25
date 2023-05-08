@@ -1,10 +1,11 @@
-cadena = input("Ingresa una cadena de texto: ")
-vocales = ['a', 'e', 'i', 'o', 'u']
-cantidad_vocales = 0
+class Pila_portatil:
+    def __init__(self, color, tamaño):
+          self.color = color
+          self.tamaño = tamaño
 
-for letra in cadena:
-    if letra.lower() in vocales:
-        print(letra.lower())
-        cantidad_vocales += 1
+    def atributos_pila_P(self):
+          self.color = input("Ingresa el color de la pila portatil: ")
+          self.tamaño = input("Ingresa el tamaño en pulgadas de la pila portatil: ")
+          print("El celular es de color {self.color} y el tamaño es de {self.tamaño}")
 
-print (f"En la cadena ingresada hay {cantidad_vocales} vocales")
+    print(atributos_pila_P{})
