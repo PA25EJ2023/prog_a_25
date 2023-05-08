@@ -1,15 +1,5 @@
-class Alumno:
-    def __init__(self,matricula,nombre,carrera,calificaciones):
-        self.matricula = matricula
-        self.nombre = nombre
-        self.carrera = carrera
-        self.calificaciones = calificaciones
-    
-    def imprimir_info(self):
-        print(f'Matricula: {self.matricula}\n Nombre: {self.nombre}\n Carrera: {self.carrera}\n Calificaciones = {self.calificaciones}')
-
-    def calcular_promedio(self):
-        return sum(self.calificaciones)/ len(self.calificaciones)
+from clase_ev_3 import Alumno
+import time
 
 alumnos = []
 
@@ -25,5 +15,15 @@ while op != 5:
         nombre = input("Ingresa tu nombre")
         carrera = input("Ingresa el nombre de tu carrera")
         calificaciones = []
-        num_cali = input("Cuantas calificaciones tiene el alumno")
+        num_cali = int(input("Cuantas calificaciones tiene el alumno"))
+        for i in range (num_cali):
+            nota = int(input("Ingresa tu calificaion"))
+            calificaciones.append(nota)
+        print("Agregando estudiante..........")
+        time.sleep(3)
+        estudiante = Alumno(matricula,nombre,carrera,calificaciones)
+        alumnos.append(estudiante)
+
+
+
 
