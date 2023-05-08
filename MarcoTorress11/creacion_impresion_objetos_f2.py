@@ -1,6 +1,6 @@
 from clasesfoto2 import (Celular, Camisa, Portafolio, Lentes, Tapas, Computadora, Pila_camara, Pila_portatil, Tripode, Zapatos, Plumas, Lapiz, Estuche, Cable, Reloj, Revista)
 
-cel1 = Celular(1, "negro","25")
+cel1 = Celular(1, "negro","25", "Sony", "Xperia")
 cel1.atributos_cel()
 print("")
 

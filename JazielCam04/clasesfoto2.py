@@ -66,7 +66,7 @@ class Celular:
     def info(self):
         print(f'marca: {self.marca}\n modelo: {self.modelo}\n color: {self.color}\n precio: {self.precio}')
 
-class Pila:
+class Disco_duro:
     def __init__(self,marca,tipo,color,precio):
         self.marca = marca
         self.tipo = tipo

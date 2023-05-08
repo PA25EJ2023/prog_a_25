@@ -1,12 +1,14 @@
 class Celular:
-    def __init__(self, numero, color, tamaño):
+    def __init__(self, numero, color, tamaño, marca, modelo):
         self.color = color
         self.numero = numero
         self.tamaño = tamaño
+        self.marca = marca
+        self.modelo = modelo
     
     def atributos_cel(self):
         print(f"Celular {self.numero}")
-        print(f"Es de color: {self.color}\ntiene un tamaño de: {self.tamaño} Pulgadas")
+        print(f"Es de color: {self.color}, tiene un tamaño de: {self.tamaño} Pulgadas, es de la marca: {self.marca} y es el modelo: {self.modelo}")
 
 class Camisa:
     def __init__(self, numero, color, tamaño, marca, material):
