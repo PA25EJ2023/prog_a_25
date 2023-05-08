@@ -65,7 +65,7 @@ class Tijera:
 
     def imprimir(self):
         print(f'Tipo:{self.tipo},color:{self.color},Marca:{self.marca}')
-        
+
 class Telefono:
     def __init__(self):
         pass
