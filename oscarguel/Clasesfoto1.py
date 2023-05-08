@@ -93,7 +93,7 @@ class Libreta:
     
 
 class Sticker:
-    def __init_(self,color,marca,forma):
+    def __init_(self,color,forma):
         self.color=color
         self.forma= forma
     
@@ -125,12 +125,12 @@ class Cuenta:
         print(f"Color:{self.color}, y su tamaño es de={self.tamaño}")
 
 class Postal:
-    def __init_(self,tamaño):
-        self.tamaño=tamaño
-         
+    def __init_(self,altura,ancho):
+        self.altura=altura
+        self.ancho=ancho 
     
     def imprimir(self):
-        print(f"Su tamaño es de={self.tamaño}")
+        print(f"Su altura es de={self.altura},Su ancho es de={self.ancho}")
 
 class Estuche_sombra:
     def __init_(self,tamaño,color):
