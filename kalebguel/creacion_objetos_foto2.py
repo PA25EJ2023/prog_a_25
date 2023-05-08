@@ -37,6 +37,50 @@ Pila1.imprimir()
 Pila2.imprimir()
 Pila3.imprimir()
 
+print("Maletin")
+Maletin1=Maletin("Cafe","Mediano","Piel","35cm")
+Maletin1.imprimir()
+
+print("Lapiz")
+Lapiz1=Lapiz("Negro","Bic","12cm","1cm")
+Lapiz2=Lapiz("Negro","Bic","12cm","1cm")
+Lapiz3=Lapiz("Carnita","Bic","13cm","1cm")
+Lapiz4=Lapiz("Negro","Bic","12cm","1cm")
+
+Lapiz1.imprimir()
+Lapiz2.imprimir()
+Lapiz3.imprimir()
+Lapiz4.imprimir()
+
+print("Laptops")
+Laptop1=Laptop("APPLE","Gris","10cm","12cm")
+Laptop1.imprimir()
+
+print("Cargador")
+Cargador1=Cargador("APPLE","BLANCO","USB C")
+Cargador1.imprimir()
+
+print("Lentas camara")
+Lente_camara1=Lente_camara("Negro","Cannon","Circular")
+Lente_camara2=Lente_camara("Negro","Cannon","circular")
+
+Lente_camara1.imprimir()
+Lente_camara2.imprimir()
+
+print("Tapas lente camara")
+Tapa1=Tapa_camara("Negro","Cannon","circular")
+Tapa2=Tapa_camara("Negro","Cannon","circular")
+
+Tapa1.imprimir()
+Tapa2.imprimir()
+
+print("Estuche")
+Estuche1=Estuche_camara("Negro","Cannon","Chica")
+Estuche1.imprimir()
+
+print("Chaquetas")
+Chaqueta1=Chaqueta("Gucci","Gris","Grande","Mezclilla")
+Chaqueta1.imprimir()
 
 
 
