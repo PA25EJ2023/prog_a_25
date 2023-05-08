@@ -1,4 +1,4 @@
-from Clases_Foto1 import Boligrafo,Marcador,Cinta,Libreta,Esmalte_Uñas,Brillo_labial,Pinza_Pelo,Paleta_Maquillaje,Barra_Pegamento,Tijera,Regla,Lapicero_Pompon,Portaretrato,Espejo,Telefono,Pulsera
+from Clases_Foto1 import Boligrafo,Marcador,Cinta,Libreta,Esmalte_Uñas,Brillo_labial,Pinza_Pelo,Paleta_Maquillaje,Barra_Pegamento,Tijera,Regla,Lapicero_Pompon,Portaretrato,Espejo,Telefono,Pulsera,Imagen,Cuenta,Pegatina,Stiker
 
 #BOLÍGRAFOS
 boligrafo1 = Boligrafo("Rosa","12 cm","Bic","$10")
@@ -45,7 +45,7 @@ cinta3.mostrar_info()
 print(f"{'-'*5} Cinta 4 {'-'*5}")
 cinta4.mostrar_info()
 
-#LIBRETA
+#LIBRETAS
 libreta1 = Libreta("Rosa","20x26 cm","100","Con resorte")
 libreta2 = Libreta("Azul","20x26 cm","150","Cocida")
 libreta3 = Libreta("Lila","20x26 cm","100","Con resorte")
@@ -151,7 +151,7 @@ print("")
 print(f"{'-'*30} LAPICERO CON POMPÓN {'-'*30}")
 lapicerp_pom.mostrar_info()
 
-#PORTARETRATO
+#PORTARETRATOS
 portaretrato1 = Portaretrato("Blanco","20x13 cm","Madera","17x10 cm")
 portaretrato2 = Portaretrato("Blanco","20x13 cm","Madera","17x10 cm")
 print("")
@@ -179,5 +179,70 @@ print("")
 print(f"{'-'*30} PULCERA {'-'*30}")
 pulcera.mostrar_info()
 
+#IMAGEN
+imagen1 = Imagen("Azul, rosa, blanco y negro","Telefono","10x7 cm","Papel Bond")
+imagen2 = Imagen("Blanco y lila","Una oración repetida","14x15 cm","Papel Bond")
+imagen3 = Imagen("Café","Persona posando","18x14 cm","Papel")
+imagen4 = Imagen("Azul, celeste, café y blanco","Personas en la playa","24x19 cm","Papel Bond")
+print("")
+print(f"{'-'*30} IMÁGENES {'-'*30}")
+print(f"{'-'*5} Imágen 1 {'-'*5}")
+imagen1.mostrar_info()
+print(f"{'-'*5} Imágen 2 {'-'*5}")
+imagen2.mostrar_info()
+print(f"{'-'*5} Imágen 3 {'-'*5}")
+imagen3.mostrar_info()
+print(f"{'-'*5} Imágen 4 {'-'*5}")
+imagen4.mostrar_info()
+
+#CUENTAS
+cuentas1 = Cuenta("Verde","5 mm","6","Plástico")
+cuentas2 = Cuenta("Blanco","5 mm","2","Plástico")
+cuentas3 = Cuenta("Salmón","5 mm","4","Plástico")
+cuentas4 = Cuenta("Rosa claro","5 mm","5","Plástico")
+cuentas5 = Cuenta("Rosa fuerte","5 mm","2","Plástico")
+cuentas6 = Cuenta("Menta","5 mm","2","Plástico")
+print("")
+print(f"{'-'*30} CUENTAS {'-'*30}")
+print(f"{'-'*5} Grupo de Cuentas 1 {'-'*5}")
+cuentas1.mostrar_info()
+print(f"{'-'*5} Grupo de Cuentas 2 {'-'*5}")
+cuentas2.mostrar_info()
+print(f"{'-'*5} Grupo de Cuentas 3 {'-'*5}")
+cuentas3.mostrar_info()
+print(f"{'-'*5} Grupo de Cuentas 4 {'-'*5}")
+cuentas4.mostrar_info()
+print(f"{'-'*5} Grupo de Cuentas 5 {'-'*5}")
+cuentas5.mostrar_info()
+print(f"{'-'*5} Grupo de Cuentas 6 {'-'*5}")
+cuentas6.mostrar_info()
+
+#PEGATINAS
+pegatina1 = Pegatina("Azul","Estrella","1 cm","11")
+pegatina2 = Pegatina("Lila","Circular","1 cm","7")
+pegatina3 = Pegatina("Rosa","Flores","1 cm","14")
+pegatina4 = Pegatina("Blanco","Estrellas","1 cm","11")
+pegatina5 = Pegatina("Naranja","Corazón","1 cm","1")
+pegatina4 = Pegatina("Blanco","Luna","1 cm","4")
+print("")
+print(f"{'-'*30} PEGATINAS {'-'*30}")
+print(f"{'-'*5} Grupo de Pegatinas 1 {'-'*5}")
+pegatina1.mostrar_info()
+print(f"{'-'*5} Grupo de Pegatinas 2 {'-'*5}")
+pegatina2.mostrar_info()
+print(f"{'-'*5} Grupo de Pegatinas 3 {'-'*5}")
+pegatina3.mostrar_info()
+print(f"{'-'*5} Grupo de Pegatinas 4 {'-'*5}")
+pegatina4.mostrar_info()
+
+#STIKERS
+stiker1 = Stiker("Dorado","Estrellas","2 cm","10","Hoja")
+stiker2 = Stiker("Dorado","Corazones","2 cm","8","Hoja")
+print("")
+print(f"{'-'*30} STIKERS {'-'*30}")
+print(f"{'-'*5} Grupo de Stikers 1 {'-'*5}")
+stiker1.mostrar_info()
+print(f"{'-'*5} Grupo de Stikers 2 {'-'*5}")
+stiker2.mostrar_info()
 
 

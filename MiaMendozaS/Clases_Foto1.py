@@ -159,6 +159,47 @@ class Pulsera:
     def mostrar_info(self):
         print(f"Color: {self.color}\nTamaño: {self.tamaño}\nForma de Cuenta: {self.forma_cuenta}\nDiseño de Cuenta: {self.diseño_cuenta}")
 
+class Imagen:
+    def __init__(self,color,diseño,tamaño,material):
+        self.color= color
+        self.diseño= diseño
+        self.tamaño= tamaño
+        self.material= material
+
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nDiseño: {self.diseño}\nTamaño: {self.tamaño}\nMaterial: {self.material}")
+
+class Cuenta:
+    def __init__(self,color,diametro,cantidad,material):
+        self.color= color
+        self.diametro= diametro
+        self.cantidad= cantidad
+        self.material= material
+    
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nDiametro: {self.diametro}\nCantidad: {self.cantidad}\nMaterial: {self.material}")
+
+class Pegatina:
+    def __init__(self,color,forma,tamaño,cantidad):
+        self.color= color
+        self.forma= forma
+        self.tamaño= tamaño
+        self.cantidad= cantidad
+
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nCantidad: {self.cantidad}")
+
+class Stiker:
+    def __init__(self,color,forma,tamaño,cantidad,material):
+        self.color= color
+        self.forma= forma
+        self.tamaño= tamaño
+        self.cantidad= cantidad
+        self.material= material
+
+    def mostrar_info(self):
+        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nCantidad: {self.cantidad}\nMaterial: {self.material}")
+
 
 
 
