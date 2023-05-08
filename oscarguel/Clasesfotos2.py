@@ -30,7 +30,7 @@ class Lapiz:
     def __init__(self,tamaño,color,marca):
         self.tamaño=tamaño
         self.color=color
-        self.maraca= marca
+        self.marca= marca
     
     def imprimir(self):
         print(f"El lapiz es de color:{self.color},es de la marca {self.marca},y su tamaño es:{self.tamaño}")
