@@ -11,17 +11,11 @@ class Alumno:
         print(f"Matricula: {self.matricula}\nNombre: {self.nombre}\nCarrera: {self.carrera}\nPromedio: {self.calcular_promedio()} ")
 
     def calcular_promedio(self):
-        promedio = 0
+        suma_calif = 0
         for calificacion in self.calificaciones:
-            promedio += calificacion
-            promedio/=len(self.calificaciones)
-            return promedio
-        
-
-class Repositorio:
-
-    def Eliminar_alumno(self):
-        pass
+            suma_calif += calificacion
+        promedio = suma_calif / len(self.calificaciones)
+        return promedio
         
     
 
