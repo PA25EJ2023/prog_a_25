@@ -6,7 +6,7 @@ op = -1
 print("¡Bienvenido!")
 while op != 5:
     print(14*"*", "MENU", 14*"*")
-    print("1.- Agregar alumno\n2.- Mostrar información del alumno\n3.- Eliminar alumno\n Mostrar todos los alumnos\n5.- Salir")
+    print("1.- Agregar alumno\n2.- Mostrar información del alumno\n3.- Eliminar alumno\n4.- Mostrar todos los alumnos\n5.- Salir")
     op = int(input("Indique una opcion: "))
     # 
     if op == 1:
@@ -24,10 +24,32 @@ while op != 5:
         alumnos.append(estudiante)
     
     elif op == 2:
-        matricula = int(input("Ingrese la matrícula del alumno para mostrar su información: "))
-        for estudiante in alumnos:
-            if estudiante.matricula == matricula:
-                estudiante.info_alum()
+        matricula = -1
+        while estudiante.matricula != matricula:
+            matricula = int(input("Ingrese la matrícula del alumno para mostrar su información: "))
+            for estudiante in alumnos:
+                if estudiante.matricula == matricula:
+                    estudiante.info_alum()
+                    print(21*"*")
+                    break
+            if estudiante.matricula != matricula:
+                print("Matrícula no encontrada, intente de nuevo.")            
 
     elif op == 3:
-        pass
+        matricula = -1
+        while estudiante.matricula != matricula:
+            matricula = int(input("Ingrese la matrícula del alumno para eliminarlo de la lista: "))
+            for estudiante in alumnos:
+                if estudiante.matricula == matricula:
+                    """ estudiante.pop(matricula) """ # <--- Aqui debe de ir la función de eliminar el alumno de la lista
+                    break
+            if estudiante.matricula != matricula:
+                print("Matrícula no encontrada, intente de nuevo.")
+
+    elif op == 4:
+        print("Total de alumnos: ")
+        for estudiante in alumnos:
+            estudiante.info_alum()
+
+    elif op == 5:
+        print("¡Hasta pronto!")
