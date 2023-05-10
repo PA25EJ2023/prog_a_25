@@ -39,7 +39,8 @@ while op!=5:
             if buscar==matricula:
                 lista_alumnos.pop()
                 print("Alumno borrado exitosamente")
-        print("El alumno no existe")      
+            else:
+                print("El alumno no existe")      
     elif op==4:
         if len(lista_alumnos) == 0:
             print("No hay alumnos ")
