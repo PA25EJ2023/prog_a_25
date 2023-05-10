@@ -21,6 +21,17 @@ while True:
             
         objeto=Alumno(mat,nom,carr,cal) #calificaciones.append(objeto) 
         alumnos.append(objeto) 
+
+    elif opcion==2: 
+        nom=input("Ingrese el nombre de quien desea obtener información: ") 
+        for objeto in alumnos: 
+            if objeto.nombre==nom: 
+                objeto.imprimir_info() 
+
+ 
+
+
+ 
         
         
 
