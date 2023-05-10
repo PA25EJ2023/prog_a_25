@@ -17,11 +17,15 @@ while True:
         nom=input("Ingrese el nombre del alumno: ") 
         carr=input("Ingrese la carrera: ") 
         cal=int(input("Ingrese la calificacion: "))  
-        #while True:  
-            #calificaciones.append(objeto) 
+        while True:  
+            calif=int(input("¿Desea ingresar otra calificacion? 1.Si, 2.No"))
+            if calif==1:
+                calif1=float(input("Ingrese la calificacion: "))
+            else:
+                calificaciones.append(objeto) 
             
-        objeto=Alumno(mat,nom,carr,cal) #calificaciones.append(objeto) 
-        alumnos.append(objeto) 
+            objeto=Alumno(mat,nom,carr,cal) #calificaciones.append(objeto) 
+            alumnos.append(objeto) 
 
     elif opcion==2: 
         nom=input("Ingrese el nombre de quien desea obtener información: ") 
