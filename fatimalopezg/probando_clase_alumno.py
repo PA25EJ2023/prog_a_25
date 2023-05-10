@@ -33,6 +33,13 @@ while True:
         if matricula==mat: 
             objeto-=Alumno(mat,nom,carr,cal)  
 
+    elif opcion==4: 
+        for objeto in alumnos: 
+            objeto.imprimir_info() 
+            
+
+
+
     
  
 
