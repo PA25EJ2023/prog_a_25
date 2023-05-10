@@ -28,6 +28,12 @@ while True:
             if objeto.nombre==nom: 
                 objeto.imprimir_info() 
 
+    elif opcion==3: 
+        mat=int(input("Ingrese la matricula del alumno que desea eliminar: ")) 
+        if matricula==mat: 
+            objeto-=Alumno(mat,nom,carr,cal)  
+
+    
  
 
 
