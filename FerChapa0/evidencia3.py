@@ -28,6 +28,7 @@ while op!=5:
         buscar=int(input(f'Cual es la matricula desea buscar: '))
         for alumnon in lista_alumnos:
             if buscar==matricula:
+                print("El alumno encontrado es: ")
                 alumnon.imprimir_info()
                 alumnon.calcular_promedio()
             else:
@@ -37,8 +38,8 @@ while op!=5:
         for alumnon in lista_alumnos:
             if buscar==matricula:
                 lista_alumnos.pop()
-            else:
-                print("El alumno no existe")      
+                print("Alumno borrado exitosamente")
+        print("El alumno no existe")      
     elif op==4:
         if len(lista_alumnos) == 0:
             print("No hay alumnos ")
