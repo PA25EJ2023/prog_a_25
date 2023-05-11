@@ -14,7 +14,13 @@ class Alumno:
         #print(f"Su promedio es: {}") 
         
 
-    def calcular_promedio(self,total_mat): 
-        promedio=(self.calificaciones/self.total_mat) #len() para sacar el total 
+    def calcular_promedio(self):
+        suma=0
+        for i in self.calificaciones:
+            return prom
+
+
+
+        promedio=sum.self.calificaciones/self.total_mat) #len() para sacar el total 
         #print(f"Su promedio es: {}") 
-        return promedio 
+        return promedio
