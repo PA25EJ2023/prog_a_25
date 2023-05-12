@@ -21,20 +21,23 @@ while True:
         alumnos.append(alumno)
     elif opcion == 2:
         matricula = input("Ingresa la matricula del alumno: ")
+        alumno_encontrado = False
         for alumno in alumnos:
             if alumno.matricula == matricula:
                 alumno.imprimir_info()
-            else:
-                print("Alumno no encontrado")
-                break
+                alumno_encontrado = True
+        if not alumno_encontrado:
+            print("Alumno no encontrado, intente nuevamente")
     elif opcion == 3:
         matricula = input("Ingresa la matricula del alumno que deseas borrar: ")
+        alumno_encontrado = False
         for alumno in alumnos:
             if alumno.matricula == matricula:
                 alumnos.remove(alumno)
-                print("Alumno eliminado")
-            else:
-                print("Alumno no encontrado")
+                alumno_encontrado = True
+                print("Alumno eliminado exitosamente")
+        if not alumno_encontrado:
+            print("Alumno no encontrado, intente nuevamente")
     elif opcion == 4:
         print("Alumnos ingresados")
         for alumno in alumnos:
