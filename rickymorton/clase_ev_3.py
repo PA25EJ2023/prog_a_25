@@ -6,7 +6,8 @@ class Alumno:
         self.calificaciones = calificaciones
     
     def imprimir_info(self):
-        print(f'Matricula: {self.matricula}\n Nombre: {self.nombre}\n Carrera: {self.carrera}\n Calificaciones = {self.calificaciones}')
+        promedio = self.calcular_promedio()
+        print(f'Matricula: {self.matricula}\n Nombre: {self.nombre}\n Carrera: {self.carrera}\n Calificaciones = {self.calificaciones}\n Promedio: {promedio}')
 
     def calcular_promedio(self):
         return sum(self.calificaciones)/ len(self.calificaciones)
