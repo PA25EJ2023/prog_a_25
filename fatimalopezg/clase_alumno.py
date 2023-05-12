@@ -11,10 +11,9 @@ class Alumno:
         print(f"Nombre: {self.nombre}") #AQUI HACER UNA LIST, USAR CICLO HAY UNA FUNCION Q SUMA LAS CALIFICACIONES 
         print(f"Carrera: {self.carrera}") 
         print(f"Calificacion(es): {self.calificaciones}") 
-        #print(f"Su promedio es: {}") 
         
 
     def calcular_promedio(self):
-        promedio=sum.self.calificaciones/len(self.calificaciones) #len() para sacar el total 
+        prom=sum(self.calificaciones)/len(self.calificaciones) #usar len() para sacar el total 
         #print(f"Promedio final: {}") 
-        return promedio
+        return prom
