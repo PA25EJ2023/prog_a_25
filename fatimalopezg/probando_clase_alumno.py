@@ -23,15 +23,14 @@ while True:
                 op=int(input("¿Desea ingresar otra calificacion? 1-Si 2-No: "))
                 if op==1:
                     calificacion=float(input("Ingrese la calificacion: "))
-                    objeto=Alumno(mat,nom,carr,cal)
+                    objeto=Alumno(mat,nom,carr,calificaciones)
                     calificaciones.append(op)
                     alumnos.append(objeto)
                     print(f"Alumno {nom} agregado")
 
                 elif op==2:
                     break 
-                else:
-                    print("No existe, intente de nuevo.")
+
         #calificaciones=[]
         #print(f"Su promedio es: {objeto.calcular_promedio}")
 
@@ -39,7 +38,7 @@ while True:
         nom=input("Ingrese el nombre de quien desea obtener información: ") 
         print(f"Informacion de {nom}")
         for objeto in alumnos: 
-            if objeto.nombre==nom: 
+            if objeto.nombre==nom:
                 objeto.imprimir_info()
                 objeto.calcular_promedio()
                 #print(f"Promedio: {p}")
@@ -48,10 +47,12 @@ while True:
             else:
                 print("{nom} no se encontró")
 
-    #elif opcion==3: 
-        #mat=int(input("Ingrese la matricula del alumno que desea eliminar: ")) 
-        #if matricula==mat: 
-            #objeto.remove()==Alumno(mat)
+    elif opcion==3: 
+        mat=int(input("Ingrese la matricula del alumno que desea eliminar: ")) 
+        for objeto in alumnos: 
+            if objeto.matricula==mat:
+                alumnos.pop()
+                print(f"Alumno {mat} borrado")
       
             
     elif opcion==4: 
