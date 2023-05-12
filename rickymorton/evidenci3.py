@@ -10,15 +10,15 @@ while op != 5:
     op = int(input("ingresa una opcion"))
 
     if op == 1:
-        matricula = input("Ingresa la matricula")
-        nombre = input("Ingresa tu nombre")
-        carrera = input("Ingresa el nombre de tu carrera")
-        print("Agregando datos")
+        matricula = input("Ingresa la matricula: ")
+        nombre = input("Ingresa tu nombre: ")
+        carrera = input("Ingresa el nombre de tu carrera: ")
+        print("Agregando datos.......")
         time.sleep(3)
         calificaciones = []
-        num_cali = int(input("Cuantas calificaciones tiene el alumno"))
+        num_cali = int(input("Cuantas calificaciones tiene el alumno: "))
         for i in range (num_cali):
-            nota = float(input("Ingresa tu calificaion"))
+            nota = float(input("Ingresa tu calificaion: "))
             calificaciones.append(nota)
         print("Agregando estudiante..........")
         time.sleep(3)
@@ -29,7 +29,7 @@ while op != 5:
     
     elif op == 2:
         print("Mostra la informacion del alumno")
-        matricula = input("Ingresa la matricula del alumno")
+        matricula = input("Ingresa la matricula del alumno: ")
         for estudiant in alumnos:
             if estudiante.matricula == matricula:
                 estudiante.imprimir_info()
@@ -40,19 +40,18 @@ while op != 5:
     
     elif op == 3:
         print("Elmininando Alumno")
-        matricula =input("Ingresa la matricula del alumno que desea eliminar")
+        matricula =input("Ingresa la matricula del alumno que desea eliminar: ")
         for estudiant in alumnos:
             if estudiante.matricula == matricula:
                 alumnos.remove(estudiante)
                 print("Alumno eliminado correctamente")
             else:
                 print("Estudiante no existente")
+    elif op == 4:
+        print("Mostrando todos los alumnos")
 
-    
-
-
-
-
-
-
-
+        if len(alumnos) == 0:
+            print("No hay alumnos registrados")
+        else:
+            for estudiant in alumnos:
+                estudiante.imprimir_info()
