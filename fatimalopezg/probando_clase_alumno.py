@@ -16,23 +16,19 @@ while True:
         mat=int(input("Ingrese la matricula del alumno: ")) #CREAR UN ALUMNO Y DE AHI MANDAR LAS CALIFICACIONES PARA LA LISTA 
         nom=input("Ingrese el nombre del alumno: ") 
         carr=input("Ingrese la carrera: ") 
-        tmat=int(input(f" {nom} ingrese el total de materias cursadas durante el semestre: "))
-        
-        i=1
-        while i<=tmat:
-            cal=float(input("Ingrese la calificacion: "))
-            #calificaciones.append(cal)
-            i+=1
-            if cal>=tmat:
-                calificaciones.append(cal)
-               
-            else:
-                print("opcion no valida")
+        cal=float(input("Ingrese la calificacion: "))
 
-        objeto=Alumno(mat,nom,carr,cal)
-        alumnos.append(objeto)
+        while True:
+                op=int(input("¿Desea ingresar otra calificacion? 1-Si 2-No: "))
+                if op==1:
+                    calificacion=float(input("Ingrese la calificacion: "))
+                    calificaciones.append(op)
+                elif op==2:
+                    break 
+                else:
+                    print("No existe, intente de nuevo.")
         #calificaciones=[]
-        print(f"Su promedio es: {objeto.calcular_promedio}")
+        #print(f"Su promedio es: {objeto.calcular_promedio}")
 
     elif opcion==2: 
         nom=input("Ingrese el nombre de quien desea obtener información: ") 

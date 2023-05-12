@@ -10,7 +10,7 @@ class Alumno:
         print(f"Matricula: {self.matricula}") 
         print(f"Nombre: {self.nombre}") #AQUI HACER UNA LIST, USAR CICLO HAY UNA FUNCION Q SUMA LAS CALIFICACIONES 
         print(f"Carrera: {self.carrera}") 
-        print(f"Promedio: {self.calificaciones}")    #print(f"Promedio: {sum(self.calificaciones)/len(self.calificaciones)}") 
+        print(f"Promedio: {self.calificaciones}")  #print(f"Promedio: {sum(self.calificaciones)/len(self.calificaciones)}") 
 
         
 
