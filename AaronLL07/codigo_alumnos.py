@@ -41,7 +41,7 @@ while op != 5:
             matricula = int(input("Ingrese la matrícula del alumno para eliminarlo de la lista: "))
             for estudiante in alumnos:
                 if estudiante.matricula == matricula:
-                    """ estudiante.pop(matricula) """ # <--- Aqui debe de ir la función de eliminar el alumno de la lista
+                    alumnos.remove(estudiante) # <--- Aqui debe de ir la función de eliminar el alumno de la lista
                     break
             if estudiante.matricula != matricula:
                 print("Matrícula no encontrada, intente de nuevo.")
