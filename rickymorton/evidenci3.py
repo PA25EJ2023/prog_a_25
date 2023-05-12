@@ -25,6 +25,7 @@ while op != 5:
         estudiante = Alumno (matricula, nombre, carrera, calificaciones)
         alumnos.append(estudiante)
         print("Estudiante agregado correctamente")
+        time.sleep(3)
     
     elif op == 2:
         print("Mostra la informacion del alumno")
@@ -35,15 +36,18 @@ while op != 5:
                 break
             else:
                 print("Estudiante no existente")
+                print("Porfavor intente de nuevo")
     
     elif op == 3:
         print("Elmininando Alumno")
         matricula =input("Ingresa la matricula del alumno que desea eliminar")
-        for estudiante in alumnos:
+        for estudiant in alumnos:
             if estudiante.matricula == matricula:
-                estudiante.imprimir_info()
+                alumnos.remove(estudiante)
+                print("Alumno eliminado correctamente")
             else:
-                print("Estudiante no existe")
+                print("Estudiante no existente")
+
     
 
 
