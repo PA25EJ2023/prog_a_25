@@ -7,8 +7,8 @@ while opcion ==1:
     respuesta = int(input("1.-Agregar Alumno\n2.-Mostrar info del alumno\n3.-Eliminar alumno\n4.-Mostrar todos los alumnos\n5.-Salir\nElija una opcion: "))
     if respuesta == 1:
         calificaciones = []
-        nombre = input("Escriba su nombre: ")
         matricula = int(input("Digite su matricula: "))
+        nombre = input("Escriba su nombre: ")
         carrera = input("Escriba su carrera: ")
         no_calif = int(input("Digite la cantidad de calificaciones: "))
         for i in range(no_calif):
@@ -20,21 +20,22 @@ while opcion ==1:
 
     elif respuesta == 2:
         info_alumno = int(input("Digite la matricula del alumno: "))
-        if info_alumno >0:
-            for info_alumno in lista_alumnos:
-                print(f"INFORMACIÓN DE LA MATRÍCULA: {info_alumno}")
-                info_alumno.imprimir_info()
+        if alumno.matricula == info_alumno:
+            print(f"INFORMACIÓN DEL ALUMNO CON MATRICULA: {info_alumno}")
+            alumno.imprimir_info()
         else:
-            print("LA MATRICULA NO EXISTE!")
+            print("ERROR EN LA MATRICULA O NO EXISTE!")
     
 
     elif respuesta == 3:
-        borrar = int(input("Digite la matricula del alumno que desea borrar: "))
-        if borrar in lista_alumnos:
-            lista_alumnos.remove("borrar")
-            print("ALUMNO ELIMINADO")
+        matricula = int(input("Digite la matricula del alumno que desea borrar: "))
+        for alumno in lista_alumnos:
+            if alumno.matricula == matricula:
+                lista_alumnos.remove(alumno)
+                print("ALUMNO ELIMINADO")
+                break
         else:
-            print("ERROR EN LA MATRICULA!")
+            print("ERROR EN LA MATRICULA O NO EXISTE!")
 
     elif respuesta == 4:
         print("---REGISTRO DE ALUMNOS---")
@@ -47,6 +48,8 @@ while opcion ==1:
 
     elif respuesta == 5:
         break
+    else:
+        print("OPCIÓN INVÁLIDA!")
          
 
              
