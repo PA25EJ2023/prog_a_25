@@ -16,13 +16,18 @@ while True:
         mat=int(input("Ingrese la matricula del alumno: ")) #CREAR UN ALUMNO Y DE AHI MANDAR LAS CALIFICACIONES PARA LA LISTA 
         nom=input("Ingrese el nombre del alumno: ") 
         carr=input("Ingrese la carrera: ") 
-        cal=float(input("Ingrese la calificacion: "))
+        cal=float(input("Ingrese la primera calificacion: "))
+        calificaciones=[]
 
         while True:
                 op=int(input("¿Desea ingresar otra calificacion? 1-Si 2-No: "))
                 if op==1:
                     calificacion=float(input("Ingrese la calificacion: "))
+                    objeto=Alumno(mat,nom,carr,cal)
                     calificaciones.append(op)
+                    alumnos.append(objeto)
+                    print(f"Alumno {nom} agregado")
+
                 elif op==2:
                     break 
                 else:
@@ -37,8 +42,11 @@ while True:
             if objeto.nombre==nom: 
                 objeto.imprimir_info()
                 objeto.calcular_promedio()
-        print(f"Promedio: {objeto.calcular_promedio()}")
-    
+                #print(f"Promedio: {p}")
+
+
+            else:
+                print("{nom} no se encontró")
 
     #elif opcion==3: 
         #mat=int(input("Ingrese la matricula del alumno que desea eliminar: ")) 
