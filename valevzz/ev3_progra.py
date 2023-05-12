@@ -8,7 +8,7 @@ class Alumno:
 
     def imprimir_info (self): 
         promedio = self.calcular_promedio()
-        print(f"Matricula: {self.matricula} \n Nombre: {self.nombre} \n Carrera: {self.carrera} \nPromedio: {promedio}")
+        print(f"Matricula: {self.matricula} \nNombre: {self.nombre} \nCarrera: {self.carrera} \nPromedio: {promedio}")
 
     def calcular_promedio (self):
         return sum(self.calificaciones)/len(self.calificaciones)
