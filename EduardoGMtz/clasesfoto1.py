@@ -1,158 +1,185 @@
-class Pila_portatil:
-    def __init__(self, color, tamaño):
-          self.color = color
-          self.tamaño = tamaño
+class Esmaltes:  
+    def __init__(self, numero, color, ml, recipiente, tapa ):
+       self.numero = numero
+       self.color = color
+       self.cap = ml
+       self.recipiente = recipiente
+       self.tapa = tapa
+    def atributos_esmaltes(self):
+        print(f"Esmalte numero {self.numero}:")
+        print(f"El esmalte es de color {self.color}, es de {self.cap}ml, su recipiente es de {self.recipiente} y su tapa de {self.tapa}.")
 
-    def atributos_pila_P(self):
-        print(f"La pila portatil es de color {self.color} y el tamaño es de {self.tamaño} pulgadas")
+class Gloss:
+    def __init__(self, numero, color, ml, recipiente, tapa ):
+       self.numero = numero
+       self.color = color
+       self.cap = ml
+       self.recipiente = recipiente
+       self.tapa = tapa
+    def atributos_gloss(self):
+        print(f"Gloss numero {self.numero}:")
+        print(f"El gloss es de color {self.color}, contiene {self.cap}ml, tiene un recipiente de {self.recipiente} y tapa de {self.tapa}.")
 
-
-class Camisa:
-    def __init__(self, marca, color, talla, material, botones):
-        self.marca = marca
-        self.color = color
-        self.talla = talla
-        self.material = material
-        self.botones = botones
-
-    def atributos_camisa(self):
-        print(f"La camisa es marca {self.marca}, es de color {self.color}, su talla es {self.talla}, es de {self.material} y tiene {self.botones} botones")
-
-
-class Camisan:
-    def __init__(self, marca, color, talla, material):
-        self.marca = marca
-        self.color = color
-        self.talla = talla
-        self.material = material
-
-    def atributos_camisa_n(self):
-        print(f"La segunda camisa es marca {self.marca}, es de color {self.color}, su talla es {self.talla}, es de {self.material} y no tiene botones")
-
-class Celular:
-    def __init__(self, color, tamaño,):
-        self.color = color
-        self.tamaño = tamaño
-
-    def atributos_cel(self):
-        print(f"El celular es de color {self.color} y su tamaño es de {self.tamaño} pulgadas")
-
-class Reloj:
-    def __init__(self, color, tamaño, tipo):
-        self.color = color
-        self.tamaño = tamaño
-        self.tipo = tipo
-
-    def atributos_reloj(self):
-        print(f"El reloj es de color {self.color}, su tamaño es de {self.tamaño}cm y es de tipo {self.tipo}")
-
-class Revista:
-    def __init__(self, tamaño, tipo, color):
-        self.tamaño = tamaño
-        self.tipo = tipo
-        self.color = color
-
-    def atributos_revista(self):
-        print(f"El tamaño de la revista es de {self.tamaño}cm de alto, es una revista de {self.tipo} y es de color {self.color}")
-
-class Lentes_camara:
-    def __init__(self, tamaño, color, aumento):
-        self.tamaño = tamaño
-        self.color = color
-        self.aumento = aumento
-
-    def atributos_lentes(self):
-        print(f"Los lentes de la camara son de color {self.color}, son de {self.tamaño} pulgadas y tienen un aumento de {self.aumento}X") 
+class Marco:
+    def __init__(self, numero, base, altura, material, color ):
+       self.numero = numero
+       self.base = base
+       self.altura = altura
+       self.material = material
+       self.color = color
+    def atributos_marco(self):
+        print(f"Marco numero {self.numero}:")
+        print(f"El marco tiene como medidas una base de {self.base}cm, una altura de {self.altura}cm, esta hecho de {self.material} y es de color {self.color}.")
     
+class Pegamento:
+    def __init__(self, numero, tipo, color, tamaño, material, ):
+       self.numero = numero
+       self.tipo = tipo
+       self.color = color
+       self.tamaño = tamaño
+       self.material = material
+    def atributos_pegam(self):
+        print(f"Pegamento numero {self.numero}:")
+        print(f"El pegamento es de {self.tipo}, color {self.color}, de tamaño {self.tamaño} y es de {self.material}.")
 
-class Baterias_camara:
-    def __init__(self, capacidad, tamaño, color):
-        self.capacidad = capacidad
+class Libreta:
+    def __init__(self, numero, color, alt, anch, pasta):
+       self.numero = numero
+       self.color = color
+       self.alt = alt
+       self.anch = anch
+       self.past = pasta
+    def atributos_lib(self):
+        print(f"Libreta numero {self.numero}:")
+        print(f"La libreta es de color {self.color}, tiene una altura de {self.alt}cm, un ancho de {self.anch}cm y su pasta es {self.past}.")
+
+class Espejo:
+    def __init__(self, numero, forma, color, altura, material):
+       self.numero = numero
+       self.forma = forma
+       self.color = color
+       self.altura = altura
+       self.mat = material
+    def atributos_espejo(self):
+        print(f"Espejo numero {self.numero}")
+        print(f"El espejo tiene una forma de {self.forma}, es de color {self.color}, tiene una altura de {self.altura}cm y es de {self.mat}.")
+
+class Telefono:
+    def __init__(self, numero, color, cable, tipo, botones ):
+        self.numero = numero
+        self.color = color
+        self.cable = cable
+        self.tipo = tipo
+        self.botones = botones
+       
+    def atributos_tel(self):
+        print(f"Telefono numero {self.numero}:")
+        print(f"El telefono es de color {self.color}, el cable es color {self.cable} es un telefono {self.tipo} y tiene sus botones en forma de {self.botones}.")
+
+class Pegatinas:
+    def __init__(self, numero, tamaño, color, forma, material):
+        self.numero = numero
         self.tamaño = tamaño
         self.color = color
-
-    def atributos_bat(self):
-        print(f"Las baterias de la camara son de {self.capacidad}mAh, es de {self.tamaño} pulgadas y de color {self.color}")
-
-class Portafolio:
-    def __init__(self, tamaño, material, color,):
-        self.tamaño = tamaño
+        self.forma = forma
         self.material = material
+       
+    def atributos_pegatinas(self):
+        print(f"Juego de pegatinas numero {self.numero}:")
+        print(f"Este juego de pegainas es {self.tamaño}, de color {self.color}, en forma de {self.forma} y están hechos de {self.material}.")
+
+class Marcatextos:
+    def __init__(self, numero, comp, color, tamaño, punta ):
+        self.numero = numero
+        self.comp = comp
         self.color = color
-
-    def atributos_port(self):
-        print(f"El portafolio es de {self.tamaño} pulgadas, esta hecho de {self.material} y es color {self.color}")
-
-class Tripie: 
-    def __init__(self, color, altura, marca):
-        self.color = color
-        self.altura = altura
-        self.marca = marca
-
-    def atributos_trip(self):
-        print(f"El tripie es color {self.color}, tiene una altura de {self.altura}cm y es de la marca {self.marca}")
-
-class Macbook:
-    def __init__(self, marca, color, tamaño):
-        self.marca = marca
-        self.tamaño = tamaño
-        self.color = color
-
-    def atributos_mac(self):
-        print(f"La computadora es de marca {self.marca}, color {self.color} y es de {self.tamaño} pulgadas")
-
-class Zapatos:
-    def __init__(self, color, estilo, talla, material):
-        self.color = color
-        self.estilo = estilo
-        self.talla = talla
-        self.material = material
-
-    def atributos_zapatos(self):
-        print(f"Los zapatos son de color {self.color}, talla {self.talla}, estilo {self.estilo} y de {self.material}")
-
-class Cable:
-    def __init__(self, color, largo,):
-        self.color = color
-        self.largo = largo
-
-    def atributos_cable(self):
-        print(f"El cable es de color {self.color} y mide {self.largo}cm")
-
-class Plumas:
-    def __init__(self, material, color, tinta, tamaño, punta):
-        self.material = material
-        self.color = color
-        self.tinta = tinta
         self.tamaño = tamaño
         self.punta = punta
+       
+    def atributos_marcatextos(self):
+        print(f"Marcatextos numero {self.numero}:")
+        print(f"El marcatextos es {self.comp}, de color {self.color}, mide {self.tamaño}cm y tiene punta {self.punta}.")
+
+class Cinta:
+    def __init__(self, numero, color, largo, ancho, kg ):
+       self.numero = numero
+       self.color = color
+       self.largo = largo
+       self.ancho = ancho
+       self.kg = kg
+
+    def atributos_cinta(self):
+        print(f"Cinta numero {self.numero}:")
+        print(f"La cinta es de color {self.color}, mide {self.largo}m de largo,  {self.ancho}mm de ancho y pesa {self.kg}g.")
+
+class Caja_de_maquillaje:
+    def __init__(self, numero, material, color, sombras, kg):
+       self.numero = numero
+       self.material = material
+       self.color = color
+       self.sombras = sombras
+       self.kg = kg
+
+    def atributos_c_maqui(self):
+        print(f"Caja de maquillaje numero {self.numero}:")
+        print(f"La caja de maquillaje esta hecha de {self.material}, es de color {self.color}, contiene {self.sombras} sombras y pesa {self.kg}g.")
+
+class Pluma_:
+    def __init__(self, numero, color, tamaño, tinta, punta):
+       self.numero = numero
+       self.color = color
+       self.tamaño = tamaño
+       self.tinta = tinta
+       self.punta = punta
 
     def atributos_pluma(self):
-        print(f"Las plumas son de {self.material}, color {self.color}, tinta {self.tinta}, mide {self.tamaño}cm y su punta es de {self.punta}mm")
+        print(f"Pluma numero {self.numero}:")
+        print(f"La pluma es de color {self.color}, mide {self.tamaño}cm, tiene tinta {self.tinta} y es de punta {self.punta}")
 
-class Lapices:
-    def __init__(self, material, color, tamaño, punta):
-        self.material = material
+class Regla:
+    def __init__(self, numero, color, tamaño, form, material ):
+        self.numero = numero
         self.color = color
         self.tamaño = tamaño
+        self.forma = form
+        self.material = material
+       
+    def atributos_regla(self):
+        print(f"Regla numero {self.numero}:")
+        print(f"La regla es de color {self.color}, tiene un largo de {self.tamaño}cm, es en forma de {self.forma} y esta hecha de {self.material}.")
+
+class Tijeras:
+    def __init__(self, numero, color, tipo, punta, kg):
+        self.numero = numero
+        self.color = color
+        self.tipo = tipo
         self.punta = punta
+        self.kg = kg
+           
+    def atributos_tijera(self):
+        print(f"Tijeras numero {self.numero}:")
+        print(f"Las tijeras son de color {self.color}, de tipo {self.tipo}, tienen su punta {self.punta} y pesa {self.kg}g.")
 
-    def atributos_lapiz(self):
-        print(f"Los lapices son de {self.material}, color {self.color}, mide {self.tamaño}cm y su punta es de {self.punta}")
-
-class Estuche_camara:
-    def __init__(self, color, capacidad, material):
+class Pinza:
+    def __init__(self, numero, tamaño, color, material, kg):
+        self.numero = numero
+        self.tamaño = tamaño
         self.color = color
-        self.capacidad = capacidad
-        self.material =material
+        self.material = material
+        self.kg = kg
+        
+    def atributos_pinza(self):
+        print(f"Pinza numero {self.numero}:")
+        print(f"Esta pinza es {self.tamaño}, tiene un color {self.color}, esta hecha de {self.material} y pesa {self.kg}g.")
 
-    def atributos_estu(self):
-        print(f"El estuche de la camara es de color {self.color}, es para una camara de tamaño {self.capacidad} y esta hecho de {self.material}")
-
-class Tapas_camara:
-    def __init__(self, color, marca):
+class Cuentas:
+    def __init__(self, numero, tamaño, color, material, kg):
+        self.numero = numero
+        self.tamaño = tamaño
         self.color = color
-        self.marca = marca
+        self.material = material
+        self.kg = kg
 
-    def atributos_tapas(self):
-        print(f"Las tapas de los lentes de la camara son marca {self.marca} y son de color {self.color}")
+    def atributos_cuentas(self):
+        print(f"Cuenta numero {self.numero}:")
+        print(f"La cuenta es {self.tamaño}, de color {self.color}, esta hecha de {self.material} y pesa {self.kg}g.")
