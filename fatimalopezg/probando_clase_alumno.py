@@ -2,7 +2,7 @@ from clase_alumno import Alumno
 calificaciones=[] #crear lista vacia 
 alumnos=[] 
 
- 
+
 print(" -- MENU DE OPCIONES FACPYA --") 
 while True: 
     print("1. Agregar alumno") 
@@ -16,7 +16,7 @@ while True:
         mat=int(input("Ingrese la matricula del alumno: ")) #CREAR UN ALUMNO Y DE AHI MANDAR LAS CALIFICACIONES PARA LA LISTA 
         nom=input("Ingrese el nombre del alumno: ") 
         carr=input("Ingrese la carrera: ") 
-        print("Ingrese las calificaciones para calcular el promedio")
+        print("A continuación ingrese las calificaciones para calcular el promedio")
         t=int(input("Ingrese el total de materias: "))  
         total=0
         i=1
@@ -34,6 +34,7 @@ while True:
 
     elif opcion==2: 
         nom=input("Ingrese el nombre de quien desea obtener información: ") 
+        print(f"Informacion del alumno {nom}")
         for objeto in alumnos: 
             if objeto.nombre==nom: 
                 objeto.imprimir_info() 
