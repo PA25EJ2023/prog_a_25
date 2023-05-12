@@ -3,8 +3,8 @@ from ev3_progra import *
 alumnos = []
 calificaciones = []
 
-opc= 0
-while opc == 0:
+opc= 1
+while opc == 1:
     print("Menu de Opciones \n1.-Agregar alumno \n2.-Mostrar info del alumno \n3.-Eliminar alumno \n4.-Mostrar todos los alumnos \n5.-Salir")
     opc_menu=int(input("Ingrese su opcion: "))
     if opc_menu == 1:
@@ -29,8 +29,6 @@ while opc == 0:
         for alumno in alumnos:
             if alumno.matricula == matricula:
                 alumno.imprimir_info()
-            else:
-                print("***Alumno no encontrado***")
 
     elif opc_menu == 3:
         print("Eliminar alumno")
@@ -41,16 +39,13 @@ while opc == 0:
                 alumnos.remove(alumno)
                 print("***Alumno eliminado exitosamente***")
 
-            else:
-                print("***Alumno  no encontrado***")
 
     elif opc_menu == 4:
         print("Mostrar todos los alumnos")
         for alumno in alumnos:
             if len (alumnos) > 0:
                 alumno.imprimir_info()
-            else:
-                print("***No hay alumnos***")
+
 
     opc=int(input("Desea seguir utilizando el programa? 1.-Si 2.-No "))
 
