@@ -4,7 +4,7 @@ import time
 alumnos = []
 op= 0
 print("Bienvenido al programa")
-time.sleep(2)
+time.sleep(2)   
 
 while op != 5:
     print("Opciones disponibles")
@@ -28,6 +28,7 @@ while op != 5:
         alumnos.append(estudiante)
         print("Estudiante agregado correctamente")
         time.sleep(3)
+        estudiante.info()
     
     elif op == 2:
         print("Mostra la informacion del alumno")
@@ -55,8 +56,9 @@ while op != 5:
         if len(alumnos) == 0:
             print("No hay alumnos registrados")
         else:
-            for estudiant in alumnos:
-                estudiante.imprimir_info()
+            i = 0
+            for i in alumnos:
+                print(estudiante.nombre)
     
     elif op == 5:
         print("Termina el porgrama")
