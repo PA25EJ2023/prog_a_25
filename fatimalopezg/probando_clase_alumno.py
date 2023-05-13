@@ -39,17 +39,17 @@ while True:
                 objeto.imprimir_info()
                 
             else:
-                print("{nom} no se encontró")
+                print(f"{nom} no se encontró")
 
     elif opcion==3: 
         mat=int(input("Ingrese la matricula del alumno que desea eliminar: ")) 
-        for i in range(len(objeto)): 
-            if objeto.matricula==mat:
-                a=alumnos.pop(i) #eliminar el objeto de la lista 
+        for i in range(len(alumnos)): 
+            if alumnos[i].matricula==mat:
+                a=alumnos.pop(i) #eliminar objeto de lista 
                 print(f"Alumno {a.matricula} eliminado")
                 break  #para salir del ciclo for
         else:
-            print(f"No se encontró un alumno con la matrícula {mat}")
+            print(f"Alumno {mat} no existe")
       
     elif opcion==4: 
         for objeto in alumnos: 
