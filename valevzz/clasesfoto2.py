@@ -29,13 +29,14 @@ class Camisas:
         print(f"Numero camisa: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTipo de tela:{self.tela}")
 
 class Cables:
-    def __init__(self,numero,color,dispo):
+    def __init__(self,numero,color,dispo, marca):
         self.numero = numero
         self.color = color
         self.dispo = dispo
+        self.marca = marca
 
     def info(self):
-        print(f"Numero cable: {self.numero} \nColor: {self.color} \nDispositivo al que pertenece: {self.dispo}")
+        print(f"Numero cable: {self.numero} \nColor: {self.color} \nDispositivo al que pertenece: {self.dispo} \nMarca: {self.marca}")
 
 class Maletin:
     def __init__(self,numero,color,marca,tamaño):
@@ -98,54 +99,62 @@ class Reloj:
         print(f"Numero Reloj: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nModelo:{self.modelo}")
 
 class Tripoide:
-    def __init__(self,numero,color,marca):
+    def __init__(self,numero,color,marca,modelo):
         self.numero = numero
         self.color = color
         self.marca = marca
+        self.modelo = modelo
 
     def info (self):
-        print(f"Numero Tripoide: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+        print(f"Numero Tripoide: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nModelo: {self.modelo}")
 
 class Zapatos:
-    def __init__(self,numero,color,marca):
+    def __init__(self,numero,color,marca,modelo):
         self.numero = numero
         self.color = color
         self.marca = marca
+        self.modelo = modelo
 
     def info (self):
-        print(f"Numero Zapatos: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+        print(f"Numero Zapatos: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nModelo: {self.modelo}")
 
 class Plumones:
-      def __init__(self,numero,color,marca):
+      def __init__(self,numero,color,marca,tipo_punta):
             self.numero = numero 
             self.color = color
             self.marca = marca
+            self.tipo_punta = tipo_punta
 
       def info (self):
-            print(f"Numero plumon: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+            print(f"Numero plumon: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTipo punta: {self.tipo_punta}")
 
 class Lapices:
-      def __init__(self,numero,color,marca):
+      def __init__(self,numero,color,marca,tipo_punta):
             self.numero = numero 
             self.color = color
             self.marca = marca
+            self.tipo_punta = tipo_punta
 
       def info (self):
-            print(f"Numero lapiz: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+            print(f"Numero lapiz: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTipo punta: {self.tipo_punta}")
+
 
 class Estuche:
-    def __init__(self,numero,color,marca):
+    def __init__(self,numero,color,marca,modelo):
         self.numero = numero
         self.color = color
         self.marca = marca
+        self.modelo = modelo
 
     def info (self):
-        print(f"Numero estuche: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+        print(f"Numero estuche: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nModelo: {self.modelo}")
 
 class Bateria_Camara:
-    def __init__(self,numero,color):
+    def __init__(self,numero,color,modelo,tipo_duracion):
         self.numero = numero
         self.color = color
+        self.modelo = modelo
+        self.tipo_duracion = tipo_duracion
 
     def info (self):
-        print(f"Numero bateria de camara: {self.numero} \nColor: {self.color}")
+        print(f"Numero bateria de camara: {self.numero} \nColor: {self.color} \nModelo: {self.modelo} \nDuracion de la pila: {self.tipo_duracion}")
