@@ -36,9 +36,9 @@ while True:
         for objeto in alumnos: 
             if objeto.nombre==nom:
                 objeto.imprimir_info()
-                
+
             else:
-                print(f"{nom} no se encontró")
+                print("no existe")
 
     elif opcion==3: 
         mat=int(input("Ingrese la matricula del alumno que desea eliminar: ")) 
