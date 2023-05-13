@@ -29,7 +29,6 @@ while True:
         alumnos.append(objeto)
         print(f"Alumno {nom} agregado")
         calificaciones=[] 
-        #print(f"Su promedio es: {objeto.calcular_promedio}")
 
     elif opcion==2: 
         nom=input("Ingrese el nombre de quien desea obtener información: ") 
@@ -37,7 +36,8 @@ while True:
         for objeto in alumnos: 
             if objeto.nombre==nom:
                 objeto.imprimir_info()
-                
+                break #para salir del ciclo for
+
             else:
                 print(f"{nom} no se encontró")
 
@@ -47,7 +47,7 @@ while True:
             if alumnos[i].matricula==mat:
                 a=alumnos.pop(i) #eliminar objeto de lista 
                 print(f"Alumno {a.matricula} eliminado")
-                break  #para salir del ciclo for
+                break  
         else:
             print(f"Alumno {mat} no existe")
       
@@ -58,7 +58,7 @@ while True:
     elif opcion==5: 
         print("Has salido del menu") 
         break  
- 
+
     else: 
         print("Intente nuevamente, la opcion agregada no existe") 
 
