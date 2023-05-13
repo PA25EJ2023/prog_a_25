@@ -26,13 +26,16 @@ while opcion ==1:
         print("")
 
     elif respuesta == 2:
-        info_alumno = int(input("Digite la matricula del alumno: "))
-        if alumno.matricula == info_alumno:
-            print("*"*40)
-            print(f"INFORMACIÓN DEL ALUMNO CON MATRICULA: {info_alumno}")
-            alumno.imprimir_info()
-            print("*"*40)
-        else:
+        matricula = int(input("Digite la matricula del alumno: "))
+        encontrado = False
+        for alumno in lista_alumnos:
+            if alumno.matricula == matricula:
+                print("*"*40)
+                print(f"INFORMACIÓN DEL ALUMNO CON MATRICULA: {matricula}")
+                alumno.imprimir_info()
+                encontrado = True
+                print("*"*40)
+        if not encontrado:
             print("")
             print("ERROR EN LA MATRICULA O NO EXISTE!")
             print("")
