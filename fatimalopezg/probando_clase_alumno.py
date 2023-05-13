@@ -38,7 +38,7 @@ while True:
                 objeto.imprimir_info()
 
             else:
-                print("no existe")
+                print("El alumno no se encuentra registrado")
 
     elif opcion==3: 
         mat=int(input("Ingrese la matricula del alumno que desea eliminar: ")) 
