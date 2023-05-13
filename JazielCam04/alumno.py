@@ -33,4 +33,17 @@ def agregar_alumno():
     alumno = Alumno(matricula, nombre, carrera, calificaciones)
     alumnos.append(alumno)
     print("Alumno agregado con exito.")
-    
+
+def eliminar_alumno():
+    matricula = input("Dame la matricula de que alumno deseas eliminar: ")
+    alum_enc = False
+    for alumno in alumnos:
+        if alumno.matricula == matricula:
+            alumnos.remove(alumno)
+            alum_enc = True
+            break
+    if alum_enc:
+        print("Fue eliminado...")
+    else:
+        print("No coincide la matricula con ningun alumno")
+        
