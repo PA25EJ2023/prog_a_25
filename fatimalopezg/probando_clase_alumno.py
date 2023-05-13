@@ -1,7 +1,5 @@
 from clase_alumno import Alumno 
-calificaciones=[] #crear lista vacia , calificaciones
-alumnos=[] 
-
+alumnos=[] #crear lista vacia , calificaciones y alumnos
 
 print("-- MENU DE OPCIONES FACPYA --") 
 while True: 
@@ -16,10 +14,11 @@ while True:
         mat=int(input("Ingrese la matricula del alumno: ")) #CREAR UN ALUMNO Y DE AHI MANDAR LAS CALIFICACIONES PARA LA LISTA 
         nom=input("Ingrese el nombre del alumno: ") 
         carr=input("Ingrese la carrera: ") 
-        cal=float(input("Ingrese la primera calificacion: "))
         calificaciones=[]
 
         while True:
+                cal=float(input("Ingrese la primera calificacion: "))
+                calificaciones.append(cal)
                 op=int(input("¿Desea ingresar otra calificacion? 1-Si 2-No: "))
                 if op==1:
                     calificacion=float(input("Ingrese la calificacion: "))
