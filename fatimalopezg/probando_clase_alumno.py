@@ -36,8 +36,7 @@ while True:
         for objeto in alumnos: 
             if objeto.nombre==nom:
                 objeto.imprimir_info()
-                break #para salir del ciclo for
-
+                
             else:
                 print(f"{nom} no se encontró")
 
