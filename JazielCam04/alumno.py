@@ -28,8 +28,8 @@ def agregar_alumno():
     calificaciones = []
     can = int(input("Dime el numero de calificaciones: "))
     for i in range(can):
-        calificaciones = float(input("Dime la calificacion: ".format(i+1)))
-        calificaciones.append(calificaciones)
+        calificacion = float(input("Dime la calificacion: {}".format(i+1)))
+        calificaciones.append(calificacion)
     alumno = Alumno(matricula, nombre, carrera, calificaciones)
     alumnos.append(alumno)
     print("Alumno agregado con exito.")
@@ -78,3 +78,8 @@ while resp != 6:
         mostrar_info_alumno()
     elif resp == 3:
         eliminar_alumno()
+    elif resp == 4:
+        mostrar_todos_alumnos()
+    elif resp == 5:
+        print("Que tenga excelente dia :)")
+print("Que tenga excelente dia :)")
