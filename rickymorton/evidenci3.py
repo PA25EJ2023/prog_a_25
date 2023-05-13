@@ -28,7 +28,6 @@ while op != 5:
         alumnos.append(estudiante)
         print("Estudiante agregado correctamente")
         time.sleep(3)
-        estudiante.info()
     
     elif op == 2:
         print("Mostra la informacion del alumno")
@@ -56,9 +55,9 @@ while op != 5:
         if len(alumnos) == 0:
             print("No hay alumnos registrados")
         else:
-            i = 0
-            for i in alumnos:
-                print(estudiante.nombre)
+            for estudiant in alumnos:
+                estudiante.imprimir_info()
+                
     
     elif op == 5:
         print("Termina el porgrama")
