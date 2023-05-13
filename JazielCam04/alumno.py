@@ -45,10 +45,10 @@ def eliminar_alumno():
     if alum_enc:
         print("Fue eliminado...")
     else:
-        print("No coincide la matricula con ningun alumno")
+        print("No coincide la matricula con ningun estudiante")
 
 def mostrar_info_alumno():
-    matricula = input("Dime la matricula del alumno: ")
+    matricula = input("Dime la matricula del estudiante: ")
     alum_enc = False
     for alumno in alumnos:
         if alumno.matricula == matricula:
@@ -56,4 +56,25 @@ def mostrar_info_alumno():
             alum_enc = True
             break
     if not alum_enc:
-        print("No se encontró un alumno con esa matrícula. ")
+        print("No se encontró un alumno con esa estudiante. ")
+
+def mostrar_todos_alumnos():
+    if len(alumnos) == 0:
+        print("Aun no hay alumnos registrados")
+    else:
+        for alumno in alumnos:
+            alumno.info()
+            print()
+
+resp = -1
+
+while resp != 6:
+    print("1. Agregar un estudiante\n 2. Mostrar informacion del estudiante\n 3. Eliminar algun estudiante\n 4. Mostrar a todos los estudiantes\n 5. Salir del programa")
+    resp = int(input("Elige una respuesta en base al menu: "))
+
+    if resp == 1:
+        agregar_alumno()
+    elif resp == 2:
+        mostrar_info_alumno()
+    elif resp == 3:
+        eliminar_alumno()
