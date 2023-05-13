@@ -6,54 +6,74 @@ while True:
     print("Menu")
     print(f'1.- Agregar Alumno\n 2.- Mostrar info del alumno\n 3.- Eliminar alumno\n 4.- Mostrar todos los alumnos\n 5.- Salir')
 
+if opcion == 1:
     opcion = int(input("Seleccione una opción del menu: "))
 
-    if opcion == 1:
-        matricula = input("Ingrese la matricula del alumno: ")
-        nombre = input("Ingrese el nombre del alumno: ")
-        carrera = input("Ingrese la carrera del alumno: ")
-        calificaciones = []
+    matricula = input("Ingrese la matrícula: ")
+    nombre = input("Ingrese el nombre: ")
+    carrera = input("Ingrese la carrera: ")
+    calificaciones = []
+    n = int(input("¿Cuántas calificaciones quiere ingresar? "))
+    for i in range(n):
+        calificacion = float(input(f"Ingrese la calificación {i+1}: "))
+        calificaciones.append(calificacion)
+    alumno = Alumnos(matricula, nombre, carrera, calificaciones)
+    alumnos.append(alumno)
+    print("Alumno agregado")
 
-        for i in range(3):
-            calificacion = float(input(f"Ingrese la calificación {i+1}: "))
-            calificaciones.append(calificacion)
+    matricula = input("Ingrese la matrícula: ")
+    encontrado = False
+    for alumno in alumnos:
+        if alumno.matricula == matricula:
+            alumno.imprimir_info()
+            encontrado = True
+            break
+    if not encontrado:
+        print("No se encontró ningún alumno.")
 
-        alumno = Alumnos(matricula, nombre, carrera, calificaciones)
-        alumnos.append(alumno)
-        print("Alumno agregado correctamente")
+if opcion == 2:
+    matricula = input("Ingrese la matrícula: ")
+    encontrado = False
+    for alumno in alumnos:
+        if alumno.matricula == matricula:
+            alumno.imprimir_info()
+            encontrado = True
+            break
+    if not encontrado:
+        print("No se encontró ningún alumno")
 
-    elif opcion == 2:
-        matricula = input("Ingrese la matricula del alumno: ")
-        encontrado = False
+if opcion == 3:
+    matricula = input("Ingrese la matrícula del alumno a eliminar: ")
+    eliminado = False
+    for i, alumno in enumerate(alumnos):
+        if alumno.matricula == matricula:
+            del alumnos[i]
+            eliminado = True
+            print("Alumno eliminado")
+            break
+    if not eliminado:
+        print("No se encontró ningún alumno")
 
-        for alumno in alumnos:
-            if alumno.matricula == matricula:
-                alumno.imprimir_info()
-                encontrado = True
-
-        if not encontrado:
-            print("No se encontró al alumno con esa matrícula")
-
-    elif opcion == 3:
-        matricula = input("Ingrese la matricula del alumno: ")
-        eliminado = False
-
-        for alumno in alumnos:
-            if alumno.matricula == matricula:
-                alumnos.remove(alumno)
-                eliminado = True
-                print("Alumno eliminado correctamente")
-
-        if not eliminado:
-            print("No se encontró al alumno con esa matrícula")
-
-    elif opcion == 4:
+if opcion == 4:
+     if len(alumnos) > 0:
         for alumno in alumnos:
             alumno.imprimir_info()
+            
+        else:
+            print("No hay alumnos registrados.")
 
-    elif opcion == 5:
-        print("¡Hasta luego!")
-        break
+if opcion == 5:
+    while True:
+        print("Menu")
+        print(f'1.- Agregar Alumno\n 2.- Mostrar info del alumno\n 3.- Eliminar alumno\n 4.- Mostrar todos los alumnos\n 5.- Salir')
+    
+        opcion = input("Seleccione una opción: ")
+        if opcion == "1":
+            agregar_alumno()
+        elif opcion == "2":
+           mostrar_info()
+        elif opcion == "3":
+            eliminar_alumno()
+        elif opcion == "4":
+            mostrar_todos()
 
-    else:
-        print("Opción inválida. Intente de nuevo.")
