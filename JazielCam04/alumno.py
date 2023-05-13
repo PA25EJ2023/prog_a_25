@@ -46,4 +46,14 @@ def eliminar_alumno():
         print("Fue eliminado...")
     else:
         print("No coincide la matricula con ningun alumno")
-        
+
+def mostrar_info_alumno():
+    matricula = input("Dime la matricula del alumno: ")
+    alum_enc = False
+    for alumno in alumnos:
+        if alumno.matricula == matricula:
+            alumno.info()
+            alum_enc = True
+            break
+    if not alum_enc:
+        print("No se encontró un alumno con esa matrícula. ")
