@@ -1,11 +1,18 @@
 class Alumno:
+       
+    def __init__(self,nomb,matri,carr,calf):
+        self.nomb = nomb
+        self.matri = matri
+        self.carr = carr 
+        self.calf = calf
+
+
+
 
         
-    def __init__(self,nom,matri,calf):
-        self.nom = nom
-        self.matri= matri
-        self.calf = calf 
-    
-    def RegAlumno (self):
-        pass
+
+                    
+
+        
+
 
