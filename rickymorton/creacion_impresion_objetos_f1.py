@@ -56,19 +56,19 @@ esmalte7 = Esmalte("Rosa con brillitos","Cuadrado","Chico",120)
 print("Esmalte 7")
 esmalte7.info()
 
-cinta1 = Cinta("Azul","18mmx33m",8.12)
+cinta1 = Cinta("Unline","Azul","18mmx33m",8.12)
 print("Cinta 1")
 cinta1.info()
 
-cinta2 = Cinta("Rosa","18mmx33m",8.12)
+cinta2 = Cinta("Unline","Rosa","18mmx33m",8.12)
 print("Cinta 2")
 cinta1.info()
 
-cinta3 = Cinta("Rosa pastel","18mmx33m",8.12)
+cinta3 = Cinta("Unline","Rosa pastel","18mmx33m",8.12)
 print("Cinta 3")
 cinta3.info()
 
-cinta4 = Cinta("Verde","18mmx33m",8.12)
+cinta4 = Cinta("Unline","Verde","18mmx33m",8.12)
 print("Cinta 4")
 cinta4.info()
 
@@ -112,70 +112,70 @@ libreta3 = Libreta("Scribe","Naranja","lisa",100)
 print("Libreta 3")
 libreta3.info()
 
-pegamento1 = Pegamento("Prit","Rosa",20)
+pegamento1 = Pegamento("Prit","Rosa","Mediano",20)
 print("Pegamento")
 pegamento1.info()
 
-sticker1 = Sticker("Diamante","Azul",11)
+sticker1 = Sticker("Alomia","Diamante","Azul",11)
 print("Stickers 1")
 sticker1.info()
 
-sticker2 = Sticker("Circulo","Blanco",15)
+sticker2 = Sticker("Alomia","Circulo","Blanco",15)
 print("Stickers 2")
 sticker2.info()
 
-sticker3 = Sticker("Corazon gigante","Rosa",1)
+sticker3 = Sticker("Alomia","Corazon gigante","Rosa",1)
 print("Stickers 3")
 sticker3.info()
 
-sticker4 = Sticker("Estrellitas","Doradas",6)
+sticker4 = Sticker("Alomia","Estrellitas","Doradas",6)
 print("Stickers 4")
 sticker4.info()
 
-sticker5 = Sticker("Corazon","Doradas",9)
+sticker5 = Sticker("Alomia","Corazon","Doradas",9)
 print("Stickers 5")
 sticker5.info()
 
-cuenca1 = Cuencas("Circular","Amarilla",6)
+cuenca1 = Cuencas("Circular","Amarilla","plastico",6)
 print("Cuancas 1")
 cuenca1.info()
 
-cuenca2 = Cuencas("Circular","Blanca",2)
+cuenca2 = Cuencas("Circular","Blanca","plastico",2)
 print("Cuancas 2")
 cuenca2.info()
 
-cuenca3 = Cuencas("Circular","Rosa",5)
+cuenca3 = Cuencas("Circular","Rosa","plastico",5)
 print("Cuancas 3")
 cuenca3.info()
 
-cuenca4 = Cuencas("Circular","Naranja",4)
+cuenca4 = Cuencas("Circular","Naranja","plastico",4)
 print("Cuancas 4")
 cuenca4.info()
 
-cuenca5 = Cuencas("Circular","Rosa fuerte",2)
+cuenca5 = Cuencas("Circular","Rosa fuerte","plastico",2)
 print("Cuancas 5")
 cuenca5.info()
 
-cuenca6 = Cuencas("Circular","Aqua",2)
+cuenca6 = Cuencas("Circular","Aqua","plastico",2)
 print("Cuancas 6")
 cuenca6.info()
 
-pinza1 = Pinzas("Flor","Azul",10)
+pinza1 = Pinzas("Flor","Azul","plastico",10)
 print("Pinza 1")
 pinza1.info()
 
-pinza2 = Pinzas("Flor","Roja",10)
+pinza2 = Pinzas("Flor","Roja","plastico",10)
 print("Pinza 2")
 pinza2.info()
 
-pinza3 = Pinzas("Flor","Amarilla",10)
+pinza3 = Pinzas("Flor","Amarilla","plastico",10)
 print("Pinza 3")
 pinza3.info()
 
-pinza4 = Pinzas("Flor","Naranja",10)
+pinza4 = Pinzas("Flor","Naranja","plastico",10)
 print("Pinza 4")
 pinza4.info()
 
-pinza5 = Pinzas("Flor","Marrón",10)
+pinza5 = Pinzas("Flor","Marrón","plastico",10)
 print("Pinza 5")
 pinza5.info()

@@ -7,7 +7,7 @@ class Boligrafo:
     
     def info(self):
         print(f"1 BOLIGRAFO\nColor: {self.color}\nTamaño: {self.tamaño}\nPrecio: {self.precio}\nMarca: {self.marca}")
-
+        print("-"*25)
 
 
 class Marcador:
@@ -19,6 +19,7 @@ class Marcador:
 
     def info(self):
         print(f"1 MARCADOR\nColor: {self.color}\nTamaño: {self.tamaño}\nPrecio: {self.precio}\nMarca: {self.marca}")
+        print("-"*25)
 
 
 class Cinta_Adhesiva:
@@ -30,6 +31,7 @@ class Cinta_Adhesiva:
 
     def info(self):
         print(f"1 CINTA ADHESIVA\nColor: {self.color}\nAncho: {self.ancho}\nLongitud: {self.longitud}\nMarca: {self.marca}")
+        print("-"*25)
 
 
 class Portaretrato:
@@ -41,6 +43,7 @@ class Portaretrato:
 
     def info(self):
         print(f"1 PORTARETRATO\nTamaño: {self.tamaño}\nColor del marco: {self.color_marco}\nMaterial: {self.material}\nPrecio: {self.precio}")
+        print("-"*25)
 
 
 class Esmalte:
@@ -52,6 +55,7 @@ class Esmalte:
 
     def info(self):
         print(f"1 ESMALTE\nColor: {self.color}\nMarca: {self.marca}\nForma: {self.forma}\nGramaje: {self.gramaje}")
+        print("-"*25)
 
 
 class Espejo:
@@ -63,6 +67,7 @@ class Espejo:
 
     def info(self):
         print(f"1 ESPEJO\nColor: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
+        print("-"*25)
 
 
 class Pinza:
@@ -74,6 +79,7 @@ class Pinza:
 
     def info(self):
         print(f"1 PINZA\nColor: {self.color}\nForma: {self.forma}\nTamaño: {self.tamaño}\nMarca: {self.marca}")
+        print("-"*25)
 
 
 class Brillo_labial:
@@ -85,6 +91,7 @@ class Brillo_labial:
 
     def info(self):
         print(f"1 BRILLO LABIAL\nColor: {self.color}\nMarca: {self.marca}\nTamaño: {self.tamaño}\nPrecio: {self.precio}")
+        print("-"*25)
 
 
 class Cuaderno:
@@ -96,6 +103,7 @@ class Cuaderno:
 
     def info(self):
         print(f"1 CUADERNO\nColor: {self.color}\nTamaño: {self.tamaño}\nNúmero de hojas: {self.no_hojas}\nMarca: {self.marca}")
+        print("-"*25)
 
 
 class Regla:
@@ -107,6 +115,7 @@ class Regla:
 
     def info(self):
         print(f"1 REGLA\nColor: {self.color}\nTamaño: {self.tamaño}\nForma: {self.forma}\nMaterial: {self.material}")
+        print("-"*25)
 
 
 class Pegamento:
@@ -118,6 +127,7 @@ class Pegamento:
 
     def info(self):
         print(f"1 PEGAMENTO\nColor: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nPrecio: {self.precio}")
+        print("-"*25)
 
 
 class Diario:
@@ -129,6 +139,7 @@ class Diario:
 
     def info(self):
         print(f"1 DIARIO\nColor: {self.color}\nTamaño: {self.tamaño}\nNúmero de hojas: {self.no_hojas}\nPrecio: {self.precio}")
+        print("-"*25)
 
 
 class Lapicero:
@@ -140,6 +151,7 @@ class Lapicero:
 
     def info(self):
         print(f"1 LAPICERO\nColor: {self.color}\nMaterial: {self.material}\nPrecio: {self.precio}\nMarca: {self.marca}")
+        print("-"*25)
 
 
 class Telefono:
@@ -151,6 +163,7 @@ class Telefono:
 
     def info(self):
         print(f"1 TELEFONO\nColor: {self.color}\nTipo: {self.tipo}\nMedida: {self.medida}\nModelo: {self.modelo}")
+        print("-"*25)
 
 
 class Tijeras:
@@ -162,6 +175,7 @@ class Tijeras:
 
     def info(self):
         print(f"1 TIJERAS\nColor: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nForma de la punta: {self.forma_punta}")
+        print("-"*25)
 
 
 class Paleta_sombras:
@@ -173,6 +187,7 @@ class Paleta_sombras:
 
     def info(self):
         print(f"1 PALETA DE SOMBRAS\nColor: {self.color}\nCantidad de sombras: {self.cantidad_sombras}\nMarca: {self.marca}\nPrecio: {self.precio}")
+        print("-"*25)
 
 
 class Poster:
@@ -184,6 +199,7 @@ class Poster:
 
     def info(self):
         print(f"1 POSTER\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
+        print("-"*25)
 
 
 class Pulsera:
@@ -195,6 +211,7 @@ class Pulsera:
 
     def info(self):
         print(f"1 PULSERA\nColor: {self.color}\nDiseño: {self.diseño}\nMedida: {self.medida}\nMaterial: {self.categoria}")
+        print("-"*25)
 
 class Nota_adhesiva:
     def __init__(self,color,tamaño,marca,material):
@@ -205,6 +222,7 @@ class Nota_adhesiva:
 
     def info(self):
         print(f"1 NOTA ADHESIVA\nColor: {self.color}\nTamaño: {self.tamaño}\nMarca: {self.marca}\nPrecio: {self.material}")
+        print("-"*25)
 
 class Tarjeta:
     def __init__(self,color,diseño,medida,material):
@@ -215,6 +233,7 @@ class Tarjeta:
 
     def info(self):
         print(f"1 TARJETA\nColor: {self.color}\nDiseño: {self.diseño}\nMedida: {self.medida}\nMaterial: {self.material}")
+        print("-"*25)
 
 
 class Fotografía:
@@ -226,6 +245,7 @@ class Fotografía:
 
     def info(self):
         print(f"1 FOTOGRAFÍA\nColor: {self.color}\nTamaño: {self.tamaño}\nDiseño: {self.diseño}\nMaterial: {self.material}")
+        print("-"*25)
 
 
 class Serie_cuentas:
@@ -237,6 +257,7 @@ class Serie_cuentas:
 
     def info(self):
         print(f"1 SERIE DE CUENTAS\nColor: {self.color}\nCantidad: {self.cantidad}\nMaterial: {self.material}\nTamaño: {self.tamaño}")
+        print("-"*25)
 
 
 class Serie_stickers:
@@ -248,9 +269,7 @@ class Serie_stickers:
 
     def info(self):
         print(f"1 SERIE DE STICKERS\nEstado: {self.estado}\nCantidad: {self.cantidad}\nForma: {self.forma}\nMaterial: {self.material}")
-
-
-
+        print("-"*25)
 
         
 
