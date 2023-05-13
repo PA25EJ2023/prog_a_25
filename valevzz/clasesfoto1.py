@@ -41,13 +41,14 @@ class Boligrafos:
             print(f"Numero boligrafo: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño: {self.tamaño}")
 
 class Tijeras:
-    def __init__(self,numero,color,marca):
+    def __init__(self,numero,color,marca,tamaño):
          self.numero = numero
          self.color = color
          self.marca = marca
+         self.tamaño = tamaño
 
     def info (self):
-             print(f"Numero tijeras: {self.numero} \nColor: {self.color} \nMarca: {self.marca} ")
+             print(f"Numero tijeras: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño: {self.tamaño} ")
 
 class Cintas:
      def __init__(self,numero,color,marca,forma):
@@ -81,13 +82,14 @@ class Portaretratos:
 
      
 class Gloss:
-     def __init__(self,numero,color,marca):
+     def __init__(self,numero,color,marca,tamaño):
           self.numero = numero
           self.color = color
           self.marca = marca
+          self.tamaño = tamaño
 
      def info (self):
-              print(f"Numero de gloss: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+              print(f"Numero de gloss: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño: {self.tamaño}")
 
 class Pegamentos:
       def __init__(self,numero,color,marca,tamaño):
@@ -100,49 +102,55 @@ class Pegamentos:
           print(f"Numero pegamento: {self.numero} \nColor: {self.color} \nMarca: {self.marca} \nTamaño: {self.tamaño}")
 
 class Cucas:
-      def __init__(self,numero,color,tamaño):
+      def __init__(self,numero,color,tamaño,marca):
             self.numero = numero
             self.color = color
             self.tamaño = tamaño
+            self.marca = marca
 
       def info(self):
-             print(f"Numero de cuca: {self.numero} \nColor: {self.color}  \nTamaño: {self.tamaño}")
+            print(f"Numero de cuca: {self.numero} \nColor: {self.color}  \nTamaño: {self.tamaño} \nMarca: {self.marca}")
 
 class Perlas:
-      def __init__(self,numero,color):
+      def __init__(self,numero,color,marca,tamaño):
             self.numero = numero
             self.color = color
-
-      def info (self):
-            print(f"Numero perla: {self.numero} \nColor: {self.color}")
-
-class Pegantinas:
-      def __init__(self,numero,color,forma):
-            self.numero = numero
-            self.color = color
-            self.forma = forma
-
-      def info (self):
-            print(f"Numero pegantina: {self.numero} \nColor: {self.color} \nForma: {self.forma}")
-
-            
-class Hojas:
-      def __init__(self,numero,color,tamaño):
-            self.numero = numero
-            self.color = color 
             self.tamaño = tamaño
-
-      def info (self):
-            print(f"Numero hoja: {self.numero} \nColor: {self.color} \nTamaño: {self.tamaño}")
-
-class Plumones:
-      def __init__(self,numero,color,marca):
-            self.numero = numero 
-            self.color = color
             self.marca = marca
 
       def info (self):
-            print(f"Numero plumon: {self.numero} \nColor: {self.color} \nMarca: {self.marca}")
+            print(f"Numero perla: {self.numero} \nColor: {self.color}  \nTamaño: {self.tamaño} \nMarca: {self.marca}")
+
+class Pegantinas:
+      def __init__(self,numero,color,forma, marca):
+            self.numero = numero
+            self.color = color
+            self.forma = forma
+            self.marca = marca
+
+      def info (self):
+            print(f"Numero pegantina: {self.numero} \nColor: {self.color} \nForma: {self.forma} \n Marca: {self.marca}")
+
+            
+class Hojas:
+      def __init__(self,numero,color,tamaño,estampado):
+            self.numero = numero
+            self.color = color 
+            self.tamaño = tamaño
+            self.estampado = estampado
+
+      def info (self):
+            print(f"Numero hoja: {self.numero} \nColor: {self.color} \nTamaño: {self.tamaño} \nEstampado: {self.estampado}")
+
+class Plumones:
+      def __init__(self,numero,color,marca,tipo_punta):
+            self.numero = numero 
+            self.color = color
+            self.marca = marca
+            self.tipo_punta = tipo_punta
+
+      def info (self):
+            print(f"Numero plumon: {self.numero} \nColor: {self.color} \nMarca: {self.marca}, \nTipo punta: {self.tipo_punta}")
 
 
 
