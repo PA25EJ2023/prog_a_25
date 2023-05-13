@@ -1,6 +1,3 @@
-# https://www.pexels.com/es-es/foto/escritorio-oficina-escritura-boligrafos-10605242/
-# https://www.pexels.com/es-es/foto/bolso-de-cuero-marron-ropa-y-macbook-57750/
-
 class Esmalte:
     
     def __init__(self, color, tamano, forma):
@@ -9,27 +6,29 @@ class Esmalte:
         self.forma = forma
 
     def imprimir(self):
-        print(f"{self.color} {self.forma} {self.tamano} {self.sticker}")
+        print(f"Color: {self.color}\nTamaño: {self.tamano}\nForma: {self.forma}")
 
 class Marco_foto:
     
-    def __init__(self, color, forma, tamano):
+    def __init__(self, color, forma, tamano, descripcion):
         self.color = color
         self.forma = forma
         self.tamano = tamano
+        self.descripcion = descripcion
 
     def imprimir(self):
-        print(f"{self.color} {self.forma} {self.tamano}")
+        print(f"Color: {self.color}\nForma: {self.forma}\nTamaño: {self.tamano}\nDescripción: {self.descripcion}")
 
 class Labial:
 
-    def __init__(self, color, tamano, marca):
+    def __init__(self, color, tamano, marca, forma):
         self.color = color
         self.tamano = tamano
         self.marca = marca
+        self.forma = forma
 
     def imprimir(self):
-        print(f"{self.color} {self.tamano} {self.marca}")
+        print(f"Color: {self.color}\nTamaño: {self.tamano}\nMarca: {self.marca}\nForma: {self.forma}")
 
 class Cinta:
 
@@ -40,28 +39,30 @@ class Cinta:
         self.material = material
 
     def imprimir(self):
-        print(f"{self.color} {self.ancho} {self.tamano} {self.material}")
+        print(f"Color: {self.color}\nAncho: {self.ancho}\nTamaño: {self.tamano}\nMaterial: {self.material}")
 
 class Boligrafo:
 
-    def __init__(self, tipo, color, marca, tamano):
+    def __init__(self, tipo, color, marca, tamano, precio):
         self.tipo = tipo
         self.color = color
         self.marca = marca
         self.tamano = tamano
+        self.precio = precio
 
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.marca} {self.tamano}")
+        print(f"Tipo: {self.tipo}\nColor: {self.color}\nMarca: {self.marca}\nTamaño: {self.tamano}\nPrecio: {self.precio}")
 
 class Cuenta:
 
-    def __init__(self, color, tamano, forma):
+    def __init__(self, color, tamano, forma, cantidad):
         self.color = color
         self.tamano = tamano
         self.forma = forma
+        self.cantidad = cantidad
     
     def imprimir(self):
-        print(f"{self.color} {self.tamano} {self.forma}") 
+        print(f"Color: {self.color}\nTamaño: {self.tamano}\nForma: {self.forma}\nCantidad: {self.cantidad}") 
 
 class Espejo:
     
@@ -71,7 +72,7 @@ class Espejo:
         self.color = color
 
     def imprimir(self):
-        print(f"{self.forma} {self.tamano} {self.color}")
+        print(f"Forma: {self.forma}\nTamaño: {self.tamano}\nColor: {self.color}")
 
 class Telefono:
 
@@ -81,7 +82,7 @@ class Telefono:
         self.tamano = tamano
     
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.tamano}")
+        print(f"Tipo: {self.tipo}\nColor: {self.color}\nTamaño: {self.tamano}")
 
 class Cuaderno:
 
@@ -91,7 +92,7 @@ class Cuaderno:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.tamano}")
+        print(f"Tipo: {self.tipo}\nColor: {self.color}\nTamaño: {self.tamano}")
 
 class Poster:
 
@@ -100,9 +101,9 @@ class Poster:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.tamano}")
+        print(f"Contenido: {self.contenido}\nTamaño: {self.tamano}")
 
-class Tijeras:  
+class Tijera:  
     
     def __init__(self, tipo_punta, color, tamano):
         self.tipo_punta = tipo_punta
@@ -110,7 +111,7 @@ class Tijeras:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.tipo_punta} {self.tamano}")
+        print(f"Tipo de punta: {self.tipo_punta}\nColor: {self.color}\nTamaño: {self.tamano}")
 
 class Pegamento:
 
@@ -120,7 +121,7 @@ class Pegamento:
         self.tamano = tamano
 
     def imprimir(self):
-        print(f"{self.tipo} {self.color} {self.tamano}")
+        print(f"Tipo: {self.tipo}\nColor: {self.color}\nTamaño: {self.tamano}")
 
 class Pinza:
 
@@ -130,14 +131,15 @@ class Pinza:
         self.material = material
 
     def imprimir(self):
-        print(f"{self.color} {self.tamano} {self.material}")
+        print(f"Pinza: {self.color}\nTamaño: {self.tamano}\nMaterial: {self.material}")
 
 class Pegatina:
 
-    def __init__(self, forma, color, tamano):
+    def __init__(self, forma, color, tamano, cantidad):
         self.forma = forma
         self.color = color
         self.tamano = tamano
+        self.cantidad = cantidad
 
     def imprimir(self):
-        print(f"{self.forma} {self.color} {self.tamano}")
+        print(f"Forma: {self.forma}\nColor: {self.color}\nTamaño: {self.tamano}\nCantidad: {self.cantidad}")
