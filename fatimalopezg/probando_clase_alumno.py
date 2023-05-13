@@ -17,20 +17,18 @@ while True:
         calificaciones=[]
 
         while True:
-                cal=float(input("Ingrese la primera calificacion: "))
+                cal=float(input("Ingrese la calificacion: "))
                 calificaciones.append(cal)
                 op=int(input("¿Desea ingresar otra calificacion? 1-Si 2-No: "))
                 if op==1:
-                    calificacion=float(input("Ingrese la calificacion: "))
-                    calificaciones.append(cal)
+                    pass
                 elif op==2:
                     break 
       
-        objeto=Alumno(mat,nom,carr,cal)
-        #calificaciones.append(op)
+        objeto=Alumno(mat,nom,carr,calificaciones)
         alumnos.append(objeto)
         print(f"Alumno {nom} agregado")
-        calificaciones=[]
+        calificaciones=[] 
         #print(f"Su promedio es: {objeto.calcular_promedio}")
 
     elif opcion==2: 
